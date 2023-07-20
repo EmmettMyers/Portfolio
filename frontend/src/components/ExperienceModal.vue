@@ -148,13 +148,13 @@ export default defineComponent({
         }
         .overview, .skills {
             color: #FAFF00;
-            font-size: 3vw !important;
-            letter-spacing: 1.2vw !important;
+            font-size: 2vw;
+            letter-spacing: 0.8vw;
             line-height: 2;
             margin-top: 2vw;
         }
         .desc {
-            font-size: 2vw !important;
+            font-size: 1.5vw;
         }
         .skillsBox {
             display: grid;

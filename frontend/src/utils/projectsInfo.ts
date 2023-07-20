@@ -13,8 +13,8 @@ export const projectsInfo = [
         time: 'Summer 2023',
         description: 'Multiplayer mobile web game where users pick one NFL player at time from random teams to assemble the best team possible. '
         + 'It grades the strength of each team using a machine learning model trained from over 50,000 NFL statistics, scraped from Pro-Football-Reference.',
-        features: ["Singleplayer mode", "Multiplayer mode (up to 4 players)", "Saved teams storage", "Draft statistics", 
-        "Google authenticated login", "Snappy, a dynamic animated game assistant"],
+        features: ["Machine learning model that predicts team records", "Singleplayer draft mode", "Multiplayer draft mode (up to 4 players)", "Saved teams storage", 
+        "Stored user draft statistics", "Google authenticated login", "Snappy, a dynamic animated game assistant"],
         tools: ['TypeScript', 'Vue', 'Python', 'Pandas', 'Scikit', 'BeautifulSoup', 'Flask', 'Socket.io', 'MongoDB', 'Firebase', 
         'HTML/SCSS', 'Tailwind', 'Chart.js'],
         demo: 'https://drive.google.com/file/d/1X9OeuzdiSbPODgQcTKTXXR1pL1DuHjRb/view',
@@ -26,7 +26,7 @@ export const projectsInfo = [
         time: 'Summer 2023',
         description: 'Web app that streamlines civic communication by multi-sending/creating customizable mail to senators. Senators are '
         + ' auto-located by user location and the mail is pre-formatted with user information.' + 
-        'The application gets its information by web scraping multiple sources for up-to-date government information.',
+        ' The application gets its information by web scraping multiple sources for up-to-date government information.',
         features: ["Pre-tailored email multi-sender", "Pre-tailored letter multi-downloader", "Saved mail storage", "User Representative/Senator Information", 
         "Six email and letter templates", "AI writer to generate mail based on user prompts", "User-friendly, dynamic dashboard", "Authenticated customizable profiles with user info"],
         tools: ['TypeScript', 'React', 'Python', 'OpenAI API', 'Selenium', 'BeautifulSoup', 'EmailJS SDK', 'Docamatic API', 'Flask', 

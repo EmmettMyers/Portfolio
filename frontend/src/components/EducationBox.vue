@@ -1,6 +1,6 @@
 <template>
     <div v-on:click="openModal" class="educationBox relative" :class="screen == 'phone' && 'mt-3'">
-        <div class="absolute bottom-5 left-5 z-40 text-white">
+        <div class="absolute z-40 text-white" style="bottom: 2vw; left: 2vw">
             <p class="title font-bold"> {{ info.school }} </p>
         </div>
         <div class="blackShade absolute top-0 z-30 left-0 w-full h-full"></div>

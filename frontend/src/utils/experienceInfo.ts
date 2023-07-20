@@ -25,8 +25,7 @@ export const experienceInfo = [
         location: 'Lincoln, NE',
         description: 'Produce software to facilitate user interaction with existing news site, most notably seamlessly' + 
         ' integrated full-stack code blocks. Developing authenticated admin dashboard that visualizes user interaction on blocks.',
-        skills: ['Java', 'SQL', 'OOP', 'Algorithms', 'Relations', 'Optimization', 'Data Structures', 
-        'Discrete Math', 'Terminal', 'GUIs']
+        skills: ['TypeScript', 'React', 'Chart.js', 'Data Visualization', 'Firebase', 'Cloud Storage', 'HTML/SCSS', 'Tailwind']
     },
     {
         title: 'Software Engineer Intern',
