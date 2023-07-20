@@ -47,7 +47,7 @@ export const experienceInfo = [
         description: 'Front-end development for Project ZeroDelta, a full-stack app that visualizes difference calculations'
         + ' between Revit models & LiDAR point clouds in a 3D space. Implemented user authentication functionalties and sleek UI. '
         + 'Awarded Design Studio Gold Project of the Year.',
-        skills: ['JavaScript', '3D Visualization', 'Authentication', 'CSS', 'Bootstrap', 'HTML', 'Python', 'Django']
+        skills: ['JavaScript', '3D Visualization', 'Autodesk API', 'Authentication', 'CSS', 'Bootstrap', 'HTML', 'Python', 'Django']
     },
     {
         title: 'Computer Science Tutor',
