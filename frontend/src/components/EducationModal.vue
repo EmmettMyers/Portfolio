@@ -5,7 +5,7 @@
     </div>
     <div class="w-screen h-screen">
         <div class="h-screen flex items-center justify-center">
-            <div class="educationModal absolute">
+            <div class="educationModal fixed mb-10">
                 <div v-if="screen == 'computer'" class="flex justify-between h-full">
                     <p
                         v-on:click="handleClose"
@@ -197,7 +197,7 @@ export default defineComponent({
 @media (max-width: 700px) {
     .educationModal {
         width: 80vw;
-        height: 80vh;
+        height: 60vh;
         overflow: hidden;
         .exit {
             font-size: 6vw;
@@ -213,7 +213,7 @@ export default defineComponent({
         .rightSide {
             overflow-x: hidden;
             overflow-y: scroll;
-            height: 55vh;
+            height: 35vh;
             width: 100%;
             padding-left: 3vw;
             padding-right: 3vw;
@@ -228,16 +228,16 @@ export default defineComponent({
                 line-height: 1.5;
             }
             .setting {
-                font-size: 2vw;
+                font-size: 2.5vw;
             }
             .academics {
-                font-size: 3vw;
+                font-size: 3.5vw !important;
                 letter-spacing: 1.2vw;
                 line-height: 2;
                 margin-top: 2vw;
             }
             .academicsBox {
-                font-size: 2vw;
+                font-size: 2.5vw;
             }
         }
     }

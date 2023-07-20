@@ -42,7 +42,7 @@ export const projectsInfo = [
         features: [],
         tools: ['TypeScript', 'Vue', 'Firebase', 'SCSS', 'Tailwind', 'HTML'],
         demo: '',
-        code: ''
+        code: 'https://github.com/EmmettMyers/Portfolio'
     },
     {
         title: 'GuessNBA',

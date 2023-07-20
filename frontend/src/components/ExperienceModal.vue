@@ -5,7 +5,7 @@
     </div>
     <div class="w-screen h-screen">
         <div class="h-screen flex items-center justify-center">
-            <div class="experienceModal absolute">
+            <div class="experienceModal fixed mb-10">
                 <div v-if="screen == 'computer'" class="flex justify-between h-full">
                     <p
                         v-on:click="handleClose"
@@ -63,7 +63,7 @@
                         <p class="skills font-bold mt-6">
                             SKILLS
                         </p>
-                        <p class="skillsBox font-normal">
+                        <p class="skillsBox font-normal pb-5">
                             <div v-for="skill in info.skills">
                                 <ModalSkillsBox :skill="skill" />
                             </div>
@@ -166,7 +166,7 @@ export default defineComponent({
 @media (max-width: 700px) {
     .experienceModal {
         width: 80vw;
-        height: 80vh;
+        height: 60vh;
         overflow: hidden;
         .exit {
             font-size: 6vw;
@@ -182,7 +182,7 @@ export default defineComponent({
         .rightSide {
             overflow-x: hidden;
             overflow-y: scroll;
-            height: 55vh;
+            height: 35vh;
             width: 100%;
             padding-left: 3vw;
             padding-right: 3vw;
@@ -196,16 +196,16 @@ export default defineComponent({
                 font-size: 3vw;
             }
             .setting {
-                font-size: 2vw;
+                font-size: 2.5vw;
             }
             .overview, .skills {
-                font-size: 2vw;
+                font-size: 3.5vw !important;
                 letter-spacing: 0.8vw;
                 line-height: 2;
                 margin-top: 2vw;
             }
             .desc {
-                font-size: 1.5vw;
+                font-size: 2.5vw !important;
             }
             .skillsBox {
                 display: grid;

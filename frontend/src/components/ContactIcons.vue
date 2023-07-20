@@ -1,7 +1,7 @@
 <template>
     <div :class=" screen == 'phone' ?  'mt-5' :  'mt-10'" class="flex justify-start">
         <a 
-            href="https://docs.google.com/document/d/1R1tOxE-FKWwosVOXY8xMkCOpnp0asUr5DqYPGVCyoI8/edit?usp=sharing" 
+            href="https://drive.google.com/file/d/1R1tOxE-FKWwosVOXY8xMkCOpnp0asUr5DqYPGVCyoI8/view"
             class="contactBox flex justify-center items-center"
             target="_blank"
         >

@@ -1,6 +1,6 @@
 <template>
     <div  
-        class="skillBox flex justify-center items-center font-semibold text-black">
+        class="skillBox flex justify-center items-center font-semibold text-black text-center">
             {{ skill }}
     </div>
 </template>
@@ -21,6 +21,9 @@ export default defineComponent({
     height: 4.3vw;
     border-radius: 5px;
     font-size: 1.563vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    line-height: 1;
     filter: brightness(90%);
     background: white;
 }

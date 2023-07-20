@@ -14,7 +14,7 @@ export const educationInfo = [
         location: 'Lincoln, NE',
         major: 'Bachelor of Science, Computer Science',
         academics: ['Focus Area: Software Engineering', 'Minors: Business, Math', 'GPA: 3.85', 
-        'Jeffrey S. Raikes School of Computer Science and Management', 'University Honors Program'],
+        'Raikes School of Computer Science and Management', 'University Honors Program'],
         activities: ['Pi Kappa Alpha Fraternity', 'Intramural Sports', 'Competitive Coding Club', 'CornHacks'],
         honors: ['Design Studio Gold Project Award 2022-2023', "2x Deans' List", 'Raikes Foundation Scholar',
         'Nebraska Career Scholar', 'Regents Scholar'],

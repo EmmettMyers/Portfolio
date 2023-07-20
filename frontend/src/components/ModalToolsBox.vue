@@ -21,6 +21,9 @@ export default defineComponent({
     height: 3.5vw;
     border-radius: 5px;
     font-size: 1.1vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    line-height: 1;
     filter: brightness(90%);
     background: white;
 }
