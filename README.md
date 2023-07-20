@@ -2,6 +2,7 @@
 
 [Live Demo](https://emmettmyers.me)&nbsp;&nbsp;|&nbsp;&nbsp;<i>Created: Summer 2023 (Incoming College Sophomore)</i>
 <br/>
+<br/>
 <b>Responsive portfolio web app to show app of my projects! Also includes experience, skills, education, and contact.</b>
 <br/>
 <b>Tools used:</b>
