@@ -1,5 +1,5 @@
 <template>
-    <div class="contentBox relative" :class="screen == 'phone' && 'mt-3'">
+    <div v-on:click="openModal" class="contentBox relative" :class="screen == 'phone' && 'mt-3'">
         <div class="absolute bottom-3 left-3 z-40 text-white">
             <p :style="titleSize" class="title font-bold"> {{ info.title }} </p>
             <p class="company font-bold"> {{ info.company }} </p>
@@ -12,6 +12,8 @@
   
 <script lang="ts">
 import { defineComponent } from 'vue';
+import { experienceModalOpen, experienceModalInfo } from '../utils/experienceInfo'
+import { projectsModalInfo, projectsModalOpen } from '@/utils/projectsInfo';
 
 export default defineComponent({
     props: ['info'],
@@ -23,8 +25,20 @@ export default defineComponent({
         }
     },
     methods: {
+        openModal(){
+            if (this.info.company){
+                experienceModalOpen.value = true;
+                experienceModalInfo.value = this.info;
+            } else {
+                projectsModalOpen.value = true;
+                projectsModalInfo.value = this.info;
+            }
+        },
         resize(){
             window.innerWidth > 700 ? this.screen = "computer" : this.screen = "phone";
+            if (this.screen == "computer" ){
+                this.fit = "h-full"
+            }
             if (this.info.title == "BlitzDraft" || this.info.title == "GuessNBA"){
                 this.fit = "w-full"
             } else if (this.info.company && this.screen == "phone"){

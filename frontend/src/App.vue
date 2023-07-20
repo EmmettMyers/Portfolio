@@ -1,5 +1,8 @@
 <template>
   <div class="w-screen h-screen">
+    <EducationModal v-if="educationModalOpen" />
+    <ExperienceModal v-if="experienceModalOpen" />
+    <ProjectsModal v-if="projectsModalOpen" />
     <TopSection />
     <Experience />
     <Projects />
@@ -15,10 +18,30 @@ import Experience from './components/Experience.vue';
 import Projects from './components/Projects.vue';
 import Education from './components/Education.vue';
 import Skills from './components/Skills.vue';
+import ExperienceModal from './components/ExperienceModal.vue';
+import ProjectsModal from './components/ProjectsModal.vue';
+import { experienceModalOpen } from './utils/experienceInfo';
+import { projectsModalOpen } from './utils/projectsInfo';
+import EducationModal from './components/EducationModal.vue';
+import { educationModalOpen } from './utils/educationInfo';
 
 export default defineComponent({
   components: {
-    TopSection, Experience, Projects, Education, Skills
+    TopSection,
+    Experience,
+    Projects,
+    Education,
+    Skills,
+    ExperienceModal,
+    ProjectsModal,
+    EducationModal
+},
+  data(){
+    return {
+      experienceModalOpen: experienceModalOpen,
+      educationModalOpen: educationModalOpen,
+      projectsModalOpen: projectsModalOpen
+    }
   }
 });
 </script>

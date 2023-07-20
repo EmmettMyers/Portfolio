@@ -1,8 +1,7 @@
 <template>
-    <div 
-        :style="{ background: info.color }" 
-        class="skillBox flex justify-center items-center font-semibold">
-            {{ info.name }}
+    <div  
+        class="skillBox flex justify-center items-center font-semibold text-black">
+            {{ skill }}
     </div>
 </template>
   
@@ -10,7 +9,7 @@
 import { defineComponent } from 'vue';
 
 export default defineComponent({
-    props: ['info']
+    props: ['skill']
 });
 </script>
   
@@ -18,17 +17,18 @@ export default defineComponent({
 @import "../styles/colors.scss";
 
 .skillBox {
-    width: 12.1vw;
+    width: 14vw;
     height: 4.3vw;
     border-radius: 5px;
     font-size: 1.563vw;
     filter: brightness(90%);
+    background: white;
 }
 @media (max-width: 700px) {
     .skillBox {
-        width: 18vw !important;
+        width: 17vw !important;
         height: 8vw !important;
-        font-size: 2.5vw !important;
+        font-size: 2.2vw !important;
     }
 }
 </style>

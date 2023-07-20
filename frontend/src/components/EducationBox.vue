@@ -1,5 +1,5 @@
 <template>
-    <div class="educationBox relative" :class="screen == 'phone' && 'mt-3'">
+    <div v-on:click="openModal" class="educationBox relative" :class="screen == 'phone' && 'mt-3'">
         <div class="absolute bottom-5 left-5 z-40 text-white">
             <p class="title font-bold"> {{ info.school }} </p>
         </div>
@@ -10,6 +10,7 @@
 </template>
   
 <script lang="ts">
+import { educationModalInfo, educationModalOpen } from '@/utils/educationInfo';
 import { defineComponent } from 'vue';
 
 export default defineComponent({
@@ -20,6 +21,15 @@ export default defineComponent({
         }
     },
     methods: {
+        openModal(){
+            if (this.info.company){
+                educationModalOpen.value = true;
+                educationModalInfo.value = this.info;
+            } else {
+                educationModalOpen.value = true;
+                educationModalInfo.value = this.info;
+            }
+        },
         resize(){
             window.innerWidth > 700 ? this.screen = "computer" : this.screen = "phone";
         }
