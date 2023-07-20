@@ -21,7 +21,7 @@
         </div>
         <div v-else class="flex justify-center w-screen">
             <div class="topSection">
-                <div class="flex justify-center pt-10">
+                <div class="flex justify-center pt-6">
                     <div class="meBox relative flex justify-center mt-20">
                         <img class="absolute bottom-0 object-cover" src="emmettHeadshot3.png" />
                     </div>
@@ -142,7 +142,7 @@ export default defineComponent({
         }
         .meBox {
             width: 80vw;
-            height: 40vh;
+            height: 35vh;
             background: #FAFF00;
             border-radius: 10px;
             overflow: visible;

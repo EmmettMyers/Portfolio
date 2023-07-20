@@ -29,7 +29,7 @@ export default defineComponent({
 }
 @media (max-width: 700px) {
     .featuresBox {
-        width: 23vw !important;
+        width: 35vw !important;
         height: 9vw !important;
         font-size: 2vw !important;
     }

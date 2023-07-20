@@ -286,7 +286,7 @@ export default defineComponent({
 
             .featuresBox {
                 display: grid;
-                grid-template-columns: repeat(auto-fill, minmax(22vw, 1fr));
+                grid-template-columns: repeat(auto-fill, minmax(32vw, 1fr));
                 grid-gap: .5vw;
             }
         }
