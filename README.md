@@ -5,6 +5,7 @@
 <br/>
 <b>Responsive portfolio web app to show app of my projects! Also includes experience, skills, education, and contact.</b>
 <br/>
+<br/>
 <b>Tools used:</b>
 <ul>
   <li>TypeScript</li>
