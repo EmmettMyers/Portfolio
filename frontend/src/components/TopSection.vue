@@ -10,7 +10,7 @@
                         I'm <span style="color: #FAFF00">Emmett Myers.</span>
                     </p>
                     <p class="desc font-medium">
-                        I <span class="animate">code.</span> Mostly user-facing content.
+                        I <span class="animate">code.</span> Mostly full-stack web apps.
                     </p>
                     <ContactIcons />
                 </div>
@@ -33,7 +33,7 @@
                     I'm <span style="color: #FAFF00">Emmett Myers.</span>
                 </p>
                 <p class="desc font-medium">
-                    I <span class="animate">code.</span> Mostly user-facing content.
+                    I <span class="animate">code.</span> Mostly full-stack web apps.
                 </p>
                 <ContactIcons />
             </div>

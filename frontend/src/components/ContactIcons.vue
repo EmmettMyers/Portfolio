@@ -22,7 +22,7 @@
                 <img class="sm" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" />
         </a>
         <a 
-            href="https://emmettleemyers@gmail.com" 
+            href="mailto:emmettleemyers@gmail.com?subject=&body=" 
             class="contactBox ml-3 flex justify-center items-center"
             target="_blank"
         >

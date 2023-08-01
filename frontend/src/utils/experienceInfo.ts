@@ -35,7 +35,7 @@ export const experienceInfo = [
         location: 'Remote',
         description: 'Worked on new report application for sponsors, deploying numerous UI and data changes to the main site weekly.'
         + ' Created AI code documentation solution for company, and presented its importance, business value & implementation to executives.',
-        skills: ['TypeScript', 'React', 'Next.js', 'Java', 'Spring', 'Bootstrap', 'Testing', 'Deployment']
+        skills: ['TypeScript', 'React', 'Next.js', 'Java', 'Spring', 'HTML/CSS', 'Bootstrap', 'Testing', 'Deployment']
     },
     {
         title: 'Software Developer Intern',
