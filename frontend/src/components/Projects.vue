@@ -1,7 +1,7 @@
 <template>
     <div class="flex justify-center">
         <div class="projects " :class="screen == 'computer' ? 'pt-20' : 'pt-10'">
-            <p class="title font-bold pb-4">
+            <p class="title font-bold" :class="screen == 'computer' ? 'pb-4' : 'pb-1'">
                 PROJECTS
             </p>
             <div class="container">

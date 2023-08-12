@@ -1,5 +1,5 @@
 <template>
-    <div :class=" screen == 'phone' ?  'mt-5' :  'mt-10'" class="flex justify-start">
+    <div :class="screen == 'phone' ? 'mt-5' : 'mt-10'" class="flex justify-start">
         <a 
             href="https://drive.google.com/file/d/1R1tOxE-FKWwosVOXY8xMkCOpnp0asUr5DqYPGVCyoI8/view"
             class="contactBox flex justify-center items-center"
@@ -9,28 +9,32 @@
         </a>
         <a 
             href="https://www.linkedin.com/in/emmettmyers/" 
-            class="contactBox ml-3 flex justify-center items-center"
+            class="contactBox flex justify-center items-center" 
+            :class="screen == 'phone' ? 'ml-2' : 'ml-3'"
             target="_blank"
         >
                 <img class="sm" src="https://cdn-icons-png.flaticon.com/512/3536/3536569.png" />
         </a>
         <a 
             href="https://github.com/EmmettMyers" 
-            class="contactBox ml-3 flex justify-center items-center"
+            class="contactBox flex justify-center items-center" 
+            :class="screen == 'phone' ? 'ml-2' : 'ml-3'"
             target="_blank"
         >
                 <img class="sm" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" />
         </a>
         <a 
             href="mailto:emmettleemyers@gmail.com?subject=&body=" 
-            class="contactBox ml-3 flex justify-center items-center"
+            class="contactBox flex justify-center items-center" 
+            :class="screen == 'phone' ? 'ml-2' : 'ml-3'"
             target="_blank"
         >
                 <img class="md" src="https://img.freepik.com/free-icon/email_318-859700.jpg" />
         </a>
         <a 
             href="https://www.instagram.com/emmett_myers/" 
-            class="contactBox ml-3 flex justify-center items-center"
+            class="contactBox flex justify-center items-center" 
+            :class="screen == 'phone' ? 'ml-2' : 'ml-3'"
             target="_blank"
         >
                 <img class="sm" src="https://cdn-icons-png.flaticon.com/512/87/87390.png" />
@@ -87,6 +91,7 @@ export default defineComponent({
     .contactBox {
         width: 12vw;
         height: 9vw;
+        border-radius: 6px;
         &:hover {
             transform: scale(1.1);
             cursor: pointer;
