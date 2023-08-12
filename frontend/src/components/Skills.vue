@@ -52,8 +52,8 @@ export default defineComponent({
     }
     .container {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(11vw, 1fr));
-        grid-gap: 1.042vw;
+        grid-template-columns: repeat(auto-fill, minmax(12vw, 1fr));
+        grid-gap: 0.3vw;
     }
 }
 @media (max-width: 700px) {
@@ -62,8 +62,8 @@ export default defineComponent({
         letter-spacing: 1.5vw !important;
     }
     .container {
-        grid-template-columns: repeat(auto-fill, minmax(18vw, 1fr)) !important;
-        grid-gap: 2vw !important;
+        grid-template-columns: repeat(auto-fill, minmax(24vw, 1fr)) !important;
+        grid-gap: 1vw !important;
     }
 }
 </style>

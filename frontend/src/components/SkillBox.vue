@@ -18,17 +18,16 @@ export default defineComponent({
 @import "../styles/colors.scss";
 
 .skillBox {
-    width: 12.1vw;
+    width: 12.9vw;
     height: 4.3vw;
     border-radius: 5px;
     font-size: 1.563vw;
-    filter: brightness(90%);
 }
 @media (max-width: 700px) {
     .skillBox {
-        width: 18vw !important;
+        width: 26vw !important;
         height: 8vw !important;
-        font-size: 2.5vw !important;
+        font-size: 2.75vw !important;
     }
 }
 </style>

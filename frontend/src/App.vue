@@ -8,7 +8,6 @@
     <Projects />
     <Skills />
     <Education />
-    <div style="height: 10vh"></div>
   </div>
 </template>
 

@@ -1,6 +1,6 @@
 <template>
     <div class="flex justify-center">
-        <div class="education" :class="screen == 'computer' ? 'pt-20' : 'pt-10'">
+        <div class="education" :class="screen == 'computer' ? 'pt-20 pb-32' : 'pt-10 pb-20'">
             <p class="title font-bold pb-4">
                 EDUCATION
             </p>
