@@ -1,9 +1,9 @@
 <template>
     <div class="w-screen">
-        <div v-if="screen == 'computer'" class="pt-20 flex justify-center w-screen">
+        <div v-if="screen == 'computer'" class="pt-16 flex justify-center w-screen">
             <div class="topSection flex justify-between items-center">
                 <div>
-                    <p class="hello font-black">
+                    <p class="pt-6 hello font-black">
                         Hello!
                     </p>
                     <p class="greeting font-bold">
@@ -89,7 +89,8 @@ export default defineComponent({
 
     .meBox {
         width: 35vw;
-        height: 44vh;
+        //height: 44vh;
+        height: 22vw;
         background: #FAFF00;
         border-radius: 10px;
         overflow: visible;
