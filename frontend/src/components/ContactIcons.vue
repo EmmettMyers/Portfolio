@@ -1,7 +1,7 @@
 <template>
-    <div :class="screen == 'phone' ? 'mt-5' : 'mt-10'" class="flex justify-start">
+    <div :class="screen == 'phone' ? 'mt-5' : 'wordPadder'" class="flex justify-start">
         <a 
-            href="https://drive.google.com/file/d/1R1tOxE-FKWwosVOXY8xMkCOpnp0asUr5DqYPGVCyoI8/view"
+            href="https://drive.google.com/file/d/1yo8VFTRjU4CyZzGaWpc3aR87mB2SLqSh/view"
             class="contactBox flex justify-center items-center"
             target="_blank"
         >
@@ -63,8 +63,12 @@ export default defineComponent({
 });
 </script>
   
-<style lang="scss">
+<style lang="scss" scoped>
 @import "../styles/colors.scss";
+
+.wordPadder {
+    padding-top: 2vw;
+}
 
 .contactBox {
     width: 6vw;

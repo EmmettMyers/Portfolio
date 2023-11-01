@@ -19,13 +19,16 @@ export const educationInfo = [
         honors: ['Design Studio Gold Project Award 2022-2023', "2x Deans' List", 'Raikes Foundation Scholar',
         'Nebraska Career Scholar', 'Regents Scholar'],
         coursework: [
-            "Computer Science 1-4 (Java, SQL, Python, JavaScript)",
-            "Data Science (Python)",
-            "Artificial Intelligence (Python)",
-            "User Interfaces (CSS)",
-            "Computer Systems Engineering (C)",
-            "Unix Programming (Bash)",
-            "Innovation Processes (Figma)"
+            "Computer Problem Solving",
+            "Software Development",
+            "Data Structures & Algorithms",
+            "Software Engineering",
+            "Data Science",
+            "Artificial Intelligence",
+            "User Interfaces",
+            "Computer Systems",
+            "Unix Environment",
+            "Innovation Processes"
         ]
     },
     {

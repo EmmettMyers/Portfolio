@@ -7,9 +7,10 @@ export const experienceModalInfo = ref(
 
 export const experienceInfo = [
     {
-        title: 'Teaching Assistant',
+        title: 'Computer Science------Teaching Assistant',
         company: 'University of Nebraska-Lincoln',
-        image: 'https://raikes.unl.edu/images/student/pan-kauffman.jpg',
+        image: 'work_ta.png',
+        logo: 'raikes_logow.png',
         time: 'Aug. 2023 - Present',
         location: 'Lincoln, NE',
         description: 'Teach Raikes Honors Computer Science (RAIK 184H) 1-2 to 40 Raikes Freshmen.'
@@ -20,7 +21,8 @@ export const experienceInfo = [
     {
         title: 'Software Developer',
         company: 'The Daily Nebraskan',
-        image: 'https://newsroom.unl.edu/announce/files/file135564.jpg',
+        image: 'work_dn2.png',
+        logo: 'dn_logow.png',
         time: 'Aug. 2023 - Present',
         location: 'Lincoln, NE',
         description: 'Produce software to facilitate user interaction with existing news site, most notably seamlessly' + 
@@ -30,7 +32,8 @@ export const experienceInfo = [
     {
         title: 'Software Engineer Intern',
         company: 'Principal Financial Group',
-        image: 'https://www.desmoinesregister.com/gcdn/presto/2021/02/22/PDEM/6107d8e6-31a4-44f6-ae20-30777e4a7f93-012221_Principal_building_04.jpg',
+        image: 'work_principal2.png',
+        logo: 'principal_logow.png',
         time: 'May 2023 - Aug. 2023',
         location: 'Remote',
         description: 'Worked on new report application for sponsors, deploying numerous UI and data changes to the main site weekly.'
@@ -40,7 +43,8 @@ export const experienceInfo = [
     {
         title: 'Software Developer Intern',
         company: 'Olsson',
-        image: 'https://helixus.com/wp-content/uploads/2023/04/Olsson_Associates_Headquaters_Helix3-scaled.jpg',
+        image: 'work_olsson2.png',
+        logo: 'olsson_logow.png',
         time: 'Jan. 2023 - May 2023',
         location: 'Lincoln, NE',
         description: 'Front-end development for Project ZeroDelta, a full-stack app that visualizes difference calculations'
@@ -51,7 +55,8 @@ export const experienceInfo = [
     {
         title: 'Computer Science Tutor',
         company: 'Elkhorn Public Schools',
-        image: 'https://www.elkhornweb.org/eshs/wp-content/uploads/sites/4/2021/06/ESHS-scaled.jpg',
+        image: 'work_tutor2.png',
+        logo: 'tutor_logow.png',
         time: 'Sep. 2020 - Mar. 2022',
         location: 'Omaha, NE',
         description: 'Taught AP Computer Science A to 10+ high school students 5x a week. Improved grades of all students by '

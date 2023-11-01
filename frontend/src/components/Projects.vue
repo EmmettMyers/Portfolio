@@ -1,6 +1,6 @@
 <template>
     <div class="flex justify-center">
-        <div class="projects " :class="screen == 'computer' ? 'pt-20' : 'pt-10'">
+        <div class="projects" >
             <p class="title font-bold" :class="screen == 'computer' ? 'pb-4' : 'pb-1'">
                 PROJECTS
             </p>
@@ -45,6 +45,7 @@ export default defineComponent({
 
 .projects {
     width: 80vw;
+    padding-top: 5vw;
     .title {
         color: #FAFF00;
         font-size: 2.5vw;
@@ -57,6 +58,9 @@ export default defineComponent({
     }
 }
 @media (max-width: 700px) {
+    .projects {
+        padding-top: 10vw;
+    }
     .title {
         font-size: 5vw !important;
         letter-spacing: 1.5vw !important;

@@ -45,8 +45,8 @@ export const skillsInfo = [
         color: '#93C745'
     },
     {
-        name: 'Flask',
-        color: '#22737A'
+        name: 'C',
+        color: '#00589D'
     },
     {
         name: 'Django',

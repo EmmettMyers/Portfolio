@@ -15,7 +15,7 @@
                     </p>
                     <img class="object-cover h-full" :src="info.image" />
                     <div class="rightSide">
-                        <p class="role font-black">{{ info.title }}</p>
+                        <p class="role font-black">{{ info.title.replace(new RegExp('-', 'g'), '&ensp;') }}</p>
                         <p class="company font-bold">{{ info.company }}</p>
                         <p class="setting font-medium">
                             {{ info.location }}
@@ -47,7 +47,7 @@
                         >
                             x
                         </p>
-                        <p class="role font-black">{{ info.title }}</p>
+                        <p class="role font-black">{{ info.title.replace(new RegExp('-', 'g'), '&ensp;') }}</p>
                         <p class="company font-bold">{{ info.company }}</p>
                         <p class="setting font-medium">
                             {{ info.location }}
@@ -136,7 +136,9 @@ export default defineComponent({
         .role {
             color: #FAFF00;
             font-size: 3vw;
-            margin-top: 1vw;
+            margin-top: 1.5vw;
+            line-height: 3.5vw;
+            margin-bottom: 1vw;
         }
         .company {
             color: #FAFF00;
@@ -189,7 +191,9 @@ export default defineComponent({
             padding-bottom: 3vw;
             .role {
                 font-size: 5vw;
-                margin-top: 1vw;
+                margin-top: 2.5vw;
+                line-height: 6vw;
+                margin-bottom: 2vw;
             }
             .company {
                 color: #FAFF00;

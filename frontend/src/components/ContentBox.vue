@@ -1,7 +1,7 @@
 <template>
     <div v-on:click="openModal" class="contentBox relative" :class="screen == 'phone' && 'mt-3'">
         <div class="absolute bottom-3 left-3 z-40 text-white">
-            <p :style="titleSize" class="title font-bold"> {{ info.title }} </p>
+            <p :style="titleSize" class="title font-bold"> {{ info.title.replace(new RegExp('-', 'g'), '&ensp;') }} </p>
             <p class="company font-bold"> {{ info.company }} </p>
         </div>
         <div class="blackShade absolute top-0 z-30 left-0 w-full h-full"></div>
@@ -9,6 +9,8 @@
         <img :class="fit" class="object-cover z-10" :src="info.image" />
     </div>
 </template>
+
+<!-- <img :class="specialClass" class="logo z-40 absolute bottom-2 right-2" :src="info.logo" /> -->
   
 <script lang="ts">
 import { defineComponent } from 'vue';
@@ -21,7 +23,8 @@ export default defineComponent({
         return {
             fit: "h-full",
             titleSize: "font-size: 1.67vw",
-            screen: "computer"
+            screen: "computer",
+            specialClass: ""
         }
     },
     methods: {
@@ -35,11 +38,17 @@ export default defineComponent({
             }
         },
         resize(){
+            if (this.info.company == "The Daily Nebraskan" ){
+                this.specialClass = "dn_logo"
+            } else if (this.info.company == "Olsson" ){
+                this.specialClass = "olsson_logo"
+            }
+
             window.innerWidth > 700 ? this.screen = "computer" : this.screen = "phone";
             if (this.screen == "computer" ){
                 this.fit = "h-full"
             }
-            if (this.info.title == "BlitzDraft" || this.info.title == "GuessNBA"){
+            if (this.info.title == "BlitzDraft" || this.info.title == "GuessNBA" || this.info.company == "Principal Financial Group"){
                 this.fit = "w-full"
             } else if (this.info.company && this.screen == "phone"){
                 this.fit = "w-full"
@@ -78,12 +87,25 @@ export default defineComponent({
     transition: .2s ease;
     .title {
         line-height: 1.2;
-        text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.73);
+        filter: drop-shadow(2px 2px 2px #222);
     }
     .company {
         font-size: 1.042vw;
         color: #FAFF00;
-        text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.73);
+        filter: drop-shadow(2px 2px 2px #222);
+    }
+    .logo {
+        max-height: 2vw;
+        max-width: 4.5vw;
+        border-radius: 0;
+        -webkit-filter: drop-shadow(2px 2px 2px #222);
+        filter: drop-shadow(2px 2px 2px #222);
+    }
+    .dn_logo {
+        max-width: 7vw;
+    }
+    .olsson_logo {
+        max-width: 3.5vw;
     }
     .yellowShade {
         border-radius: 10px;
@@ -112,6 +134,16 @@ export default defineComponent({
         }
         .company {
             font-size: 3vw;
+        }
+        .logo {
+            max-height: 10vw;
+            max-width: 25vw;
+        }
+        .dn_logo {
+            max-width: 35vw;
+        }
+        .olsson_logo {
+            max-width: 18vw;
         }
     }
 }

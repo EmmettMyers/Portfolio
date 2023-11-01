@@ -1,6 +1,6 @@
 <template>
     <div class="flex justify-center">
-        <div class="skills" :class="screen == 'computer' ? 'pt-20' : 'pt-10'">
+        <div class="skills">
             <p class="title font-bold" :class="screen == 'computer' ? 'pb-4' : 'pb-3'">
                 SKILLS
             </p>
@@ -45,6 +45,7 @@ export default defineComponent({
 
 .skills {
     width: 80vw;
+    padding-top: 5vw;
     .title {
         color: #FAFF00;
         font-size: 2.5vw;
@@ -52,17 +53,20 @@ export default defineComponent({
     }
     .container {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(12vw, 1fr));
+        grid-template-columns: repeat(6, 1fr);
         grid-gap: 0.3vw;
     }
 }
 @media (max-width: 700px) {
+    .skills {
+        padding-top: 10vw;
+    }
     .title {
         font-size: 5vw !important;
         letter-spacing: 1.5vw !important;
     }
     .container {
-        grid-template-columns: repeat(auto-fill, minmax(24vw, 1fr)) !important;
+        grid-template-columns: repeat(3, 1fr) !important;
         grid-gap: 1vw !important;
     }
 }

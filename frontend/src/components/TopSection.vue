@@ -1,6 +1,6 @@
 <template>
     <div class="w-screen">
-        <div v-if="screen == 'computer'" class="pt-16 flex justify-center w-screen">
+        <div v-if="screen == 'computer'" :style="topPad" class="flex justify-center w-screen">
             <div class="topSection flex justify-between items-center">
                 <div>
                     <p class="pt-6 hello font-black">
@@ -51,11 +51,13 @@ export default defineComponent({
     },
     data(){
         return {
-            screen: "computer"
+            screen: "computer",
+            topPad: "padding-top: 4vw"
         }
     },
     methods: {
         resize(){
+            window.innerWidth > 3000 ? this.topPad = "padding-top: 6vw" : this.topPad = "padding-top: 4vw";
             window.innerWidth > 700 ? this.screen = "computer" : this.screen = "phone";
         }
     },
