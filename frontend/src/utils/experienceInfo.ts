@@ -20,7 +20,7 @@ export const experienceInfo = [
     {
         title: 'Computer Science------Teaching Assistant',
         company: 'University of Nebraska-Lincoln',
-        image: 'work_ta.png',
+        image: 'experience/work_ta.png',
         logo: 'whiteLogos/raikes_logow.png',
         screen: 'experienceScreens/ta_screen.png',
         background: 'backgrounds/unl_back.jpg',
@@ -34,7 +34,7 @@ export const experienceInfo = [
     {
         title: 'Software Developer',
         company: 'The Daily Nebraskan',
-        image: 'work_dn2.png',
+        image: 'experience/work_dn2.png',
         logo: 'whiteLogos/dn_logow.png',
         screen: 'experienceScreens/dn_screen.png',
         background: 'backgrounds/dn_back.jpg',
@@ -47,7 +47,7 @@ export const experienceInfo = [
     {
         title: 'Software Engineer Intern',
         company: 'Principal Financial Group',
-        image: 'work_principal2.png',
+        image: 'experience/work_principal2.png',
         logo: 'whiteLogos/principal_logow.png',
         screen: 'experienceScreens/principal_screen.png',
         background: 'backgrounds/principal_back.jpg',
@@ -60,7 +60,7 @@ export const experienceInfo = [
     {
         title: 'Software Developer Intern',
         company: 'Olsson',
-        image: 'work_olsson2.png',
+        image: 'experience/work_olsson2.png',
         logo: 'whiteLogos/olsson_logow.png',
         screen: 'experienceScreens/olsson_screen.png',
         background: 'backgrounds/olsson_back.jpg',
@@ -74,7 +74,7 @@ export const experienceInfo = [
     {
         title: 'Computer Science Tutor',
         company: 'Elkhorn Public Schools',
-        image: 'work_tutor2.png',
+        image: 'experience/work_tutor2.png',
         logo: 'whiteLogos/tutor_logow.png',
         screen: 'experienceScreens/tutor_screen.png',
         background: 'backgrounds/eshs_back.jpg',

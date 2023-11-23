@@ -153,13 +153,13 @@ export default defineComponent({
                 if (this.screen == 'computer'){
                     this.monitorWidth = '70%'
                 } else {
-                    this.monitorWidth = '35% !important'
+                    this.monitorWidth = '40% !important'
                 }
             } else if (this.info.title == 'GuessNBA'){
                 if (this.screen == 'computer'){
                     this.monitorWidth = '60%'
                 } else {
-                    this.monitorWidth = '30% !important'
+                    this.monitorWidth = '35% !important'
                 }
             }
         }
@@ -276,7 +276,7 @@ export default defineComponent({
             height: 25vh;
             border-radius: 10px 10px 0 0;
             .monitor {
-                width: 50% !important;
+                width: 60% !important;
             }
         }
         .rightSide {
@@ -323,7 +323,7 @@ export default defineComponent({
             .toolBox {
                 display: grid;
                 grid-template-columns: repeat(auto-fill, minmax(16vw, 1fr));
-                grid-gap: .5vw;
+                grid-gap: .3vw;
             }
 
             .featuresBox {

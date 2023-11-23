@@ -15,7 +15,7 @@
                     <ContactIcons />
                 </div>
                 <div class="meBox relative flex justify-center mt-20">
-                    <img class="absolute bottom-0 object-cover" src="emmettHeadshot3.png" />
+                    <img class="absolute bottom-0 object-cover" src="headshots/emmettHeadshot3.png" />
                 </div>
             </div>
         </div>
@@ -23,7 +23,7 @@
             <div class="topSection">
                 <div class="flex justify-center pt-6">
                     <div class="meBox relative flex justify-center mt-20">
-                        <img class="absolute bottom-0 object-cover" src="emmettHeadshot3.png" />
+                        <img class="absolute bottom-0 object-cover" src="headshots/emmettHeadshot3.png" />
                     </div>
                 </div>
                 <p class="hello font-black pt-5">

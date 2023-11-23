@@ -29,7 +29,7 @@ export default defineComponent({
 }
 @media (max-width: 700px) {
     .toolBox {
-        width: 17.25vw !important;
+        width: 18vw !important;
         height: 6vw !important;
         font-size: 2vw !important;
         border-radius: 3px;

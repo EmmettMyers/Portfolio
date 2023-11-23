@@ -241,7 +241,7 @@ export default defineComponent({
             .skillsBox {
                 display: grid;
                 grid-template-columns: repeat(auto-fill, minmax(16vw, 1fr));
-                grid-gap: 1vw;
+                grid-gap: .5vw;
             }
         }
     }

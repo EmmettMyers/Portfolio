@@ -19,7 +19,7 @@ export const projectsModalInfo = ref(
 export const projectsInfo = [
     {
         title: 'BlitzDraft',
-        image: 'bd4.png',
+        image: 'projects/bd4.png',
         screen: 'projectScreens/bd_screen.png',
         time: 'Summer 2023',
         description: 'Multiplayer mobile web game where users pick one NFL player at time from random teams to assemble the best team possible. '
@@ -33,7 +33,7 @@ export const projectsInfo = [
     },
     {
         title: 'CivicSendNE',
-        image: 'civicsend 2.png',
+        image: 'projects/civicsend 2.png',
         screen: 'projectScreens/cs_screen.png',
         time: 'Summer 2023',
         description: 'Web app that streamlines civic communication by multi-sending/creating customizable mail to senators. Senators are '
@@ -48,7 +48,7 @@ export const projectsInfo = [
     },
     {
         title: 'Portfolio',
-        image: 'portfolio.png',
+        image: 'projects/portfolio.png',
         screen: 'projectScreens/port_screen.png',
         time: 'Summer 2023',
         description: "The site you're on right now, my personal portfolio!",
@@ -59,7 +59,7 @@ export const projectsInfo = [
     },
     {
         title: 'GuessNBA',
-        image: 'guessnba1.png',
+        image: 'projects/guessnba1.png',
         screen: 'projectScreens/guessnba_screen.png',
         time: 'Winter Break 2022-2023',
         description: 'Mobile-based web game in which a user has to guess a random NBA player based on three of their stats, or more if they need hints.' + 
@@ -71,7 +71,7 @@ export const projectsInfo = [
     },
     {
         title: 'NewsGuesser',
-        image: 'ng2.png',
+        image: 'projects/ng2.png',
         screen: 'projectScreens/ng_screen.png',
         time: 'Fall 2022',
         description: 'Web game in which users have 2 minutes to guess as many words in a news article as possible from seeing only its picture and title.'
@@ -84,7 +84,7 @@ export const projectsInfo = [
     },
     {
         title: 'PickupUNL',
-        image: 'pickupunl 2.png',
+        image: 'projects/pickupunl 2.png',
         screen: 'projectScreens/punl_screen.png',
         time: 'Summer 2022',
         description: 'Web application that facilitates the creation of pickup sports games around the University of Nebraska' + 
@@ -98,7 +98,7 @@ export const projectsInfo = [
     },
     {
         title: 'Sure',
-        image: 'sure 3.png',
+        image: 'projects/sure 3.png',
         screen: 'projectScreens/sure_screen.png',
         time: 'Summer 2022',
         description: 'Web multi-messenger aimed at making communication and access to it as secure as possible,'
@@ -122,7 +122,7 @@ export const projectsInfo = [
     },
     {
         title: 'Connect 4 Bot',
-        image: 'connect 4 1.png',
+        image: 'projects/connect 4 1.png',
         screen: 'projectScreens/c4_screen.png',
         time: 'Summer 2021',
         description: 'Advanced, comprehensive Connect 4 web game meant to challenge your prowess at the game.'

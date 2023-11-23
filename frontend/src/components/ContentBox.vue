@@ -89,12 +89,12 @@ export default defineComponent({
     .yellowShade {
         border-radius: 10px;
         background: #F9B959;
-        opacity: 30%;
+        opacity: 40%;
     }
     .blackShade {
         border-radius: 10px;
         background: #383838;
-        opacity: 60%;
+        opacity: 50%;
     }   
     img {
         border-radius: 10px;

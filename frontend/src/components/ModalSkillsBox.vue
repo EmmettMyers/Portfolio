@@ -29,7 +29,7 @@ export default defineComponent({
 }
 @media (max-width: 700px) {
     .skillBox {
-        width: 17vw !important;
+        width: 17.75vw !important;
         height: 8vw !important;
         font-size: 2.2vw !important;
         border-radius: 3px;
