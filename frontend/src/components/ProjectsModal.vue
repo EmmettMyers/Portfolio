@@ -13,9 +13,13 @@
                     >
                         x
                     </p>
-                    <img class="object-cover h-full" :src="info.image" />
+                    <div class="monitorHolder h-full relative">
+                        <div class="w-full h-full flex justify-center items-center">
+                            <img class="monitor" :src="info.screen" :style="{ width: monitorWidth }" />
+                        </div>
+                    </div>
                     <div class="rightSide">
-                        <p class="role font-black">{{ info.title }}</p>
+                        <p class="role font-bold">{{ info.title }}</p>
                         <p class="setting font-medium">
                             {{ info.time }}
                         </p>
@@ -59,7 +63,12 @@
                     </div>
                 </div>
                 <div v-else class="h-full">
-                    <img class="object-cover h-full" :src="info.image" />
+                    <div class="monitorHolder w-full relative">
+                        <div class="w-full h-full flex justify-center items-center">
+                            <img class="monitor" :src="info.screen" :style="{ width: monitorWidth }" />
+                        </div>
+                        <img class="back h-full w-full absolute object-cover top-0 left-0" />
+                    </div>
                     <div class="rightSide h-full relative">
                         <p
                             v-on:click="handleClose"
@@ -67,7 +76,7 @@
                         >
                             x
                         </p>
-                        <p class="role font-black">{{ info.title }}</p>
+                        <p class="role font-bold">{{ info.title }}</p>
                         <p class="setting font-medium">
                             {{ info.time }}
                         </p>
@@ -128,7 +137,8 @@ export default defineComponent({
     data() {
         return {
             screen: "computer",
-            info: projectsModalInfo
+            info: projectsModalInfo,
+            monitorWidth: "80%"
         }
     },
     methods: {
@@ -137,10 +147,26 @@ export default defineComponent({
         },
         resize(){
             window.innerWidth > 700 ? this.screen = "computer" : this.screen = "phone";
+        },
+        setMonitorWidth(){
+            if (this.info.title == 'BlitzDraft'){
+                if (this.screen == 'computer'){
+                    this.monitorWidth = '70%'
+                } else {
+                    this.monitorWidth = '35% !important'
+                }
+            } else if (this.info.title == 'GuessNBA'){
+                if (this.screen == 'computer'){
+                    this.monitorWidth = '60%'
+                } else {
+                    this.monitorWidth = '30% !important'
+                }
+            }
         }
     },
     mounted(){
         this.resize();
+        this.setMonitorWidth();
         window.addEventListener('resize', this.resize);
     },
 });
@@ -150,18 +176,18 @@ export default defineComponent({
 @import "../styles/colors.scss";
 
 .projectsModal {
-    width: 70vw;
+    width: 75vw;
     height: 70vh;
     background: #1E1E1E;
     border-radius: 10px;
     z-index: 60;
     .btn {
-        width: 10vw;
-        height: 3vw;
-        background: #FAFF00;
+        width: 8vw;
+        height: 2.5vw;
+        background: #F9B959;
         border-radius: 10px;
-        font-size: 1.25vw;
-        margin-top: 2vw;
+        font-size: 1vw;
+        margin-top: 1vw;
         transition: .3s ease;
         transform: scale(1);
         &:hover {
@@ -178,12 +204,24 @@ export default defineComponent({
         &:hover {
             transition: .2s;
             cursor: pointer;
-            color: #FAFF00;
+            color: #F9B959;
         }
     }
-    img {
+    .monitorHolder {
         width: 40%;
-        border-radius: 10px 0 0 10px;
+        border-radius: 10px 0 0 10px;     
+        z-index: -1;
+        background: #F9B959;
+        .logo {
+            filter: drop-shadow(0px 2px 2px #222);
+        }
+        .monitor {
+            filter: drop-shadow(0px 2px 2px #222);
+        }
+        .back {
+            z-index: -1;
+            opacity: .2;
+        }
     }
     .rightSide {
         overflow-y: scroll;
@@ -192,26 +230,26 @@ export default defineComponent({
         padding-right: 3vw;
         padding-bottom: 3vw;
         .role {
-            color: #FAFF00;
-            font-size: 3vw;
+            color: #F9B959;
+            font-size: 2.75vw;
             margin-top: 1vw;
         }
         .setting {
-            font-size: 1.5vw;
+            font-size: 1.25vw;
         }
         .overview, .skills {
-            color: #FAFF00;
-            font-size: 2vw;
+            color: #F9B959;
+            font-size: 1.5vw;
             letter-spacing: 0.8vw;
             line-height: 2;
-            margin-top: 2vw;
+            margin-top: 1.5vw;
         }
         .desc {
-            font-size: 1.5vw;
+            font-size: 1.25vw;
         }
         .toolBox {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(7vw, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(9vw, 1fr));
             grid-gap: .5vw;
         }
 
@@ -233,10 +271,13 @@ export default defineComponent({
             right: 3vw;
             top: 3vw;
         }
-        img {
+        .monitorHolder {
             width: 100%;
             height: 25vh;
             border-radius: 10px 10px 0 0;
+            .monitor {
+                width: 50% !important;
+            }
         }
         .rightSide {
             overflow-x: hidden;
@@ -248,11 +289,12 @@ export default defineComponent({
             padding-bottom: 3vw;
             .btn {
                 width: 25vw;
-                height: 5vw;
-                font-size: 2vw;
-                margin-top: 4vw;
+                height: 7vw;
+                font-size: 2.5vw;
+                margin-top: 3vw;
                 transition: .3s ease;
                 transform: scale(1);
+                border-radius: 5px;
                 &:hover {
                     transform: scale(1.05);
                     cursor: pointer;
@@ -262,7 +304,7 @@ export default defineComponent({
                 margin-right: 2vw;
             }
             .role {
-                font-size: 7vw;
+                font-size: 6vw;
                 margin-top: 1vw;
             }
             .setting {
@@ -270,7 +312,7 @@ export default defineComponent({
                 line-height: 1;
             }
             .overview, .skills {
-                font-size: 3.5vw !important;
+                font-size: 3vw !important;
                 letter-spacing: 1.5vw;
                 line-height: 2;
                 margin-top: 2.5vw;

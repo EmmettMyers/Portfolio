@@ -47,7 +47,7 @@ export default defineComponent({
     width: 80vw;
     padding-top: 5vw;
     .title {
-        color: #FAFF00;
+        color: #F9B959;
         font-size: 2.5vw;
         letter-spacing: 0.781vw;
     }

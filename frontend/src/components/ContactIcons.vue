@@ -73,7 +73,7 @@ export default defineComponent({
 .contactBox {
     width: 6vw;
     height: 5.21vw;
-    background: #FAFF00;
+    background: #F9B959;
     border-radius: 10px;
     transition: .3s ease;
     transform: scale(1);
@@ -95,7 +95,7 @@ export default defineComponent({
     .contactBox {
         width: 12vw;
         height: 9vw;
-        border-radius: 6px;
+        border-radius: 5px;
         &:hover {
             transform: scale(1.1);
             cursor: pointer;

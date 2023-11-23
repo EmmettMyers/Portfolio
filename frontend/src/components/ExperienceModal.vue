@@ -13,10 +13,15 @@
                     >
                         x
                     </p>
-                    <img class="object-cover h-full" :src="info.image" />
+                    <div class="monitorHolder h-full relative">
+                        <div class="w-full h-full flex justify-center items-center">
+                            <img class="monitor" :src="info.screen" />
+                        </div>
+                        <img class="back h-full absolute object-cover top-0 left-0" :src="info.background" />
+                    </div>
                     <div class="rightSide">
-                        <p class="role font-black">{{ info.title.replace(new RegExp('-', 'g'), '&ensp;') }}</p>
-                        <p class="company font-bold">{{ info.company }}</p>
+                        <p class="role font-bold">{{ info.title.replace(new RegExp('-', 'g'), '&ensp;') }}</p>
+                        <p class="company font-semibold">{{ info.company }}</p>
                         <p class="setting font-medium">
                             {{ info.location }}
                             &nbsp;&nbsp;|&nbsp;&nbsp;
@@ -39,7 +44,12 @@
                     </div>
                 </div>
                 <div v-else class="h-full">
-                    <img class="object-cover h-full" :src="info.image" />
+                    <div class="monitorHolder w-full relative">
+                        <div class="w-full h-full flex justify-center items-center">
+                            <img class="monitor" :src="info.screen" />
+                        </div>
+                        <img class="back h-full w-full absolute object-cover top-0 left-0" :src="info.background" />
+                    </div>
                     <div class="rightSide h-full relative">
                         <p
                             v-on:click="handleClose"
@@ -47,8 +57,8 @@
                         >
                             x
                         </p>
-                        <p class="role font-black">{{ info.title.replace(new RegExp('-', 'g'), '&ensp;') }}</p>
-                        <p class="company font-bold">{{ info.company }}</p>
+                        <p class="role font-bold">{{ info.title.replace(new RegExp('-', 'g'), '&ensp;') }}</p>
+                        <p class="company font-semibold">{{ info.company }}</p>
                         <p class="setting font-medium">
                             {{ info.location }}
                             &nbsp;&nbsp;|&nbsp;&nbsp;
@@ -109,7 +119,7 @@ export default defineComponent({
 @import "../styles/colors.scss";
 
 .experienceModal {
-    width: 70vw;
+    width: 75vw;
     height: 70vh;
     background: #1E1E1E;
     border-radius: 10px;
@@ -120,12 +130,25 @@ export default defineComponent({
         &:hover {
             transition: .2s;
             cursor: pointer;
-            color: #FAFF00;
+            color: #F9B959;
         }
     }
-    img {
-        width: 30%;
-        border-radius: 10px 0 0 10px;
+    .monitorHolder {
+        width: 40%;
+        border-radius: 10px 0 0 10px;     
+        z-index: -1;
+        background: #F9B959;
+        .logo {
+            filter: drop-shadow(0px 2px 2px #222);
+        }
+        .monitor {
+            width: 80%;
+            filter: drop-shadow(0px 2px 2px #222);
+        }
+        .back {
+            z-index: -1;
+            opacity: .2;
+        }
     }
     .rightSide {
         overflow-y: scroll;
@@ -134,33 +157,33 @@ export default defineComponent({
         padding-right: 3vw;
         padding-bottom: 3vw;
         .role {
-            color: #FAFF00;
-            font-size: 3vw;
+            color: #F9B959;
+            font-size: 2.75vw;
             margin-top: 1.5vw;
-            line-height: 3.5vw;
-            margin-bottom: 1vw;
+            line-height: 3vw;
+            margin-bottom: .5vw;
         }
         .company {
-            color: #FAFF00;
+            color: #F9B959;
             font-size: 2vw;
+            margin-bottom: .5vw;
         }
         .setting {
-            font-size: 1.5vw;
-            line-height: 2;
+            font-size: 1.25vw;
         }
         .overview, .skills {
-            color: #FAFF00;
-            font-size: 2vw;
+            color: #F9B959;
+            font-size: 1.5vw;
             letter-spacing: 0.8vw;
             line-height: 2;
-            margin-top: 2vw;
+            margin-top: 1.5vw;
         }
         .desc {
-            font-size: 1.5vw;
+            font-size: 1.25vw;
         }
         .skillsBox {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(13vw, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(10vw, 1fr));
             grid-gap: .5vw;
         }
     }
@@ -176,10 +199,14 @@ export default defineComponent({
             right: 3vw;
             top: 3vw;
         }
-        img {
+        .monitorHolder {
             width: 100%;
             height: 25vh;
             border-radius: 10px 10px 0 0;
+            .monitor {
+                width: 50%;
+                filter: drop-shadow(0px 2px 2px #222);
+            }
         }
         .rightSide {
             overflow-x: hidden;
@@ -193,17 +220,17 @@ export default defineComponent({
                 font-size: 5vw;
                 margin-top: 2.5vw;
                 line-height: 6vw;
-                margin-bottom: 2vw;
+                margin-bottom: 1vw;
             }
             .company {
-                color: #FAFF00;
+                color: #F9B959;
                 font-size: 3vw;
             }
             .setting {
                 font-size: 2.5vw;
             }
             .overview, .skills {
-                font-size: 3.5vw !important;
+                font-size: 3vw !important;
                 letter-spacing: 0.8vw;
                 line-height: 2;
                 margin-top: 2vw;

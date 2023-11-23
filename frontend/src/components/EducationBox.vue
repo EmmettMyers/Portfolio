@@ -46,7 +46,7 @@ export default defineComponent({
 
 .educationBox {
     width: 39.25vw;
-    height: 18.23vw;
+    height: 15vw;
     background: white;
     border-radius: 10px;
     overflow: hidden;
@@ -58,7 +58,7 @@ export default defineComponent({
     }
     .yellowShade {
         border-radius: 10px;
-        background: #FAFF00;
+        background: #F9B959;
         opacity: 30%;
     }
     .blackShade {

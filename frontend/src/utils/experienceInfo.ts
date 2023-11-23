@@ -2,7 +2,18 @@ import { ref } from 'vue';
 
 export const experienceModalOpen = ref(false);
 export const experienceModalInfo = ref(
-    {title: "", company: "", image: "", time: "", location: "", description: "", skills: []}
+    { 
+        title: "", 
+        company: "", 
+        image: "", 
+        logo: "", 
+        screen: "", 
+        background: "", 
+        time: "", 
+        location: "", 
+        description: "", 
+        skills: []
+    }
 );
 
 export const experienceInfo = [
@@ -10,7 +21,9 @@ export const experienceInfo = [
         title: 'Computer Science------Teaching Assistant',
         company: 'University of Nebraska-Lincoln',
         image: 'work_ta.png',
-        logo: 'raikes_logow.png',
+        logo: 'whiteLogos/raikes_logow.png',
+        screen: 'experienceScreens/ta_screen.png',
+        background: 'backgrounds/unl_back.jpg',
         time: 'Aug. 2023 - Present',
         location: 'Lincoln, NE',
         description: 'Teach Raikes Honors Computer Science (RAIK 184H) 1-2 to 40 Raikes Freshmen.'
@@ -22,7 +35,9 @@ export const experienceInfo = [
         title: 'Software Developer',
         company: 'The Daily Nebraskan',
         image: 'work_dn2.png',
-        logo: 'dn_logow.png',
+        logo: 'whiteLogos/dn_logow.png',
+        screen: 'experienceScreens/dn_screen.png',
+        background: 'backgrounds/dn_back.jpg',
         time: 'Aug. 2023 - Present',
         location: 'Lincoln, NE',
         description: 'Produce software to facilitate user interaction with existing news site, most notably seamlessly' + 
@@ -33,9 +48,11 @@ export const experienceInfo = [
         title: 'Software Engineer Intern',
         company: 'Principal Financial Group',
         image: 'work_principal2.png',
-        logo: 'principal_logow.png',
+        logo: 'whiteLogos/principal_logow.png',
+        screen: 'experienceScreens/principal_screen.png',
+        background: 'backgrounds/principal_back.jpg',
         time: 'May 2023 - Aug. 2023',
-        location: 'Remote',
+        location: 'Des Moines, IA',
         description: 'Worked on new report application for sponsors, deploying numerous UI and data changes to the main site weekly.'
         + ' Created AI code documentation solution for company, and presented its importance, business value & implementation to executives.',
         skills: ['TypeScript', 'React', 'Next.js', 'Java', 'Spring', 'HTML/CSS', 'Bootstrap', 'Testing', 'Deployment']
@@ -44,7 +61,9 @@ export const experienceInfo = [
         title: 'Software Developer Intern',
         company: 'Olsson',
         image: 'work_olsson2.png',
-        logo: 'olsson_logow.png',
+        logo: 'whiteLogos/olsson_logow.png',
+        screen: 'experienceScreens/olsson_screen.png',
+        background: 'backgrounds/olsson_back.jpg',
         time: 'Jan. 2023 - May 2023',
         location: 'Lincoln, NE',
         description: 'Front-end development for Project ZeroDelta, a full-stack app that visualizes difference calculations'
@@ -56,7 +75,9 @@ export const experienceInfo = [
         title: 'Computer Science Tutor',
         company: 'Elkhorn Public Schools',
         image: 'work_tutor2.png',
-        logo: 'tutor_logow.png',
+        logo: 'whiteLogos/tutor_logow.png',
+        screen: 'experienceScreens/tutor_screen.png',
+        background: 'backgrounds/eshs_back.jpg',
         time: 'Sep. 2020 - Mar. 2022',
         location: 'Omaha, NE',
         description: 'Taught AP Computer Science A to 10+ high school students 5x a week. Improved grades of all students by '

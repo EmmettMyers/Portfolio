@@ -46,9 +46,9 @@ export default defineComponent({
 .education {
     width: 80vw;
     padding-top: 5vw;
-    padding-bottom: 10vw;
+    padding-bottom: 8vw;
     .title {
-        color: #FAFF00;
+        color: #F9B959;
         font-size: 2.5vw;
         letter-spacing: 0.781vw;
     }
@@ -61,7 +61,7 @@ export default defineComponent({
 @media (max-width: 700px) {
     .education {
         padding-top: 10vw;
-        padding-bottom: 20vw;
+        padding-bottom: 15vw;
     }
     .title {
         font-size: 5vw !important;

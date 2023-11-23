@@ -50,7 +50,7 @@ export const skillsInfo = [
     },
     {
         name: 'Django',
-        color: '#113527'
+        color: '#2BA977'
     },
     {
         name: 'MongoDB',
@@ -66,7 +66,7 @@ export const skillsInfo = [
     },
     {
         name: 'Bash',
-        color: '#2F363D'
+        color: '#4CAA20'
     },
     {
         name: 'Git',

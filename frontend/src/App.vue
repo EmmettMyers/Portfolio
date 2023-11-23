@@ -50,14 +50,14 @@ export default defineComponent({
 #app {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: black;
+  background: #1E1E1E;
   color: white;
   overflow-x: hidden;
   user-select: none;
 }
 /* width */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 5px;
 }
 /* Track */
 ::-webkit-scrollbar-track {
@@ -65,7 +65,7 @@ export default defineComponent({
 }
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #FAFF00;
+  background: #F9B959;
 }
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {

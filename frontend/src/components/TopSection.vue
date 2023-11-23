@@ -7,7 +7,7 @@
                         Hello!
                     </p>
                     <p class="greeting font-bold">
-                        I'm <span style="color: #FAFF00">Emmett Myers.</span>
+                        I'm <span style="color: #F9B959">Emmett Myers.</span>
                     </p>
                     <p class="desc font-medium">
                         I <span class="animate">code.</span> Mostly full-stack web apps.
@@ -30,7 +30,7 @@
                     Hello!
                 </p>
                 <p class="greeting font-bold">
-                    I'm <span style="color: #FAFF00">Emmett Myers.</span>
+                    I'm <span style="color: #F9B959">Emmett Myers.</span>
                 </p>
                 <p class="desc font-medium">
                     I <span class="animate">code.</span> Mostly full-stack web apps.
@@ -93,7 +93,7 @@ export default defineComponent({
         width: 35vw;
         //height: 44vh;
         height: 22vw;
-        background: #FAFF00;
+        background: #F9B959;
         border-radius: 10px;
         overflow: visible;
         img {
@@ -105,10 +105,10 @@ export default defineComponent({
 
     .animate {
         background-image: linear-gradient(-225deg,
-                red 0%,
+                #F9B959 0%,
                 orange 40%,
                 yellow 60%,
-                red 100%);
+                #F9B959 100%);
         background-size: auto auto;
         background-clip: border-box;
         background-size: 200% auto;
@@ -146,7 +146,7 @@ export default defineComponent({
         .meBox {
             width: 80vw;
             height: 35vh;
-            background: #FAFF00;
+            background: #F9B959;
             border-radius: 10px;
             overflow: visible;
             img {

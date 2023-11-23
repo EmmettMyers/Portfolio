@@ -2,7 +2,17 @@ import { ref } from "vue";
 
 export const projectsModalOpen = ref(false);
 export const projectsModalInfo = ref(
-    {title: "", image: "", time: "", description: "", features: [], tools: [], demo: '', code: ''}
+    {
+        title: "", 
+        image: "", 
+        screen: "",
+        time: "", 
+        description: "", 
+        features: [], 
+        tools: [], 
+        demo: '', 
+        code: ''
+    }
 );
 
 
@@ -10,6 +20,7 @@ export const projectsInfo = [
     {
         title: 'BlitzDraft',
         image: 'bd4.png',
+        screen: 'projectScreens/bd_screen.png',
         time: 'Summer 2023',
         description: 'Multiplayer mobile web game where users pick one NFL player at time from random teams to assemble the best team possible. '
         + 'It grades the strength of each team using a machine learning model trained from over 50,000 NFL statistics, scraped from Pro-Football-Reference.',
@@ -23,6 +34,7 @@ export const projectsInfo = [
     {
         title: 'CivicSendNE',
         image: 'civicsend 2.png',
+        screen: 'projectScreens/cs_screen.png',
         time: 'Summer 2023',
         description: 'Web app that streamlines civic communication by multi-sending/creating customizable mail to senators. Senators are '
         + ' auto-located by user location and the mail is pre-formatted with user information.' + 
@@ -37,6 +49,7 @@ export const projectsInfo = [
     {
         title: 'Portfolio',
         image: 'portfolio.png',
+        screen: 'projectScreens/port_screen.png',
         time: 'Summer 2023',
         description: "The site you're on right now, my personal portfolio!",
         features: [],
@@ -47,6 +60,7 @@ export const projectsInfo = [
     {
         title: 'GuessNBA',
         image: 'guessnba1.png',
+        screen: 'projectScreens/guessnba_screen.png',
         time: 'Winter Break 2022-2023',
         description: 'Mobile-based web game in which a user has to guess a random NBA player based on three of their stats, or more if they need hints.' + 
         ' The program scrapes NBA data from the website basketball-reference.com and finds information about a random player.',
@@ -58,6 +72,7 @@ export const projectsInfo = [
     {
         title: 'NewsGuesser',
         image: 'ng2.png',
+        screen: 'projectScreens/ng_screen.png',
         time: 'Fall 2022',
         description: 'Web game in which users have 2 minutes to guess as many words in a news article as possible from seeing only its picture and title.'
         + ' The longer the word and the more times it appears in the article, the more points you receive.'
@@ -70,6 +85,7 @@ export const projectsInfo = [
     {
         title: 'PickupUNL',
         image: 'pickupunl 2.png',
+        screen: 'projectScreens/punl_screen.png',
         time: 'Summer 2022',
         description: 'Web application that facilitates the creation of pickup sports games around the University of Nebraska' + 
         ' through open registering and communication.',
@@ -83,6 +99,7 @@ export const projectsInfo = [
     {
         title: 'Sure',
         image: 'sure 3.png',
+        screen: 'projectScreens/sure_screen.png',
         time: 'Summer 2022',
         description: 'Web multi-messenger aimed at making communication and access to it as secure as possible,'
         + ' even to someone sitting right next to you.',
@@ -106,6 +123,7 @@ export const projectsInfo = [
     {
         title: 'Connect 4 Bot',
         image: 'connect 4 1.png',
+        screen: 'projectScreens/c4_screen.png',
         time: 'Summer 2021',
         description: 'Advanced, comprehensive Connect 4 web game meant to challenge your prowess at the game.'
         + ' Includes a hard bot that detects win/loss and double win/double loss scenarios 100% correctly.',

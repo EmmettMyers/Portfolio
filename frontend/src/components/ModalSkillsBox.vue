@@ -17,10 +17,10 @@ export default defineComponent({
 @import "../styles/colors.scss";
 
 .skillBox {
-    width: 14vw;
-    height: 4.3vw;
+    width: 10.25vw;
+    height: 4vw;
     border-radius: 5px;
-    font-size: 1.563vw;
+    font-size: 1.2vw;
     padding-left: 2vw;
     padding-right: 2vw;
     line-height: 1;
@@ -32,6 +32,7 @@ export default defineComponent({
         width: 17vw !important;
         height: 8vw !important;
         font-size: 2.2vw !important;
+        border-radius: 3px;
     }
 }
 </style>

@@ -13,7 +13,9 @@
                     >
                         x
                     </p>
-                    <img class="object-cover h-full" :src="info.image" />
+                    <div class="imgHolder h-full">
+                        <img class="object-cover h-full" :src="info.image" />
+                    </div>
                     <div class="rightSide">
                         <p class="school font-black">{{ info.school }}</p>
                         <p class="major font-bold">{{ info.major }}</p>
@@ -57,7 +59,9 @@
                     </div>
                 </div>
                 <div v-else class="h-full">
-                    <img class="object-cover h-full" :src="info.image" />
+                    <div class="imgHolder h-full">
+                        <img class="object-cover w-full h-full" :src="info.image" />
+                    </div>
                     <div class="rightSide h-full relative">
                         <p
                             v-on:click="handleClose"
@@ -65,8 +69,8 @@
                         >
                             x
                         </p>
-                        <p class="school font-black">{{ info.school }}</p>
-                        <p class="major font-bold">{{ info.major }}</p>
+                        <p class="school font-bold">{{ info.school }}</p>
+                        <p class="major font-semibold">{{ info.major }}</p>
                         <p class="setting font-medium">
                             {{ info.location }}
                             &nbsp;&nbsp;|&nbsp;&nbsp;
@@ -156,12 +160,17 @@ export default defineComponent({
         &:hover {
             transition: .2s;
             cursor: pointer;
-            color: #FAFF00;
+            color: #F9B959;
         }
     }
-    img {
+    .imgHolder {
         width: 30%;
         border-radius: 10px 0 0 10px;
+        background: #F9B959;
+        img {
+            opacity: .5;
+            border-radius: 10px 0 0 10px;
+        }
     }
     .rightSide {
         overflow-y: scroll;
@@ -170,12 +179,12 @@ export default defineComponent({
         padding-right: 3vw;
         padding-bottom: 3vw;
         .school {
-            color: #FAFF00;
+            color: #F9B959;
             font-size: 2.5vw;
             margin-top: 1vw;
         }
         .major {
-            color: #FAFF00;
+            color: #F9B959;
             font-size: 2vw;
         }
         .setting {
@@ -183,7 +192,7 @@ export default defineComponent({
             line-height: 2;
         }
         .academics {
-            color: #FAFF00;
+            color: #F9B959;
             font-size: 1.5vw;
             letter-spacing: .8vw;
             line-height: 2;
@@ -205,7 +214,7 @@ export default defineComponent({
             right: 3vw;
             top: 3vw;
         }
-        img {
+        .imgHolder {
             width: 100%;
             height: 25vh;
             border-radius: 10px 10px 0 0;
@@ -220,10 +229,10 @@ export default defineComponent({
             padding-bottom: 3vw;
             .school {
                 font-size: 4vw;
-                margin-top: 1vw;
+                margin-top: 2vw;
             }
             .major {
-                color: #FAFF00;
+                color: #F9B959;
                 font-size: 3vw;
                 line-height: 1.5;
             }
