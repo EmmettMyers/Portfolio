@@ -18,7 +18,7 @@ export const experienceModalInfo = ref(
 
 export const experienceInfo = [
     {
-        title: 'Computer Science------Teaching Assistant',
+        title: 'Computer Science-------Teaching Assistant',
         company: 'University of Nebraska-Lincoln',
         image: 'experience/work_ta.png',
         logo: 'whiteLogos/raikes_logow.png',

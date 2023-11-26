@@ -9,7 +9,7 @@
                 <div v-if="screen == 'computer'" class="flex justify-between h-full">
                     <p
                         v-on:click="handleClose"
-                        class="exit font-light absolute top-5 right-8"
+                        class="exit font-light absolute top-5 right-6"
                     >
                         x
                     </p>
@@ -72,7 +72,7 @@
                     <div class="rightSide h-full relative">
                         <p
                             v-on:click="handleClose"
-                            class="exit font-light absolute"
+                            class="exit font-light absolute top-4 right-3"
                         >
                             x
                         </p>
@@ -268,8 +268,6 @@ export default defineComponent({
         .exit {
             font-size: 6vw;
             line-height: 0;
-            right: 3vw;
-            top: 3vw;
         }
         .monitorHolder {
             width: 100%;

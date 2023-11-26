@@ -9,7 +9,7 @@
                 <div v-if="screen == 'computer'" class="flex justify-between h-full">
                     <p
                         v-on:click="handleClose"
-                        class="exit font-light absolute top-5 right-8"
+                        class="exit font-light absolute top-5 right-6"
                     >
                         x
                     </p>
@@ -17,8 +17,8 @@
                         <img class="object-cover h-full" :src="info.image" />
                     </div>
                     <div class="rightSide">
-                        <p class="school font-black">{{ info.school }}</p>
-                        <p class="major font-bold">{{ info.major }}</p>
+                        <p class="school font-bold">{{ info.school }}</p>
+                        <p class="major font-semibold">{{ info.major }}</p>
                         <p class="setting font-medium">
                             {{ info.location }}
                             &nbsp;&nbsp;|&nbsp;&nbsp;
@@ -65,7 +65,7 @@
                     <div class="rightSide h-full relative">
                         <p
                             v-on:click="handleClose"
-                            class="exit font-light absolute"
+                            class="exit font-light absolute top-4 right-3"
                         >
                             x
                         </p>
@@ -188,7 +188,7 @@ export default defineComponent({
             font-size: 2vw;
         }
         .setting {
-            font-size: 1.5vw;
+            font-size: 1.25vw;
             line-height: 2;
         }
         .academics {
@@ -211,8 +211,6 @@ export default defineComponent({
         .exit {
             font-size: 6vw;
             line-height: 0;
-            right: 3vw;
-            top: 3vw;
         }
         .imgHolder {
             width: 100%;
@@ -240,7 +238,7 @@ export default defineComponent({
                 font-size: 2.5vw;
             }
             .academics {
-                font-size: 3.5vw !important;
+                font-size: 3vw !important;
                 letter-spacing: 1.2vw;
                 line-height: 2;
                 margin-top: 2vw;

@@ -1,6 +1,6 @@
 <template>
     <div v-on:click="openModal" class="contentBox relative" :class="screen == 'phone' && 'mt-3'">
-        <div class="absolute bottom-3 left-3 z-40 text-white">
+        <div class="holder absolute z-40 text-white">
             <p :style="titleSize" class="title font-bold"> {{ info.title.replace(new RegExp('-', 'g'), '&ensp;') }} </p>
             <p class="company font-bold"> {{ info.company }} </p>
         </div>
@@ -77,6 +77,10 @@ export default defineComponent({
     border-radius: 10px;
     overflow: hidden;
     transition: .2s ease;
+    .holder {
+        bottom: .65vw;
+        left: .9vw;
+    }
     .title {
         line-height: 1.2;
         filter: drop-shadow(2px 2px 2px #222);
@@ -108,11 +112,15 @@ export default defineComponent({
     .contentBox {
         width: 80vw;
         height: 40vw;
+        .holder {
+            bottom: 2vw;
+            left: 2.5vw;
+        }
         .title {
             line-height: 1.2;
         }
         .company {
-            font-size: 3vw;
+            font-size: 3.5vw;
         }
     }
 }

@@ -1,6 +1,6 @@
 <template>
     <div v-on:click="openModal" class="educationBox relative" :class="screen == 'phone' && 'mt-3'">
-        <div class="absolute bottom-4 left-4 z-40 text-white">
+        <div class="holder absolute z-40 text-white">
             <p class="title font-bold"> {{ info.school }} </p>
         </div>
         <div class="blackShade absolute top-0 z-30 left-0 w-full h-full"></div>
@@ -51,6 +51,10 @@ export default defineComponent({
     border-radius: 10px;
     overflow: hidden;
     transition: .2s ease;
+    .holder {
+        bottom: .65vw;
+        left: .9vw;
+    }
     .title {
         line-height: 1;
         text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.73);
@@ -78,9 +82,13 @@ export default defineComponent({
     .educationBox {
         width: 80vw;
         height: 40vw;
+        .holder {
+            bottom: 2vw;
+            left: 2.5vw;
+        }
         .title {
             line-height: 1;
-            font-size: 4vw;
+            font-size: 4.5vw;
         }
     }
 }
