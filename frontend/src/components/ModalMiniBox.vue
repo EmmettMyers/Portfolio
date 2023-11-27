@@ -1,8 +1,7 @@
 <template>
     <div  
         class="box flex justify-center items-center font-semibold text-black text-center" :class="type">
-            <p class="pr-4 pl-4">{{ info }}</p>
-            
+            <p :class="screen == 'phone' ? 'pr-1 pl-1' : 'pr-4 pl-4'">{{ info }}</p>
     </div>
 </template>
   
@@ -10,7 +9,21 @@
 import { defineComponent } from 'vue';
 
 export default defineComponent({
-    props: ['info', 'type']
+    props: ['info', 'type'],
+    data() {
+        return {
+            screen: "computer",
+        }
+    },
+    methods: {
+        resize(){
+            window.innerWidth > 700 ? this.screen = "computer" : this.screen = "phone";
+        }
+    },
+    mounted(){
+        this.resize();
+        window.addEventListener('resize', this.resize);
+    },
 });
 </script>
   
