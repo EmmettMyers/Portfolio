@@ -18,7 +18,7 @@
                     </div>
                     <div class="rightSide">
                         <p class="school font-bold">{{ info.school }}</p>
-                        <p class="major font-semibold">{{ info.major }}</p>
+                        <p class="major font-semibold">{{ info.title }}</p>
                         <p class="setting font-medium">
                             {{ info.location }}
                             &nbsp;&nbsp;|&nbsp;&nbsp;
@@ -70,7 +70,7 @@
                             x
                         </p>
                         <p class="school font-bold">{{ info.school }}</p>
-                        <p class="major font-semibold">{{ info.major }}</p>
+                        <p class="major font-semibold">{{ info.title }}</p>
                         <p class="setting font-medium">
                             {{ info.location }}
                             &nbsp;&nbsp;|&nbsp;&nbsp;

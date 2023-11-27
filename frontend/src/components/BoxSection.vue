@@ -1,12 +1,21 @@
 <template>
     <div class="flex justify-center">
-        <div class="experience">
+        <div class="section" :style="{ paddingBottom: title === 'EDUCATION' ? (screen === 'computer' ? '8vw' : '15vw') : '0' }">
             <p class="title font-bold" :class="screen == 'computer' ? 'pb-4' : 'pb-1'">
-                EXPERIENCE
+                {{ title }}
             </p>
-            <div class="container">
-                <div v-for="experience in experienceInfo">
-                    <ContentBox :info="experience" />
+            <div v-if="title == 'SKILLS'">
+                <div class="skillsContainer">
+                    <div v-for="info in allInfo">
+                        <SkillBox :info="info" />
+                    </div>
+                </div>
+            </div>
+            <div v-else>
+                <div class="container">
+                    <div v-for="info in allInfo">
+                        <ContentBox :info="info" />
+                    </div>
                 </div>
             </div>
         </div>
@@ -16,15 +25,15 @@
 <script lang="ts">
 import { defineComponent } from 'vue';
 import ContentBox from './/ContentBox.vue';
-import { experienceInfo } from '../utils/experienceInfo';
+import SkillBox from './SkillBox.vue';
 
 export default defineComponent({
+    props: ['title', 'allInfo'],
     components: {
-        ContentBox
+        ContentBox, SkillBox
     },
     data() {
         return {
-            experienceInfo: experienceInfo,
             screen: "computer"
         }
     },
@@ -43,7 +52,7 @@ export default defineComponent({
 <style lang="scss" scoped>
 @import "../styles/colors.scss";
 
-.experience {
+.section {
     width: 80vw;
     padding-top: 5vw;
     .title {
@@ -56,9 +65,14 @@ export default defineComponent({
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 1.042vw;
     }
+    .skillsContainer {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-gap: 0.3vw;
+    }
 }
 @media (max-width: 700px) {
-    .experience {
+    .section {
         padding-top: 10vw;
     }
     .title {
@@ -67,6 +81,10 @@ export default defineComponent({
     }
     .container {
         display: block !important;
+    }
+    .skillsContainer {
+        grid-template-columns: repeat(3, 1fr) !important;
+        grid-gap: 1vw !important;
     }
 }
 </style>

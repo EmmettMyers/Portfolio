@@ -4,43 +4,45 @@
     <ExperienceModal v-if="experienceModalOpen" />
     <ProjectsModal v-if="projectsModalOpen" />
     <TopSection />
-    <Experience />
-    <Projects />
-    <Skills />
-    <Education />
+    <BoxSection title="EXPERIENCE" :allInfo="experienceInfo" />
+    <BoxSection title="PROJECTS" :allInfo="projectsInfo" />
+    <BoxSection title="SKILLS" :allInfo="skillsInfo" />
+    <BoxSection title="EDUCATION" :allInfo="educationInfo" />
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
 import TopSection from './components/TopSection.vue';
-import Experience from './components/Experience.vue';
-import Projects from './components/Projects.vue';
-import Education from './components/Education.vue';
-import Skills from './components/Skills.vue';
 import ExperienceModal from './components/ExperienceModal.vue';
 import ProjectsModal from './components/ProjectsModal.vue';
+import EducationModal from './components/EducationModal.vue';
+import BoxSection from './components/BoxSection.vue';
 import { experienceModalOpen } from './utils/experienceInfo';
 import { projectsModalOpen } from './utils/projectsInfo';
-import EducationModal from './components/EducationModal.vue';
 import { educationModalOpen } from './utils/educationInfo';
+import { experienceInfo } from './utils/experienceInfo';
+import { projectsInfo } from './utils/projectsInfo';
+import { skillsInfo } from './utils/skillsInfo';
+import { educationInfo } from './utils/educationInfo';
 
 export default defineComponent({
   components: {
     TopSection,
-    Experience,
-    Projects,
-    Education,
-    Skills,
     ExperienceModal,
     ProjectsModal,
-    EducationModal
+    EducationModal,
+    BoxSection
 },
   data(){
     return {
       experienceModalOpen: experienceModalOpen,
       educationModalOpen: educationModalOpen,
-      projectsModalOpen: projectsModalOpen
+      projectsModalOpen: projectsModalOpen,
+      experienceInfo: experienceInfo,
+      projectsInfo: projectsInfo,
+      skillsInfo: skillsInfo,
+      educationInfo: educationInfo,
     }
   }
 });

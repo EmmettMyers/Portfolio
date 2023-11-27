@@ -1,8 +1,14 @@
 <template>
-    <div v-on:click="openModal" class="contentBox relative" :class="screen == 'phone' && 'mt-3'">
+    <div v-on:click="openModal" class="contentBox relative" :class="screen == 'phone' && 'mt-3'" :style="{ width: boxWidth }">
         <div class="holder absolute z-40 text-white">
-            <p :style="titleSize" class="title font-bold"> {{ info.title.replace(new RegExp('-', 'g'), '&ensp;') }} </p>
-            <p class="company font-bold"> {{ info.company }} </p>
+            <div v-if="info.school">
+                <p :style="titleSize" class="title font-bold"> {{ info.school }} </p>
+                <p class="company font-bold"> {{ info.title }} </p>
+            </div>
+            <div v-else>
+                <p :style="titleSize" class="title font-bold"> {{ info.title.replace(new RegExp('-', 'g'), '&ensp;') }} </p>
+                <p class="company font-bold"> {{ info.company }} </p>
+            </div>
         </div>
         <div class="blackShade absolute top-0 z-30 left-0 w-full h-full"></div>
         <div class="yellowShade absolute top-0 z-20 left-0 w-full h-full"></div>
@@ -14,6 +20,7 @@
 import { defineComponent } from 'vue';
 import { experienceModalOpen, experienceModalInfo } from '../utils/experienceInfo'
 import { projectsModalInfo, projectsModalOpen } from '@/utils/projectsInfo';
+import { educationModalInfo, educationModalOpen } from '@/utils/educationInfo';
 
 export default defineComponent({
     props: ['info'],
@@ -21,7 +28,8 @@ export default defineComponent({
         return {
             fit: "h-full",
             titleSize: "font-size: 1.67vw",
-            screen: "computer"
+            screen: "computer",
+            boxWidth: "25.85vw",
         }
     },
     methods: {
@@ -29,6 +37,9 @@ export default defineComponent({
             if (this.info.company){
                 experienceModalOpen.value = true;
                 experienceModalInfo.value = this.info;
+            } else if (this.info.school){
+                educationModalOpen.value = true;
+                educationModalInfo.value = this.info;
             } else {
                 projectsModalOpen.value = true;
                 projectsModalInfo.value = this.info;
@@ -49,14 +60,20 @@ export default defineComponent({
                     this.titleSize = "font-size: 1.67vw";
                 }
             } else {
-                if (this.info.title == "NewsGuesser" || this.info.title == "CivicSend" || this.info.title == "Portfolio"){
+                if (this.info.title == "NewsGuesser" || this.info.title == "CivicSendNE" || this.info.title == "Portfolio" || this.info.school == "Elkhorn South High School"){
                     this.fit = "h-full";
                 }
-                if (!this.info.company){
+                if (!this.info.company && !this.info.school){
                     this.titleSize = "font-size: 6vw";
+                } else if (this.info.school){
+                    this.titleSize = "font-size: 4.5vw";
                 } else {
                     this.titleSize = "font-size: 5vw";
                 }
+            }
+
+            if (this.info.school && this.screen == 'computer'){
+                this.boxWidth = "39.25vw";
             }
         }
     },
@@ -71,7 +88,6 @@ export default defineComponent({
 @import "../styles/colors.scss";
 
 .contentBox {
-    width: 25.85vw;
     height: 15vw;
     background: white;
     border-radius: 10px;
@@ -110,7 +126,7 @@ export default defineComponent({
 }
 @media (max-width: 700px) {
     .contentBox {
-        width: 80vw;
+        width: 80vw !important;
         height: 40vw;
         .holder {
             bottom: 2vw;
