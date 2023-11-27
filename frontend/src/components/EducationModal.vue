@@ -118,12 +118,8 @@
 <script lang="ts">
 import { educationModalInfo, educationModalOpen } from '@/utils/educationInfo';
 import { defineComponent } from 'vue';
-import ModalSkillsBox from './ModalSkillsBox.vue';
 
 export default defineComponent({
-    components: {
-        ModalSkillsBox
-    },
     data() {
         return {
             screen: "computer",

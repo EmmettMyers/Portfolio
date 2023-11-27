@@ -38,7 +38,7 @@
                         </p>
                         <p class="skillsBox font-normal">
                             <div v-for="skill in info.skills">
-                                <ModalSkillsBox :skill="skill" />
+                                <ModalMiniBox :info="skill" type="skillsBox" />
                             </div>
                         </p>
                     </div>
@@ -75,7 +75,7 @@
                         </p>
                         <p class="skillsBox font-normal pb-5">
                             <div v-for="skill in info.skills">
-                                <ModalSkillsBox :skill="skill" />
+                                <ModalMiniBox :info="skill" type="skillsBox" />
                             </div>
                         </p>
                     </div>
@@ -88,11 +88,11 @@
 <script lang="ts">
 import { experienceModalInfo, experienceModalOpen } from '@/utils/experienceInfo';
 import { defineComponent } from 'vue';
-import ModalSkillsBox from './ModalSkillsBox.vue';
+import ModalMiniBox from './ModalMiniBox.vue';
 
 export default defineComponent({
     components: {
-        ModalSkillsBox
+        ModalMiniBox
     },
     data() {
         return {

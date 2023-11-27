@@ -49,7 +49,7 @@
                         </p>
                         <p class="featuresBox font-normal">
                             <div v-for="feature in info.features">
-                                <ModalFeaturesBox :feature="feature" />
+                                <ModalMiniBox :info="feature" type="featuresBox" />
                             </div>
                         </p>
                         <p class="skills font-bold mt-6">
@@ -57,7 +57,7 @@
                         </p>
                         <p class="toolBox font-normal pb-2">
                             <div v-for="tool in info.tools">
-                                <ModalToolsBox :tool="tool" />
+                                <ModalMiniBox :info="tool" type="toolsBox" />
                             </div>
                         </p>
                     </div>
@@ -106,7 +106,7 @@
                         </p>
                         <p class="featuresBox font-normal">
                             <div v-for="feature in info.features">
-                                <ModalFeaturesBox :feature="feature" />
+                                <ModalMiniBox :info="feature" type="featuresBox" />
                             </div>
                         </p>
                         <p class="skills font-bold mt-6">
@@ -114,7 +114,7 @@
                         </p>
                         <p class="toolBox font-normal pb-5">
                             <div v-for="tool in info.tools">
-                                <ModalToolsBox :tool="tool" />
+                                <ModalMiniBox :info="tool" type="toolsBox" />
                             </div>
                         </p>
                     </div>
@@ -126,13 +126,12 @@
   
 <script lang="ts">
 import { defineComponent } from 'vue';
-import ModalToolsBox from './ModalToolsBox.vue';
-import ModalFeaturesBox from './ModalFeaturesBox.vue';
+import ModalMiniBox from './ModalMiniBox.vue';
 import { projectsModalInfo, projectsModalOpen } from '@/utils/projectsInfo';
 
 export default defineComponent({
     components: {
-        ModalToolsBox, ModalFeaturesBox
+        ModalMiniBox
     },
     data() {
         return {

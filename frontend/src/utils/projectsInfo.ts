@@ -77,7 +77,7 @@ export const projectsInfo = [
         description: 'Web game in which users have 2 minutes to guess as many words in a news article as possible from seeing only its picture and title.'
         + ' The longer the word and the more times it appears in the article, the more points you receive.'
         + ' The server pulls news article data from NewsAPI, then the client-side parses the data to use for the game.',
-        features: ['Normal Mode (random news articles', 'Topics Mode (specific news topics)'],
+        features: ['Normal Mode (random news articles)', 'Topics Mode (specific news topics)'],
         tools: ['JavaScript', 'React', 'Node', 'Axios', 'Express', 'Readability', 'HTML/SCSS', 'Tailwind'],
         demo: 'https://drive.google.com/file/d/12MqS4YXL6hBH59ZvPJJDdxUdV7nwTFow/view',
         code: 'https://github.com/EmmettMyers/NewsGuesser'
