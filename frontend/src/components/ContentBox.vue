@@ -51,7 +51,7 @@ export default defineComponent({
             this.fit = "w-full";
 
             if (this.screen == 'computer'){
-                if (this.info.title == "NewsGuesser" || this.info.title == "CivicSendNE" || this.info.title == "Portfolio"){
+                if (this.info.title == "Projex" || this.info.title == "NewsGuesser" || this.info.title == "CivicSendNE" || this.info.title == "Portfolio"){
                     this.fit = "h-full";
                 }
                 if (!this.info.company){
@@ -60,7 +60,7 @@ export default defineComponent({
                     this.titleSize = "font-size: 1.67vw";
                 }
             } else {
-                if (this.info.title == "NewsGuesser" || this.info.title == "CivicSendNE" || this.info.title == "Portfolio" || this.info.school == "Elkhorn South High School"){
+                if (this.info.title == "Projex" || this.info.title == "NewsGuesser" || this.info.title == "CivicSendNE" || this.info.title == "Portfolio" || this.info.school == "Elkhorn South High School"){
                     this.fit = "h-full";
                 }
                 if (!this.info.company && !this.info.school){

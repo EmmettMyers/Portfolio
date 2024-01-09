@@ -13,14 +13,6 @@ export const skillsInfo = [
         color: '#169aab'
     },
     {
-        name: 'Sass',
-        color: '#CD669A'
-    },
-    {
-        name: 'CSS',
-        color: '#2465F1'
-    },
-    {
         name: 'Java',
         color: '#c7161a'
     },
@@ -31,6 +23,22 @@ export const skillsInfo = [
     {
         name: 'Python',
         color: '#3878AA'
+    },
+    {
+        name: 'Sass',
+        color: '#CD669A'
+    },
+    {
+        name: 'CSS',
+        color: '#2465F1'
+    },
+    {
+        name: 'HTML',
+        color: '#E5532C'
+    },
+    {
+        name: 'Django',
+        color: '#2BA977'
     },
     {
         name: 'Tailwind',
@@ -49,20 +57,12 @@ export const skillsInfo = [
         color: '#00589D'
     },
     {
-        name: 'Django',
-        color: '#2BA977'
-    },
-    {
         name: 'MongoDB',
         color: '#469E3F'
     },
     {
         name: 'SQL',
         color: '#DC7939'
-    },
-    {
-        name: 'HTML',
-        color: '#E5532C'
     },
     {
         name: 'Bash',

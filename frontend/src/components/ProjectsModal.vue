@@ -32,6 +32,7 @@
                                     Live Demo
                             </a>
                             <a 
+                                v-if="info.code"
                                 :href="info.code"
                                 target="_blank"
                                 class="btn code font-medium text-black flex justify-center items-center">
@@ -52,14 +53,16 @@
                                 <ModalMiniBox :info="feature" type="featuresBox" />
                             </div>
                         </p>
-                        <p class="skills font-bold mt-6">
-                            TOOLS USED
-                        </p>
-                        <p class="toolBox font-normal pb-2">
-                            <div v-for="tool in info.tools">
-                                <ModalMiniBox :info="tool" type="toolsBox" />
-                            </div>
-                        </p>
+                        <div v-if="info.tools">
+                            <p class="skills font-bold mt-6">
+                                TOOLS USED
+                            </p>
+                            <p class="toolBox font-normal pb-2">
+                                <div v-for="tool in info.tools">
+                                    <ModalMiniBox :info="tool" type="toolsBox" />
+                                </div>
+                            </p>
+                        </div>
                     </div>
                 </div>
                 <div v-else class="h-full">
@@ -109,14 +112,16 @@
                                 <ModalMiniBox :info="feature" type="featuresBox" />
                             </div>
                         </p>
-                        <p class="skills font-bold mt-6">
-                            TOOLS USED
-                        </p>
-                        <p class="toolBox font-normal pb-5">
-                            <div v-for="tool in info.tools">
-                                <ModalMiniBox :info="tool" type="toolsBox" />
-                            </div>
-                        </p>
+                        <div v-if="info.tools">
+                            <p class="skills font-bold mt-6">
+                                TOOLS USED
+                            </p>
+                            <p class="toolBox font-normal pb-5">
+                                <div v-for="tool in info.tools">
+                                    <ModalMiniBox :info="tool" type="toolsBox" />
+                                </div>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -159,6 +164,12 @@ export default defineComponent({
                     this.monitorWidth = '60%'
                 } else {
                     this.monitorWidth = '35% !important'
+                }
+            } else if (this.info.title == 'PickupUNL' || this.info.title == 'Sure'){
+                if (this.screen == 'computer'){
+                    this.monitorWidth = '90%'
+                } else {
+                    this.monitorWidth = '75% !important'
                 }
             }
         }

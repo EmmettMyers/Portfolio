@@ -7,6 +7,7 @@ export const projectsModalInfo = ref(
         image: "", 
         screen: "",
         time: "", 
+        introduction: "",
         description: "", 
         features: [], 
         tools: [], 
@@ -17,6 +18,25 @@ export const projectsModalInfo = ref(
 
 
 export const projectsInfo = [
+    {
+        title: 'Projex',
+        image: 'projects/projex.png',
+        screen: 'projectScreens/projex_screen.png',
+        time: 'Winter Break 2023-2024',
+        description: 'Projex is a web app that uses machine learning to generate coding personal project ideas based on user preferences, skills, and interests.',
+        features: [
+            "Project idea generation based on users' selected options and traits", 
+            "User coding traits storage for more personalized project generations", 
+            "Extensive project ideas including a description, time, difficulty, and tools", 
+            "Project pool storing unsaved projects generated from other users", 
+            "Save and unsave project ideas from generations or project pool", 
+            "Sleek dashboard with navigation and user's past generated projects",
+            "User authentication using Google Single Sign-On" 
+        ],
+        tools: ['TypeScript', 'Vue', 'Python', 'Django', 'OpenAI API', 'PostgreSQL', 'Supabase', 'HTML/SCSS'],
+        demo: 'https://drive.google.com/file/d/1kElBm9cdkVo2u4mbt1WujTUz563loOfe/view',
+        code: 'https://github.com/EmmettMyers/Projex'
+    },
     {
         title: 'BlitzDraft',
         image: 'projects/bd4.png',
@@ -85,7 +105,7 @@ export const projectsInfo = [
     {
         title: 'PickupUNL',
         image: 'projects/pickupunl 2.png',
-        screen: 'projectScreens/punl_screen.png',
+        screen: 'projectScreens/punl_screen2.png',
         time: 'Summer 2022',
         description: 'Web application that facilitates the creation of pickup sports games around the University of Nebraska' + 
         ' through open registering and communication.',
@@ -99,7 +119,7 @@ export const projectsInfo = [
     {
         title: 'Sure',
         image: 'projects/sure 3.png',
-        screen: 'projectScreens/sure_screen.png',
+        screen: 'projectScreens/sure_screen2.png',
         time: 'Summer 2022',
         description: 'Web multi-messenger aimed at making communication and access to it as secure as possible,'
         + ' even to someone sitting right next to you.',
@@ -120,7 +140,7 @@ export const projectsInfo = [
         demo: 'https://drive.google.com/file/d/13nnKTg7-8vtTcfH8g6AGDbO4fOUHspUh/view',
         code: 'https://github.com/EmmettMyers/Sure'
     },
-    {
+    /*{
         title: 'Connect 4 Bot',
         image: 'projects/connect 4 1.png',
         screen: 'projectScreens/c4_screen.png',
@@ -136,5 +156,5 @@ export const projectsInfo = [
         tools: ['JavaScript', 'HTML', 'CSS'],
         demo: 'https://emmetts-connect-4.emmettleemyers.repl.co/',
         code: 'https://github.com/EmmettMyers/Connect-4-Bot'
-    }
+    }*/
 ];

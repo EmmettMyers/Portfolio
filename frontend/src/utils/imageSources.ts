@@ -1,0 +1,40 @@
+export const imageSources = [
+    'backgrounds/dn_back.jpg',
+    'backgrounds/eshs_back.jpg',
+    'backgrounds/olsson_back.jpg',
+    'backgrounds/principal_back.jpg',
+    'backgrounds/unl_back.jpg',
+
+    'experience/work_dn2.png',
+    'experience/work_olsson2.png',
+    'experience/work_principal2.png',
+    'experience/work_ta.png',
+    'experience/work_tutor2.png',
+
+    'experienceScreens/dn_screen.png',
+    'experienceScreens/olsson_screen.png',
+    'experienceScreens/principal_screen.png',
+    'experienceScreens/ta_screen.png',
+    'experienceScreens/tutor_screen.png',
+
+    'headshots/emmettHeadshot2.png',
+    'headshots/emmettHeadshot3.png',
+    
+    'projects/bd4.png',
+    'projects/civicsend 2.png',
+    'projects/guessnba1.png',
+    'projects/ng2.png',
+    'projects/pickupunl 2.png',
+    'projects/portfolio.png',
+    'projects/projex.png',
+    'projects/sure 3.png',
+
+    'projectScreens/bd_screen.png',
+    'projectScreens/cs_screen.png',
+    'projectScreens/guessnba_screen.png',
+    'projectScreens/ng_screen.png',
+    'projectScreens/port_screen.png',
+    'projectScreens/punl_screen2.png',
+    'projectScreens/projex_screen.png',
+    'projectScreens/sure_screen2.png',
+];
