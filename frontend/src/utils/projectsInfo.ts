@@ -72,7 +72,10 @@ export const projectsInfo = [
         screen: 'projectScreens/port_screen.png',
         time: 'Summer 2023',
         description: "The site you're on right now, my personal portfolio!",
-        features: [],
+        features: [
+            'Google Analytics tracking button clicks, website views, and overall user demographics',
+            'Dynamic information rendering, responsive user interface'
+        ],
         tools: ['TypeScript', 'Vue', 'Firebase', 'SCSS', 'Tailwind', 'HTML'],
         demo: '',
         code: 'https://github.com/EmmettMyers/Portfolio'

@@ -32,6 +32,7 @@
                                 v-if="info.demo"
                                 :href="info.demo"
                                 target="_blank"
+                                @click="logButtonClick('live_demo')"
                                 class="btn demo font-medium text-black flex justify-center items-center">
                                     Live Demo
                             </a>
@@ -39,6 +40,7 @@
                                 v-if="info.code"
                                 :href="info.code"
                                 target="_blank"
+                                @click="logButtonClick('source_code')"
                                 class="btn code font-medium text-black flex justify-center items-center">
                                     Source Code
                             </a>
@@ -96,12 +98,14 @@
                                 v-if="info.demo"
                                 :href="info.demo"
                                 target="_blank"
+                                @click="logButtonClick('live_demo')"
                                 class="btn demo font-medium text-black flex justify-center items-center">
                                     Live Demo
                             </a>
                             <a 
                                 :href="info.code"
                                 target="_blank"
+                                @click="logButtonClick('source_code')"
                                 class="btn code font-medium text-black flex justify-center items-center">
                                     Source Code
                             </a>
@@ -141,6 +145,7 @@
 import { defineComponent } from 'vue';
 import ModalMiniBox from './ModalMiniBox.vue';
 import { projectsModalInfo, projectsModalOpen } from '@/utils/projectsInfo';
+import { logProjectButtonClick } from '@/utils/analytics';
 
 export default defineComponent({
     components: {
@@ -155,6 +160,9 @@ export default defineComponent({
         }
     },
     methods: {
+        logButtonClick(name: string) {
+            logProjectButtonClick(name, this.info.title);
+        },
         handleClose(){
             projectsModalOpen.value = false;
         },

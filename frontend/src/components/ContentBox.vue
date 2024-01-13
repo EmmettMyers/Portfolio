@@ -1,5 +1,5 @@
 <template>
-    <div v-on:click="openModal" class="contentBox relative" :class="screen == 'phone' && 'mt-3'" :style="{ width: boxWidth }">
+    <div v-on:click="boxClicked" class="contentBox relative" :class="screen == 'phone' && 'mt-3'" :style="{ width: boxWidth }">
         <div class="holder absolute z-40 text-white">
             <div v-if="info.school">
                 <p :style="titleSize" class="title font-bold"> {{ info.school }} </p>
@@ -21,6 +21,7 @@ import { defineComponent } from 'vue';
 import { experienceModalOpen, experienceModalInfo } from '../utils/experienceInfo'
 import { projectsModalInfo, projectsModalOpen } from '@/utils/projectsInfo';
 import { educationModalInfo, educationModalOpen } from '@/utils/educationInfo';
+import { logEducationBoxClick, logExperienceBoxClick, logProjectBoxClick } from '@/utils/analytics';
 
 export default defineComponent({
     props: ['info'],
@@ -33,16 +34,19 @@ export default defineComponent({
         }
     },
     methods: {
-        openModal(){
+        boxClicked(){
             if (this.info.company){
                 experienceModalOpen.value = true;
                 experienceModalInfo.value = this.info;
+                logExperienceBoxClick(this.info.title, this.info.company);
             } else if (this.info.school){
                 educationModalOpen.value = true;
                 educationModalInfo.value = this.info;
+                logEducationBoxClick(this.info.school);
             } else {
                 projectsModalOpen.value = true;
                 projectsModalInfo.value = this.info;
+                logProjectBoxClick(this.info.title);
             }
         },
         resize(){
