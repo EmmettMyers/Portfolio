@@ -121,8 +121,9 @@ export default defineComponent({
 .experienceModal {
     width: 75vw;
     height: 70vh;
+    max-height: 50vw;
     background: #1E1E1E;
-    border-radius: 10px;
+    border-radius: .65vw;
     z-index: 60;
     .exit {
         font-size: 3vw;
@@ -192,6 +193,7 @@ export default defineComponent({
     .experienceModal {
         width: 80vw;
         height: 60vh;
+        max-height: none;
         overflow: hidden;
         .exit {
             font-size: 6vw;
@@ -202,6 +204,7 @@ export default defineComponent({
             height: 25vh;
             border-radius: 10px 10px 0 0;
             .monitor {
+                max-width: 220px;
                 width: 50%;
                 filter: drop-shadow(0px 2px 2px #222);
             }

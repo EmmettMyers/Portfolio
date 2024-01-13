@@ -90,7 +90,7 @@ export default defineComponent({
 .contentBox {
     height: 15vw;
     background: white;
-    border-radius: 10px;
+    border-radius: .65vw;
     overflow: hidden;
     transition: .2s ease;
     .holder {
@@ -107,17 +107,17 @@ export default defineComponent({
         filter: drop-shadow(2px 2px 2px #222);
     }
     .yellowShade {
-        border-radius: 10px;
+        border-radius: .65vw;
         background: #F9B959;
         opacity: 40%;
     }
     .blackShade {
-        border-radius: 10px;
+        border-radius: .65vw;
         background: #383838;
         opacity: 50%;
     }   
     img {
-        border-radius: 10px;
+        border-radius: .65vw;
     }
     &:hover {
         cursor: pointer;
@@ -125,6 +125,9 @@ export default defineComponent({
     }
 }
 @media (max-width: 700px) {
+    .contentBox, .yellowShade, .blackShade, .contentBox img {
+        border-radius: 2.5vw;
+    }
     .contentBox {
         width: 80vw !important;
         height: 40vw;

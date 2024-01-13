@@ -10,7 +10,6 @@
         <a 
             href="https://www.linkedin.com/in/emmettmyers/" 
             class="contactBox flex justify-center items-center" 
-            :class="screen == 'phone' ? 'ml-1' : 'ml-3'"
             target="_blank"
         >
                 <img class="sm" src="https://cdn-icons-png.flaticon.com/512/3536/3536569.png" />
@@ -18,7 +17,6 @@
         <a 
             href="https://github.com/EmmettMyers" 
             class="contactBox flex justify-center items-center" 
-            :class="screen == 'phone' ? 'ml-1' : 'ml-3'"
             target="_blank"
         >
                 <img class="sm" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" />
@@ -26,7 +24,6 @@
         <a 
             href="mailto:emmettleemyers@gmail.com?subject=&body=" 
             class="contactBox flex justify-center items-center" 
-            :class="screen == 'phone' ? 'ml-1' : 'ml-3'"
             target="_blank"
         >
                 <img class="md" src="https://img.freepik.com/free-icon/email_318-859700.jpg" />
@@ -34,7 +31,6 @@
         <a 
             href="https://www.instagram.com/emmett_myers/" 
             class="contactBox flex justify-center items-center" 
-            :class="screen == 'phone' ? 'ml-1' : 'ml-3'"
             target="_blank"
         >
                 <img class="sm" src="https://cdn-icons-png.flaticon.com/512/87/87390.png" />
@@ -74,9 +70,10 @@ export default defineComponent({
     width: 6vw;
     height: 5.21vw;
     background: #F9B959;
-    border-radius: 10px;
+    border-radius: .75vw;
     transition: .3s ease;
     transform: scale(1);
+    margin-right: .75vw;
     &:hover {
         transform: scale(1.1);
         cursor: pointer;

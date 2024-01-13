@@ -1,9 +1,9 @@
 <template>
     <div class="w-screen">
-        <div v-if="screen == 'computer'" :style="topPad" class="flex justify-center w-screen">
+        <div v-if="screen == 'computer'" class="flex justify-center w-screen">
             <div class="topSection flex justify-between items-center">
-                <div>
-                    <p class="pt-6 hello font-black">
+                <div class="textBox">
+                    <p class="hello font-black">
                         Hello!
                     </p>
                     <p class="greeting font-bold">
@@ -14,7 +14,7 @@
                     </p>
                     <ContactIcons />
                 </div>
-                <div class="meBox relative flex justify-center mt-20">
+                <div class="meBox relative flex justify-center">
                     <img class="absolute bottom-0 object-cover" src="headshots/emmettHeadshot3.png" />
                 </div>
             </div>
@@ -51,13 +51,11 @@ export default defineComponent({
     },
     data(){
         return {
-            screen: "computer",
-            topPad: "padding-top: 4vw"
+            screen: "computer"
         }
     },
     methods: {
         resize(){
-            window.innerWidth > 3000 ? this.topPad = "padding-top: 6vw" : this.topPad = "padding-top: 4vw";
             window.innerWidth > 700 ? this.screen = "computer" : this.screen = "phone";
         }
     },
@@ -72,26 +70,28 @@ export default defineComponent({
 @import "../styles/colors.scss";
 
 .topSection {
+    padding-top: 4vw;
     width: 80vw;
 
-    .hello {
-        line-height: 1;
-        font-size: 7.8vw;
-    }
-
-    .greeting {
-        line-height: 1.4;
-        font-size: 3.9vw;
-    }
-
-    .desc {
-        line-height: 1.4;
-        font-size: 2.5vw;
+    .textBox {
+        margin-top: 1vw;
+        .hello {
+            line-height: 1;
+            font-size: 7.8vw;
+        }
+        .greeting {
+            line-height: 1.4;
+            font-size: 3.9vw;
+        }
+        .desc {
+            line-height: 1.4;
+            font-size: 2.5vw;
+        }
     }
 
     .meBox {
+        margin-top: 4.5vw;
         width: 35vw;
-        //height: 44vh;
         height: 22vw;
         background: #F9B959;
         border-radius: 10px;
@@ -99,7 +99,7 @@ export default defineComponent({
         img {
             width: auto;
             height: 130%;
-            border-radius: 10px;
+            border-radius: 1vw;
         }
     }
 
@@ -114,7 +114,6 @@ export default defineComponent({
         background-size: 200% auto;
         color: #fff;
         background-clip: text;
-        text-fill-color: transparent;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         animation: textclip 2s linear infinite;
@@ -144,6 +143,7 @@ export default defineComponent({
             font-size: 4.5vw;
         }
         .meBox {
+            margin-top: 16vw;
             width: 80vw;
             height: 35vh;
             background: #F9B959;

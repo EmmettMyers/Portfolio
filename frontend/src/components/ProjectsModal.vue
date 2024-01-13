@@ -15,7 +15,11 @@
                     </p>
                     <div class="monitorHolder h-full relative">
                         <div class="w-full h-full flex justify-center items-center">
-                            <img class="monitor" :src="info.screen" :style="{ width: monitorWidth }" />
+                            <img 
+                                class="monitor" 
+                                :src="info.screen" 
+                                :style="{ width: monitorWidth }" 
+                            />
                         </div>
                     </div>
                     <div class="rightSide">
@@ -68,7 +72,11 @@
                 <div v-else class="h-full">
                     <div class="monitorHolder w-full relative">
                         <div class="w-full h-full flex justify-center items-center">
-                            <img class="monitor" :src="info.screen" :style="{ width: monitorWidth }" />
+                            <img 
+                                class="monitor" 
+                                :src="info.screen" 
+                                :style="{ width: monitorWidth, maxWidth: monitorMaxWidth }" 
+                            />
                         </div>
                         <img class="back h-full w-full absolute object-cover top-0 left-0" />
                     </div>
@@ -142,7 +150,8 @@ export default defineComponent({
         return {
             screen: "computer",
             info: projectsModalInfo,
-            monitorWidth: "80%"
+            monitorWidth: "80%",
+            monitorMaxWidth: "220px"
         }
     },
     methods: {
@@ -155,21 +164,24 @@ export default defineComponent({
         setMonitorWidth(){
             if (this.info.title == 'BlitzDraft'){
                 if (this.screen == 'computer'){
-                    this.monitorWidth = '70%'
+                    this.monitorWidth = '70%';
                 } else {
-                    this.monitorWidth = '40% !important'
+                    this.monitorWidth = '40% !important';
+                    this.monitorMaxWidth = '140px';
                 }
             } else if (this.info.title == 'GuessNBA'){
                 if (this.screen == 'computer'){
-                    this.monitorWidth = '60%'
+                    this.monitorWidth = '60%';
                 } else {
-                    this.monitorWidth = '35% !important'
+                    this.monitorWidth = '35% !important';
+                    this.monitorMaxWidth = '120px';
                 }
             } else if (this.info.title == 'PickupUNL' || this.info.title == 'Sure'){
                 if (this.screen == 'computer'){
-                    this.monitorWidth = '90%'
+                    this.monitorWidth = '90%';
                 } else {
-                    this.monitorWidth = '75% !important'
+                    this.monitorWidth = '75% !important';
+                    this.monitorMaxWidth = '260px';
                 }
             }
         }
@@ -188,14 +200,15 @@ export default defineComponent({
 .projectsModal {
     width: 75vw;
     height: 70vh;
+    max-height: 50vw;
     background: #1E1E1E;
-    border-radius: 10px;
+    border-radius: .65vw;
     z-index: 60;
     .btn {
         width: 8vw;
         height: 2.5vw;
         background: #F9B959;
-        border-radius: 10px;
+        border-radius: .75vw;
         font-size: 1vw;
         margin-top: 1vw;
         transition: .3s ease;
@@ -206,7 +219,7 @@ export default defineComponent({
         }
     }
     .demo {
-        margin-right: 1vw;
+        margin-right: .5vw;
     }
     .exit {
         font-size: 3vw;
@@ -274,6 +287,7 @@ export default defineComponent({
     .projectsModal {
         width: 80vw;
         height: 60vh;
+        max-height: none;
         overflow: hidden;
         .exit {
             font-size: 6vw;

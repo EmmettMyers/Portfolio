@@ -147,8 +147,9 @@ export default defineComponent({
 .educationModal {
     width: 70vw;
     height: 70vh;
+    max-height: 50vw;
     background: #1E1E1E;
-    border-radius: 10px;
+    border-radius: .65vw;
     z-index: 60;
     .exit {
         font-size: 3vw;
@@ -203,6 +204,7 @@ export default defineComponent({
     .educationModal {
         width: 80vw;
         height: 60vh;
+        max-height: none;
         overflow: hidden;
         .exit {
             font-size: 6vw;
