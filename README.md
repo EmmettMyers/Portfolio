@@ -13,8 +13,6 @@
 
 <b>Portfolio web app to display all of my projects, experience, skills, education, and contact.</b>
 <p>Includes dynamic information rendering, responsive user interfacing, and Google Analytics.</p>
-<br/>
-<br/>
 <b>Tools used:</b>
 <ul>
   <li>TypeScript</li>
