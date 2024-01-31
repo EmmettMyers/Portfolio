@@ -73,7 +73,7 @@ export const projectsInfo = [
         time: 'Summer 2023',
         description: "The site you're on right now, my personal portfolio!",
         features: [
-            'Google Analytics tracking button clicks, website views, and overall user demographics',
+            'Google Analytics tracking clicks, website views, and user demographics',
             'Dynamic information rendering, responsive user interface'
         ],
         tools: ['TypeScript', 'Vue', 'Firebase', 'SCSS', 'Tailwind', 'HTML'],

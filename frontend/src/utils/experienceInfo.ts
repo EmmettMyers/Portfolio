@@ -39,8 +39,8 @@ export const experienceInfo = [
         time: 'Aug. 2023 - Present',
         location: 'Lincoln, NE',
         description: 'Produce software to facilitate user interaction with existing news site, most notably seamlessly' + 
-        ' integrated full-stack code blocks. Developing authenticated admin dashboard that visualizes user interaction on blocks.',
-        skills: ['TypeScript', 'React', 'Chart.js', 'Data Visualization', 'Firebase', 'Cloud Storage', 'HTML/SCSS', 'Tailwind']
+        ' integrated full-stack code blocks. Revamped multiple pages, developed BeeHiiv newsletter subscription and Trello questionnaire components, created impact report site for donors.',
+        skills: ['JavaScript', 'React', 'Python', 'Flask', 'HTML/SCSS', 'Tailwind', 'Material UI', 'Data Visualization', 'Firebase', 'Cloud Storage']
     },
     {
         title: 'Software Engineer Intern',
@@ -51,8 +51,10 @@ export const experienceInfo = [
         time: 'May 2023 - Aug. 2023',
         location: 'Des Moines, IA',
         description: 'Worked on new report application for sponsors, deploying numerous UI and data changes to the main site weekly.'
-        + ' Created AI code documentation solution for company, and presented its importance, business value & implementation to executives.',
-        skills: ['TypeScript', 'React', 'Next.js', 'Java', 'Spring', 'HTML/CSS', 'Bootstrap', 'Testing', 'Deployment']
+        + ' Spearheaded creation of report favoriting feature, led major data changes to loan reports, improved front-end of reporting dashboard.'
+        + ' Created AI code documentation solution for company, and presented its importance, business value & implementation to executives.'
+        + ' Tested report functionalities to ensure protection of user information in multiple environments.',
+        skills: ['TypeScript', 'React', 'Java', 'Spring', 'HTML/CSS', 'Bootstrap', 'Google Analytics', 'Testing', 'Deployment']
     },
     {
         title: 'Software Developer Intern',
@@ -63,9 +65,9 @@ export const experienceInfo = [
         time: 'Jan. 2023 - May 2023',
         location: 'Lincoln, NE',
         description: 'Front-end development for Project ZeroDelta, a full-stack app that visualizes difference calculations'
-        + ' between Revit models & LiDAR point clouds in a 3D space. Implemented user authentication functionalties and sleek UI. '
+        + ' between Revit models & LiDAR point clouds in a 3D space. Implemented user authentication functionalties, modern dashboard, and navigation features. '
         + 'Awarded Design Studio Gold Project of the Year.',
-        skills: ['JavaScript', '3D Visualization', 'Autodesk API', 'Authentication', 'CSS', 'Bootstrap', 'HTML', 'Python', 'Django']
+        skills: ['JavaScript', 'CSS', 'Bootstrap', 'HTML', 'Python', 'Django', 'Autodesk API', 'Auth0', '3D Visualization' ]
     },
     {
         title: 'Computer Science Tutor',
