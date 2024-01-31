@@ -3,7 +3,7 @@
         v-on:click="handleClose"
         class="shadow bg-black w-screen h-screen z-50 absolute left-0 top-0 opacity-90">
     </div>
-    <div class="w-screen h-screen">
+    <div class="w-screen h-screen absolute">
         <div class="h-screen flex items-center justify-center">
             <div class="experienceModal fixed mb-10">
                 <div v-if="screen == 'computer'" class="flex justify-between h-full">

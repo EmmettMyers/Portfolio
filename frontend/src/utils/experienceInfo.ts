@@ -25,7 +25,8 @@ export const experienceInfo = [
         background: 'backgrounds/unl_back.jpg',
         time: 'Aug. 2023 - Present',
         location: 'Lincoln, NE',
-        description: 'Teach Raikes Honors Computer Science (RAIK 184H) 1-2 to 40 Raikes Freshmen.'
+        description: 'Teach Raikes Honors Computer Science courses to 40 students.'
+        + ' Currently teaching Software Development (CS 2), last semester taught Computer Problem Solving (CS 1).'
         + ' Grade assignments & tests, host TA hours, assist in labs & lectures.',
         skills: ['Java', 'SQL', 'OOP', 'Algorithms', 'Relations', 'Optimization', 'Data Structures', 
         'Discrete Math', 'Terminal', 'GUIs']
