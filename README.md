@@ -11,9 +11,8 @@
 </div>
 <br/>
 
-<b>Responsive portfolio web app to show app of my projects! Also includes experience, skills, education, and contact.</b>
-<br/>
-<br/>
+<b>Portfolio web app to display all of my projects, experience, skills, education, and contact.</b>
+<p>Includes dynamic information rendering, responsive user interfacing, and Google Analytics.</p>
 <b>Tools used:</b>
 <ul>
   <li>TypeScript</li>
