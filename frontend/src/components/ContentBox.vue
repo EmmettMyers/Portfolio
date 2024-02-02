@@ -130,11 +130,12 @@ export default defineComponent({
 }
 @media (max-width: 700px) {
     .contentBox, .yellowShade, .blackShade, .contentBox img {
-        border-radius: 2.5vw;
+        border-radius: 2vw;
     }
     .contentBox {
         width: 80vw !important;
         height: 40vw;
+        border-radius: 2vw;
         .holder {
             bottom: 2vw;
             left: 2.5vw;

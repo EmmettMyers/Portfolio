@@ -13,9 +13,8 @@ export const educationInfo = [
         time: 'Aug. 2022 - May 2026',
         location: 'Lincoln, NE',
         title: 'Bachelor of Science, Computer Science',
-        academics: ['Focus Area: Software Engineering', 'Minor: Entreprenuership', 'GPA: 3.90', 
-        'Raikes School of Computer Science and Management', 'University Honors Program'],
-        activities: ['Pi Kappa Alpha Fraternity', 'Intramural Sports', 'CornHacks'],
+        academics: ['Focus: Software Engineering', 'Minor: Business', 'GPA: 3.90', 'Major GPA: 4.00'],
+        activities: ['Raikes School of Computer Science and Management', 'University Honors Program', 'Pi Kappa Alpha Fraternity', 'Intramural Sports'],
         honors: ['Design Studio Gold Project Award 2022-2023', "3x Deans' List", 'Raikes Foundation Scholar',
         'Nebraska Career Scholar', 'Regents Scholar'],
         coursework: [

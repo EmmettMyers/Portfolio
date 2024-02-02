@@ -18,6 +18,19 @@ export const experienceModalInfo = ref(
 
 export const experienceInfo = [
     {
+        title: 'Software Developer',
+        company: 'The Daily Nebraskan',
+        image: 'experience/work_dn2.png',
+        screen: 'experienceScreens/dn_screen.png',
+        background: 'backgrounds/dn_back.jpg',
+        time: 'Aug. 2023 - Present',
+        location: 'Lincoln, NE',
+        description: 'Produce software to facilitate user interaction with existing news site, most notably seamlessly' + 
+        ' integrated full-stack code blocks. Fully revamped multiple pages, developed BeeHiiv newsletter subscription and ' +
+        'Trello questionnaire components, created first-ever impact report site for donors and alumni.',
+        skills: ['JavaScript', 'React', 'Python', 'Flask', 'HTML/SCSS', 'Tailwind', 'Material UI', 'Firebase', 'Figma']
+    },
+    {
         title: 'Computer Science-------Teaching Assistant',
         company: 'University of Nebraska-Lincoln',
         image: 'experience/work_ta.png',
@@ -32,18 +45,6 @@ export const experienceInfo = [
         'Discrete Math', 'Terminal', 'GUIs']
     },
     {
-        title: 'Software Developer',
-        company: 'The Daily Nebraskan',
-        image: 'experience/work_dn2.png',
-        screen: 'experienceScreens/dn_screen.png',
-        background: 'backgrounds/dn_back.jpg',
-        time: 'Aug. 2023 - Present',
-        location: 'Lincoln, NE',
-        description: 'Produce software to facilitate user interaction with existing news site, most notably seamlessly' + 
-        ' integrated full-stack code blocks. Revamped multiple pages, developed BeeHiiv newsletter subscription and Trello questionnaire components, created impact report site for donors.',
-        skills: ['JavaScript', 'React', 'Python', 'Flask', 'HTML/SCSS', 'Tailwind', 'Material UI', 'Data Visualization', 'Firebase', 'Cloud Storage']
-    },
-    {
         title: 'Software Engineer Intern',
         company: 'Principal Financial Group',
         image: 'experience/work_principal2.png',
@@ -55,7 +56,7 @@ export const experienceInfo = [
         + ' Spearheaded creation of report favoriting feature, led major data changes to loan reports, improved front-end of reporting dashboard.'
         + ' Created AI code documentation solution for company, and presented its importance, business value & implementation to executives.'
         + ' Tested report functionalities to ensure protection of user information in multiple environments.',
-        skills: ['TypeScript', 'React', 'Java', 'Spring', 'HTML/CSS', 'Bootstrap', 'Google Analytics', 'Testing', 'Deployment']
+        skills: ['TypeScript', 'React', 'Java', 'Spring', 'HTML/CSS', 'Bootstrap', 'Google Analytics', 'JUnit', 'Jenkins']
     },
     {
         title: 'Software Developer Intern',
@@ -68,7 +69,7 @@ export const experienceInfo = [
         description: 'Front-end development for Project ZeroDelta, a full-stack app that visualizes difference calculations'
         + ' between Revit models & LiDAR point clouds in a 3D space. Implemented user authentication functionalties, modern dashboard, and navigation features. '
         + 'Awarded Design Studio Gold Project of the Year.',
-        skills: ['JavaScript', 'CSS', 'Bootstrap', 'HTML', 'Python', 'Django', 'Autodesk API', 'Auth0', '3D Visualization' ]
+        skills: ['JavaScript', 'CSS', 'Bootstrap', 'HTML', 'Python', 'Django', 'Autodesk API', 'Auth0' ]
     },
     {
         title: 'Computer Science Tutor',

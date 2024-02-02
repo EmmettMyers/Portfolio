@@ -33,7 +33,7 @@
                             </li>
                         </p>
                         <p class="academics font-bold mt-6">
-                            ACTIVITIES
+                            {{ info.school === 'University of Nebraska-Lincoln' ? 'INVOLVEMENTS' : 'ACTIVITIES' }}
                         </p>
                         <p class="academicsBox font-normal">
                             <li v-for="activity in info.activities">
@@ -85,7 +85,7 @@
                             </li>
                         </p>
                         <p class="academics font-bold mt-6">
-                            ACTIVITIES
+                            {{ info.school === 'University of Nebraska-Lincoln' ? 'INVOLVEMENTS' : 'ACTIVITIES' }}
                         </p>
                         <p class="academicsBox font-normal">
                             <li v-for="activity in info.activities">
@@ -149,7 +149,7 @@ export default defineComponent({
     height: 70vh;
     max-height: 50vw;
     background: #1E1E1E;
-    border-radius: .65vw;
+    border-radius: .65vw 0 0 .65vw;
     z-index: 60;
     .exit {
         font-size: 3vw;
@@ -162,7 +162,7 @@ export default defineComponent({
     }
     .imgHolder {
         width: 30%;
-        border-radius: 10px 0 0 10px;
+        border-radius: .65vw 0 0 .65vw;
         background: #F9B959;
         img {
             opacity: .5;
@@ -206,6 +206,7 @@ export default defineComponent({
         height: 60vh;
         max-height: none;
         overflow: hidden;
+        border-radius: 2vw;
         .exit {
             font-size: 6vw;
             line-height: 0;
@@ -213,7 +214,7 @@ export default defineComponent({
         .imgHolder {
             width: 100%;
             height: 25vh;
-            border-radius: 10px 10px 0 0;
+            border-radius: 2vw 2vw 0 0;
         }
         .rightSide {
             overflow-x: hidden;

@@ -33,7 +33,7 @@
                     I'm <span style="color: #F9B959">Emmett Myers.</span>
                 </p>
                 <p class="desc font-medium">
-                    I <span class="animate">code.</span> Mostly full-stack web apps.
+                    I <span class="animate">code </span> websites and mobile apps.
                 </p>
                 <ContactIcons />
             </div>
@@ -94,7 +94,7 @@ export default defineComponent({
         width: 35vw;
         height: 22vw;
         background: #F9B959;
-        border-radius: 10px;
+        border-radius: 0.8vw;
         overflow: visible;
         img {
             width: auto;

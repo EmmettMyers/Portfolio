@@ -210,7 +210,7 @@ export default defineComponent({
     height: 70vh;
     max-height: 50vw;
     background: #1E1E1E;
-    border-radius: .65vw;
+    border-radius: .65vw 0 0 .65vw;
     z-index: 60;
     .btn {
         width: 8vw;
@@ -240,7 +240,7 @@ export default defineComponent({
     }
     .monitorHolder {
         width: 40%;
-        border-radius: 10px 0 0 10px;     
+        border-radius: .65vw 0 0 .65vw;    
         z-index: -1;
         background: #F9B959;
         .logo {
@@ -297,6 +297,7 @@ export default defineComponent({
         height: 60vh;
         max-height: none;
         overflow: hidden;
+        border-radius: 2vw;
         .exit {
             font-size: 6vw;
             line-height: 0;
@@ -304,7 +305,7 @@ export default defineComponent({
         .monitorHolder {
             width: 100%;
             height: 25vh;
-            border-radius: 10px 10px 0 0;
+            border-radius: 2vw 2vw 0 0;
             .monitor {
                 width: 60% !important;
             }
