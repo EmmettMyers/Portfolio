@@ -4,10 +4,7 @@
 
 <br/>
 <img src="frontend/public/siteExamples/port-example1.png" style="width: 550px"/>
-<div style="display: flex; justify-content: center">
-  <img src="frontend/public/siteExamples/port-example2.png" style="width: 183px"/>
-  <img src="frontend/public/siteExamples/port-example3.png" style="width: 366px"/>
-</div>
+<img src="frontend/public/siteExamples/port-example3.png" style="width: 550px"/>
 <br/>
 
 <b>Portfolio web app to display all of my projects, experience, skills, education, and contact.</b>
