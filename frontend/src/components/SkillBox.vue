@@ -21,7 +21,7 @@ export default defineComponent({
     width: 12.9vw;
     height: 4.3vw;
     border-radius: 5px;
-    font-size: 1.563vw;
+    font-size: 1.4vw;
     opacity: 90%;
 }
 @media (max-width: 700px) {

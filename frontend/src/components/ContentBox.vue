@@ -106,7 +106,7 @@ export default defineComponent({
         filter: drop-shadow(2px 2px 2px #222);
     }
     .company {
-        font-size: 1.2vw;
+        font-size: 1.3vw;
         color: #F9B959;
         filter: drop-shadow(2px 2px 2px #222);
     }
