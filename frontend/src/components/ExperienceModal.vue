@@ -15,7 +15,11 @@
                     </p>
                     <div class="monitorHolder h-full relative">
                         <div class="w-full h-full flex justify-center items-center">
-                            <img class="monitor" :src="info.screen" />
+                            <img 
+                                class="monitor" 
+                                :src="info.screen" 
+                                :style="{ width: monitorWidth }" 
+                            />
                         </div>
                         <img class="back h-full absolute object-cover top-0 left-0" :src="info.background" />
                     </div>
@@ -30,9 +34,7 @@
                         <p class="overview font-bold mt-6">
                             OVERVIEW
                         </p>
-                        <p class="desc font-normal">
-                            {{ info.description }}
-                        </p>
+                        <p class="desc font-normal" v-html="info.description"></p>
                         <p class="skills font-bold mt-6">
                             SKILLS
                         </p>
@@ -46,7 +48,11 @@
                 <div v-else class="h-full">
                     <div class="monitorHolder w-full relative">
                         <div class="w-full h-full flex justify-center items-center">
-                            <img class="monitor" :src="info.screen" />
+                            <img 
+                                class="monitor" 
+                                :src="info.screen" 
+                                :style="{ width: monitorWidth }" 
+                            />
                         </div>
                         <img class="back h-full w-full absolute object-cover top-0 left-0" :src="info.background" />
                     </div>
@@ -67,9 +73,7 @@
                         <p class="overview font-bold mt-6">
                             OVERVIEW
                         </p>
-                        <p class="desc font-normal">
-                            {{ info.description }}
-                        </p>
+                        <p class="desc font-normal" v-html="info.description"></p>
                         <p class="skills font-bold mt-6">
                             SKILLS
                         </p>
@@ -97,7 +101,9 @@ export default defineComponent({
     data() {
         return {
             screen: "computer",
-            info: experienceModalInfo
+            info: experienceModalInfo,
+            monitorWidth: "80%",
+            monitorMaxWidth: "220px"
         }
     },
     methods: {
@@ -106,10 +112,28 @@ export default defineComponent({
         },
         resize(){
             window.innerWidth > 700 ? this.screen = "computer" : this.screen = "phone";
+        },
+        setMonitorWidth(){
+            if (this.info.company == 'Garmin'){
+                if (this.screen == 'computer'){
+                    this.monitorWidth = '50%';
+                } else {
+                    this.monitorWidth = '20% !important';
+                    this.monitorMaxWidth = '100px';
+                }
+            } else if (this.info.company == 'Nestimate'){
+                if (this.screen == 'computer'){
+                    this.monitorWidth = '85%';
+                } else {
+                    this.monitorWidth = '90% !important';
+                    this.monitorMaxWidth = '400px';
+                }
+            }
         }
     },
     mounted(){
         this.resize();
+        this.setMonitorWidth();
         window.addEventListener('resize', this.resize);
     },
 });
@@ -143,7 +167,6 @@ export default defineComponent({
             filter: drop-shadow(0px 2px 2px #222);
         }
         .monitor {
-            width: 80%;
             filter: drop-shadow(0px 2px 2px #222);
         }
         .back {
@@ -205,8 +228,7 @@ export default defineComponent({
             height: 25vh;
             border-radius: 2vw 2vw 0 0;
             .monitor {
-                max-width: 220px;
-                width: 50%;
+                width: 60% !important;
                 filter: drop-shadow(0px 2px 2px #222);
             }
         }

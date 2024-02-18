@@ -26,8 +26,8 @@
                 <div v-if="allInfo.length > 6 && !showMore" class="showMore" v-on:click="setShowMore(true)">
                     Show More +
                 </div>
-                <div class="container" style="margin-top: 1.042vw;">
-                    <div v-if="showMore" v-for="info in allInfo.slice(6)" :style="{ paddingBottom: screen === 'computer' ? '3vw' : '6vw'}">
+                <div v-if="showMore" class="container" style="margin-top: 1.042vw;" :style="{ paddingBottom: screen === 'computer' ? '3vw' : '6vw'}">
+                    <div v-for="info in allInfo.slice(6)">
                         <ContentBox :info="info" />
                     </div>
                 </div>
@@ -86,7 +86,7 @@ export default defineComponent({
         width: 80vw;
         text-align: right;
         color: #F9B959;
-        font-size: 1.5vw;
+        font-size: 1.75vw;
         margin-top: 5px;
         font-weight: 500;
         font-style: italic;
@@ -111,7 +111,7 @@ export default defineComponent({
         display: block !important;
     }
     .showMore {
-        font-size: 3.5vw !important;
+        font-size: 4.5vw !important;
     }
     .skillsContainer {
         grid-template-columns: repeat(3, 1fr) !important;

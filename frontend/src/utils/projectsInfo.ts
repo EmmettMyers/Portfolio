@@ -19,6 +19,20 @@ export const projectsModalInfo = ref(
 
 export const projectsInfo = [
     {
+        title: 'BlitzDraft',
+        image: 'projects/bd4.png',
+        screen: 'projectScreens/bd_screen.png',
+        time: 'Summer 2023',
+        description: 'Multiplayer mobile web game where users pick one NFL player at time from random teams to assemble the best team possible. '
+        + 'It grades the strength of each team using a machine learning model trained from over <strong>50,000</strong> NFL statistics, scraped from Pro-Football-Reference.',
+        features: ["NFL Machine learning model that predicts team records", "Singleplayer draft mode", "Real-time multiplayer draft mode (up to 4 players)", "Saved teams storage", 
+        "Stored user draft statistics, visualized with graphs", "Google authenticated login", "Snappy, a dynamic animated game assistant"],
+        tools: ['TypeScript', 'Vue', 'Python', 'Pandas', 'Scikit', 'BeautifulSoup', 'Flask', 'Socket.io', 'MongoDB', 'Firebase', 
+        'HTML/SCSS', 'Tailwind', 'Chart.js'],
+        demo: 'https://drive.google.com/file/d/1X9OeuzdiSbPODgQcTKTXXR1pL1DuHjRb/view',
+        code: 'https://github.com/EmmettMyers/BlitzDraft'
+    },
+    {
         title: 'Projex',
         image: 'projects/projex.png',
         screen: 'projectScreens/projex_screen.png',
@@ -38,20 +52,6 @@ export const projectsInfo = [
         code: 'https://github.com/EmmettMyers/Projex'
     },
     {
-        title: 'BlitzDraft',
-        image: 'projects/bd4.png',
-        screen: 'projectScreens/bd_screen.png',
-        time: 'Summer 2023',
-        description: 'Multiplayer mobile web game where users pick one NFL player at time from random teams to assemble the best team possible. '
-        + 'It grades the strength of each team using a machine learning model trained from over 50,000 NFL statistics, scraped from Pro-Football-Reference.',
-        features: ["Machine learning model that predicts team records", "Singleplayer draft mode", "Multiplayer draft mode (up to 4 players)", "Saved teams storage", 
-        "Stored user draft statistics", "Google authenticated login", "Snappy, a dynamic animated game assistant"],
-        tools: ['TypeScript', 'Vue', 'Python', 'Pandas', 'Scikit', 'BeautifulSoup', 'Flask', 'Socket.io', 'MongoDB', 'Firebase', 
-        'HTML/SCSS', 'Tailwind', 'Chart.js'],
-        demo: 'https://drive.google.com/file/d/1X9OeuzdiSbPODgQcTKTXXR1pL1DuHjRb/view',
-        code: 'https://github.com/EmmettMyers/BlitzDraft'
-    },
-    {
         title: 'CivicSendNE',
         image: 'projects/civicsend 2.png',
         screen: 'projectScreens/cs_screen.png',
@@ -65,45 +65,6 @@ export const projectsInfo = [
         'MongoDB', 'Heroku', 'HTML/SCSS', 'Tailwind'],
         demo: 'https://drive.google.com/file/d/1CuL6cXabCZVm2w33mt-Y4uQjUmN8oNns/view',
         code: 'https://github.com/EmmettMyers/CivicSendNE'
-    },
-    {
-        title: 'Portfolio',
-        image: 'projects/portfolio.png',
-        screen: 'projectScreens/port_screen.png',
-        time: 'Summer 2023',
-        description: "The site you're on right now, my personal portfolio!",
-        features: [
-            'Google Analytics tracking clicks, website views, and user demographics',
-            'Dynamic information rendering, responsive user interface'
-        ],
-        tools: ['TypeScript', 'Vue', 'Firebase', 'SCSS', 'Tailwind', 'HTML'],
-        demo: '',
-        code: 'https://github.com/EmmettMyers/Portfolio'
-    },
-    {
-        title: 'GuessNBA',
-        image: 'projects/guessnba1.png',
-        screen: 'projectScreens/guessnba_screen.png',
-        time: 'Winter Break 2022-2023',
-        description: 'Mobile-based web game in which a user has to guess a random NBA player based on three of their stats, or more if they need hints.' + 
-        ' The program scrapes NBA data from the website basketball-reference.com and finds information about a random player.',
-        features: [],
-        tools: ['JavaScript', 'React', 'Python', 'BeautifulSoup', 'Flask', 'HTML/CSS', 'Tailwind'],
-        demo: 'https://drive.google.com/file/d/1BpM5OlblCiiMnrE6K2Nu4yhVCsPQRFHj/view',
-        code: 'https://github.com/EmmettMyers/GuessNBA'
-    },
-    {
-        title: 'NewsGuesser',
-        image: 'projects/ng2.png',
-        screen: 'projectScreens/ng_screen.png',
-        time: 'Fall 2022',
-        description: 'Web game in which users have 2 minutes to guess as many words in a news article as possible from seeing only its picture and title.'
-        + ' The longer the word and the more times it appears in the article, the more points you receive.'
-        + ' The server pulls news article data from NewsAPI, then the client-side parses the data to use for the game.',
-        features: ['Normal Mode (random news articles)', 'Topics Mode (specific news topics)'],
-        tools: ['JavaScript', 'React', 'Node', 'Axios', 'Express', 'Readability', 'HTML/SCSS', 'Tailwind'],
-        demo: 'https://drive.google.com/file/d/12MqS4YXL6hBH59ZvPJJDdxUdV7nwTFow/view',
-        code: 'https://github.com/EmmettMyers/NewsGuesser'
     },
     {
         title: 'PickupUNL',
@@ -142,6 +103,45 @@ export const projectsInfo = [
         tools: ['JavaScript', 'jQuery', 'PHP', 'MySQL', 'phpMyAdmin', 'EmailJS SDK', 'HTML/SCSS', 'Bootstrap'],
         demo: 'https://drive.google.com/file/d/13nnKTg7-8vtTcfH8g6AGDbO4fOUHspUh/view',
         code: 'https://github.com/EmmettMyers/Sure'
+    },
+    {
+        title: 'NewsGuesser',
+        image: 'projects/ng2.png',
+        screen: 'projectScreens/ng_screen.png',
+        time: 'Fall 2022',
+        description: 'Web game in which users have 2 minutes to guess as many words in a news article as possible from seeing only its picture and title.'
+        + ' The longer the word and the more times it appears in the article, the more points you receive.'
+        + ' The server pulls news article data from NewsAPI, then the client-side parses the data to use for the game.',
+        features: ['Normal Mode (random news articles)', 'Topics Mode (specific news topics)'],
+        tools: ['JavaScript', 'React', 'Node', 'Axios', 'Express', 'Readability', 'HTML/SCSS', 'Tailwind'],
+        demo: 'https://drive.google.com/file/d/12MqS4YXL6hBH59ZvPJJDdxUdV7nwTFow/view',
+        code: 'https://github.com/EmmettMyers/NewsGuesser'
+    },
+    {
+        title: 'GuessNBA',
+        image: 'projects/guessnba1.png',
+        screen: 'projectScreens/guessnba_screen.png',
+        time: 'Winter Break 2022-2023',
+        description: 'Mobile-based web game in which a user has to guess a random NBA player based on three of their stats, or more if they need hints.' + 
+        ' The program scrapes NBA data from the website basketball-reference.com and finds information about a random player.',
+        features: [],
+        tools: ['JavaScript', 'React', 'Python', 'BeautifulSoup', 'Flask', 'HTML/CSS', 'Tailwind'],
+        demo: 'https://drive.google.com/file/d/1BpM5OlblCiiMnrE6K2Nu4yhVCsPQRFHj/view',
+        code: 'https://github.com/EmmettMyers/GuessNBA'
+    },
+    {
+        title: 'Portfolio',
+        image: 'projects/portfolio.png',
+        screen: 'projectScreens/port_screen.png',
+        time: 'Summer 2023',
+        description: "The site you're on right now, my personal portfolio!",
+        features: [
+            'Google Analytics tracking clicks, website views, and user demographics',
+            'Dynamic information rendering, responsive user interface'
+        ],
+        tools: ['TypeScript', 'Vue', 'Firebase', 'HTML/SCSS', 'Tailwind'],
+        demo: '',
+        code: 'https://github.com/EmmettMyers/Portfolio'
     },
     /*{
         title: 'Connect 4 Bot',

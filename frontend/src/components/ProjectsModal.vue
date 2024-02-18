@@ -48,9 +48,7 @@
                         <p class="overview font-bold mt-6">
                             OVERVIEW
                         </p>
-                        <p class="desc font-normal">
-                            {{ info.description }}
-                        </p>
+                        <p class="desc font-normal" v-html="info.description"></p>
                         <p v-if="info.features.length > 0" class="skills font-bold mt-6">
                             FEATURES
                         </p>
@@ -113,9 +111,7 @@
                         <p class="overview font-bold mt-6">
                             OVERVIEW
                         </p>
-                        <p class="desc font-normal">
-                            {{ info.description }}
-                        </p>
+                        <p class="desc font-normal" v-html="info.description"></p>
                         <p v-if="info.features.length > 0" class="skills font-bold mt-6">
                             FEATURES
                         </p>
