@@ -1,4 +1,11 @@
 export const imageSources = [
+    'headshots/emmettHeadshot3.png',
+    'https://icons.veryicon.com/png/o/miscellaneous/general-icon-library/resume-7.png',
+    'https://cdn-icons-png.flaticon.com/512/3536/3536569.png',
+    'https://cdn-icons-png.flaticon.com/512/25/25231.png',
+    'https://img.freepik.com/free-icon/email_318-859700.jpg',
+    'https://cdn-icons-png.flaticon.com/512/87/87390.png',
+
     'backgrounds/dn_back.jpg',
     'backgrounds/eshs_back.jpg',
     'backgrounds/olsson_back.jpg',

@@ -212,6 +212,7 @@ export default defineComponent({
         width: 8vw;
         height: 2.5vw;
         background: #F9B959;
+        color: #1E1E1E;
         border-radius: .75vw;
         font-size: 1vw;
         margin-top: 1vw;

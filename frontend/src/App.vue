@@ -1,14 +1,20 @@
 <template>
   <div class="w-screen h-screen">
-    <EducationModal v-if="educationModalOpen" />
-    <ExperienceModal v-if="experienceModalOpen" />
-    <ProjectsModal v-if="projectsModalOpen" />
-    <TopSection />
-    <BoxSection title="EXPERIENCE" :allInfo="experienceInfo" />
-    <BoxSection title="PROJECTS" :allInfo="projectsInfo" />
-    <BoxSection title="SKILLS" :allInfo="skillsInfo" />
-    <BoxSection title="EDUCATION" :allInfo="educationInfo" />
-    <img v-for="imageSrc in imageSources" :key="imageSrc" :src="imageSrc" style="display: none;" @load="onImageLoad">
+    <!-- preloading images -->
+    <img style="display: none;" @load="onImageLoad" v-for="imageSrc in imageSources" :key="imageSrc" :src="imageSrc">
+    <div v-if="imagesLoaded">
+      <EducationModal v-if="educationModalOpen" />
+      <ExperienceModal v-if="experienceModalOpen" />
+      <ProjectsModal v-if="projectsModalOpen" />
+      <TopSection />
+      <BoxSection title="EXPERIENCE" :allInfo="experienceInfo" />
+      <BoxSection title="PROJECTS" :allInfo="projectsInfo" />
+      <BoxSection title="SKILLS" :allInfo="skillsInfo" />
+      <BoxSection title="EDUCATION" :allInfo="educationInfo" />
+    </div>
+    <div v-else>
+      <Loader />
+    </div>
   </div>
 </template>
 
@@ -19,6 +25,7 @@ import ExperienceModal from './components/ExperienceModal.vue';
 import ProjectsModal from './components/ProjectsModal.vue';
 import EducationModal from './components/EducationModal.vue';
 import BoxSection from './components/BoxSection.vue';
+import Loader from './components/Loader.vue';
 import { experienceModalOpen } from './utils/experienceInfo';
 import { projectsModalOpen } from './utils/projectsInfo';
 import { educationModalOpen } from './utils/educationInfo';
@@ -34,7 +41,8 @@ export default defineComponent({
     ExperienceModal,
     ProjectsModal,
     EducationModal,
-    BoxSection
+    BoxSection,
+    Loader
   },
   data(){
     return {
@@ -46,6 +54,7 @@ export default defineComponent({
       skillsInfo: skillsInfo,
       educationInfo: educationInfo,
       imageSources: imageSources,
+      imagesLoaded: false
     }
   },
   methods: {
@@ -54,6 +63,7 @@ export default defineComponent({
         const img = new Image();
         img.src = imageSrc;
         img.onload = this.onImageLoad;
+        this.imagesLoaded = true;
       });
     },
     onImageLoad() {

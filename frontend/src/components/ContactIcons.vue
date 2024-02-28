@@ -87,6 +87,9 @@ export default defineComponent({
         transform: scale(1.1);
         cursor: pointer;
     }
+    img {
+        filter: invert(0%) sepia(8%) saturate(3616%) hue-rotate(37deg) brightness(100%) contrast(76%);
+    }
     .sm {
         height: 2.65vw;
     }

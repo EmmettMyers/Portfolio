@@ -35,6 +35,7 @@ export default defineComponent({
     line-height: 1;
     filter: brightness(90%);
     background: white;
+    color: #1E1E1E;
 }
 .toolsBox {
     width: 9.5vw;
