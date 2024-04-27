@@ -15,19 +15,23 @@ export const educationInfo = [
         title: 'Bachelor of Science, Computer Science',
         academics: ['Focus: Software Engineering', 'Minor: Business', 'GPA: 3.90', 'Major GPA: 4.00'],
         activities: ['Raikes School of Computer Science and Management', 'University Honors Program', 'Pi Kappa Alpha Fraternity', 'Intramural Sports'],
-        honors: ['Design Studio Gold Project Award 2022-2023', "3x Deans' List", 'Raikes Foundation Scholar',
+        honors: ["3x Deans' List", 'Raikes Foundation Scholar',
         'Nebraska Career Scholar', 'Regents Scholar'],
         coursework: [
             "Computer Problem Solving",
             "Software Development",
             "Data Structures & Algorithms",
+            "Advanced Algorithms",
             "Software Engineering",
-            "Data Science",
-            "Artificial Intelligence",
             "User Interfaces",
-            "Computer Systems",
+            "Programming Language Concepts",
+            "Computer Systems Engineering",
+            "Operating Systems Principles",
             "Unix Environment",
-            "Innovation Processes"
+            "Data Science Fundamentals",
+            "Machine Learning I & II",
+            "Innovation Processes",
+            "Leadership I & II",
         ]
     },
     {

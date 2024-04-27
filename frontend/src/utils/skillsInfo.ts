@@ -1,12 +1,12 @@
 
 export const skillsInfo = [
     {
-        name: 'TypeScript',
-        color: '#2D79C7'
-    },
-    {
         name: 'JavaScript',
         color: '#E4A125'
+    },
+    {
+        name: 'TypeScript',
+        color: '#2D79C7'
     },
     {
         name: 'React',
@@ -25,16 +25,52 @@ export const skillsInfo = [
         color: '#c7161a'
     },
     {
-        name: 'Kotlin',
-        color: '#E1725C'
+        name: 'HTML',
+        color: '#E5532C'
     },
     {
         name: 'CSS',
         color: '#2465F1'
     },
     {
-        name: 'HTML',
-        color: '#E5532C'
+        name: 'Kotlin',
+        color: '#E1725C'
+    },
+    {
+        name: 'Android Studio',
+        color: '#4086F4'
+    },
+    {
+        name: 'Next.js',
+        color: '#5daaa6'
+    },
+    {
+        name: 'Node',
+        color: '#93C745'
+    },
+    {
+        name: 'React Native',
+        color: '#077ea9'
+    },
+    {
+        name: 'Ruby',
+        color: '#AD0C00'
+    },
+    {
+        name: 'Ruby on Rails',
+        color: '#CD0000'
+    },
+    {
+        name: 'Spring',
+        color: '#6db33f'
+    },
+    {
+        name: 'Django',
+        color: '#2BA977'
+    },
+    {
+        name: 'Swift',
+        color: '#FD7734'
     },
     {
         name: 'Tailwind',
@@ -45,14 +81,6 @@ export const skillsInfo = [
         color: '#7B09F8'
     },
     {
-        name: 'Django',
-        color: '#2BA977'
-    },
-    {
-        name: 'Node',
-        color: '#93C745'
-    },
-    {
         name: 'MongoDB',
         color: '#469E3F'
     },
@@ -61,12 +89,8 @@ export const skillsInfo = [
         color: '#DC7939'
     },
     {
-        name: 'C',
-        color: '#00589D'
-    },
-    {
-        name: 'Bash',
-        color: '#4CAA20'
+        name: 'Linux',
+        color: '#fe7e01'
     },
     {
         name: 'Git',

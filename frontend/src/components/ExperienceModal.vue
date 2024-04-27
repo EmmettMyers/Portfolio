@@ -121,12 +121,12 @@ export default defineComponent({
                     this.monitorWidth = '20% !important';
                     this.monitorMaxWidth = '100px';
                 }
-            } else if (this.info.company == 'Nestimate'){
+            } else if (this.info.company == 'Nestimate' || this.info.company == 'The Daily Nebraskan'){
                 if (this.screen == 'computer'){
                     this.monitorWidth = '85%';
                 } else {
-                    this.monitorWidth = '90% !important';
-                    this.monitorMaxWidth = '400px';
+                    this.monitorWidth = '75% !important';
+                    this.monitorMaxWidth = '260px';
                 }
             }
         }

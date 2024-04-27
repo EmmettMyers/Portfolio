@@ -24,7 +24,7 @@ export const projectsInfo = [
         screen: 'projectScreens/bd_screen.png',
         time: 'Summer 2023',
         description: 'Multiplayer mobile web game where users pick one NFL player at time from random teams to assemble the best team possible. '
-        + 'It grades the strength of each team using a machine learning model trained from over <strong>50,000</strong> NFL statistics, scraped from Pro-Football-Reference.',
+        + 'It grades the strength of each team using a machine learning model trained from <strong>50k+</strong> NFL statistics, scraped from Pro-Football-Reference.',
         features: ["NFL Machine learning model that predicts team records", "Singleplayer draft mode", "Real-time multiplayer draft mode (up to 4 players)", "Saved teams storage", 
         "Stored user draft statistics, visualized with graphs", "Google authenticated login", "Snappy, a dynamic animated game assistant"],
         tools: ['TypeScript', 'Vue', 'Python', 'Pandas', 'Scikit', 'BeautifulSoup', 'Flask', 'Socket.io', 'MongoDB', 'Firebase', 
