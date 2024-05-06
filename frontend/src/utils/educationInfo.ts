@@ -2,8 +2,10 @@ import { ref } from 'vue';
 
 export const educationModalOpen = ref(false);
 export const educationModalInfo = ref(
-    {school: "", image: "", time: "", location: "", title: "", 
-    academics: [], activities: [], honors: [], coursework: []}
+    {
+        school: "", image: "", time: "", location: "", title: "",
+        academics: [], activities: [], honors: [], coursework: []
+    }
 );
 
 export const educationInfo = [
@@ -16,7 +18,7 @@ export const educationInfo = [
         academics: ['Focus: Software Engineering', 'Minor: Business', 'GPA: 3.90', 'Major GPA: 4.00'],
         activities: ['Raikes School of Computer Science and Management', 'University Honors Program', 'Pi Kappa Alpha Fraternity', 'Intramural Sports'],
         honors: ["3x Deans' List", 'Raikes Foundation Scholar',
-        'Nebraska Career Scholar', 'Regents Scholar'],
+            'Nebraska Career Scholar', 'Regents Scholar'],
         coursework: [
             "Computer Problem Solving",
             "Software Development",
@@ -43,7 +45,7 @@ export const educationInfo = [
         academics: ['ACT: 35 (36 Math)', 'SAT: 1530 (790 Math)', 'GPA: 4.319', 'Rank: 15/356'],
         activities: ['Track and Field', 'Football', 'Basketball', 'Striv Sports Broadcasting', 'Math Team'],
         honors: ['ACHIEVE Gold Scholar', 'Elkhorn Excellence Award', 'AP Scholar with Distinction',
-        'National Honor Society', '4x Academic Letter', '8x Honor Roll'],
+            'National Honor Society', '4x Academic Letter', '8x Honor Roll'],
         coursework: []
     }
 ];

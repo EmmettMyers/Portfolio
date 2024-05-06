@@ -209,11 +209,12 @@ export default defineComponent({
     border-radius: .65vw 0 0 .65vw;
     z-index: 60;
     .btn {
-        width: 8vw;
+        padding-left: 20px;
+        padding-right: 20px;
         height: 2.5vw;
         background: #F9B959;
         color: #1E1E1E;
-        border-radius: .75vw;
+        border-radius: .35vw;
         font-size: 1vw;
         margin-top: 1vw;
         transition: .3s ease;
@@ -316,7 +317,8 @@ export default defineComponent({
             padding-right: 3vw;
             padding-bottom: 3vw;
             .btn {
-                width: 25vw;
+                padding-left: 20px;
+                padding-right: 20px;
                 height: 7vw;
                 font-size: 2.5vw;
                 margin-top: 3vw;
