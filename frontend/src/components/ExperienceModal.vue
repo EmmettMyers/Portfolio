@@ -280,22 +280,14 @@ export default defineComponent({
             padding-bottom: 3vw;
 
             .link {
-                text-align: center;
                 line-height: 2.5vw;
                 padding-left: 20px;
                 padding-right: 20px;
                 height: 7vw;
                 font-size: 2.5vw;
                 margin-top: 3vw;
-                transition: .3s ease;
-                transform: scale(1);
                 border-radius: 5px;
                 margin-right: 2vw;
-
-                &:hover {
-                    transform: scale(1.05);
-                    cursor: pointer;
-                }
             }
 
             .role {

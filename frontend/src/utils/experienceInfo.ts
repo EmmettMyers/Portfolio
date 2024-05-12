@@ -45,8 +45,8 @@ export const experienceInfo = [
             { title: "Product Overview", url: "https://www.mynestimate.com/" },
         ],
         description: 'Front-end development for a retirement solutions and analytics startup with <strong>$1m+</strong> in VC funding.'
-            + ' Created Sales Enablement page with interactive parameters and graphs for advisors to demonstrate lifetime income effects on retirement to clients.'
-            + ' Developed filterable Product Recordkeeper page to streamline 401k plan provider matching and card visuals for upcoming retirement products.',
+            /*+ ' Created Sales Enablement page with interactive parameters and graphs for advisors to demonstrate lifetime income effects on retirement to clients.'
+            + ' Developed filterable Product Recordkeeper page to streamline 401k plan provider matching and card visuals for upcoming retirement products.'*/,
         skills: ['JavaScript', 'Stimulus', 'Ruby', 'Ruby on Rails', 'HTML/CSS', 'Tailwind', 'Chart.js', 'DaisyUI']
     },
     {

@@ -3,7 +3,7 @@ import { ref } from 'vue';
 export const educationModalOpen = ref(false);
 export const educationModalInfo = ref(
     {
-        school: "", image: "", time: "", location: "", title: "",
+        school: "", image: "", time: "", location: "", title: "", links: [{ title: "", url: "" }],
         academics: [], activities: [], honors: [], coursework: []
     }
 );
@@ -15,6 +15,9 @@ export const educationInfo = [
         time: 'Aug. 2022 - May 2026',
         location: 'Lincoln, NE',
         title: 'Bachelor of Science, Computer Science',
+        links: [
+            { title: "Raikes School Overview", url: "https://raikes.unl.edu/" },
+        ],
         academics: ['Focus: Software Engineering', 'Minor: Business', 'GPA: 3.90', 'Major GPA: 4.00'],
         activities: ['Raikes School of Computer Science and Management', 'University Honors Program', 'Pi Kappa Alpha Fraternity', 'Intramural Sports'],
         honors: ["3x Deans' List", 'Raikes Foundation Scholar',
@@ -42,6 +45,7 @@ export const educationInfo = [
         time: 'Aug. 2018 - May 2022',
         location: 'Omaha, NE',
         title: 'High School Diploma',
+        links: [],
         academics: ['ACT: 35 (36 Math)', 'SAT: 1530 (790 Math)', 'GPA: 4.319', 'Rank: 15/356'],
         activities: ['Track and Field', 'Football', 'Basketball', 'Striv Sports Broadcasting', 'Math Team'],
         honors: ['ACHIEVE Gold Scholar', 'Elkhorn Excellence Award', 'AP Scholar with Distinction',
