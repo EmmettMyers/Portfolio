@@ -27,8 +27,7 @@ export const projectsInfo = [
             + 'It grades the strength of each team using a machine learning model trained from <strong>50k+</strong> NFL statistics, scraped from Pro-Football-Reference.',
         features: ["NFL Machine learning model that predicts team records", "Singleplayer draft mode", "Real-time multiplayer draft mode (up to 4 players)", "Saved teams storage",
             "Stored user draft statistics, visualized with graphs", "Google authenticated login", "Snappy, a dynamic animated game assistant"],
-        tools: ['TypeScript', 'Vue', 'Python', 'Pandas', 'Scikit', 'BeautifulSoup', 'Flask', 'Socket.io', 'MongoDB', 'Firebase',
-            'HTML/SCSS', 'Tailwind', 'Chart.js'],
+        tools: ['TypeScript', 'Vue', 'Python', 'Flask', 'HTML/SCSS', 'Tailwind', 'MongoDB', 'Firebase', 'Scikit', 'BeautifulSoup', 'Socket.IO', 'Chart.js'],
         demo: 'https://drive.google.com/file/d/1X9OeuzdiSbPODgQcTKTXXR1pL1DuHjRb/view',
         code: 'https://github.com/EmmettMyers/BlitzDraft'
     },
@@ -42,8 +41,7 @@ export const projectsInfo = [
             ' The application gets its information by web scraping multiple sources for up-to-date government information.',
         features: ["Pre-tailored email multi-sender", "Pre-tailored letter multi-downloader", "Saved mail storage", "User Representative/Senator Information",
             "Six email and letter templates", "AI writer to generate mail based on user prompts", "User-friendly, dynamic dashboard", "Authenticated customizable profiles with user info"],
-        tools: ['TypeScript', 'React', 'Python', 'OpenAI API', 'Selenium', 'BeautifulSoup', 'EmailJS SDK', 'Docamatic API', 'Flask',
-            'MongoDB', 'Heroku', 'HTML/SCSS', 'Tailwind'],
+        tools: ['TypeScript', 'React', 'Python', 'Flask', 'HTML/SCSS', 'Tailwind', 'MongoDB', 'Heroku', 'OpenAI API', 'Selenium', 'BeautifulSoup', 'EmailJS SDK', 'Docamatic API'],
         demo: 'https://drive.google.com/file/d/1CuL6cXabCZVm2w33mt-Y4uQjUmN8oNns/view',
         code: 'https://github.com/EmmettMyers/CivicSendNE'
     },
@@ -62,7 +60,7 @@ export const projectsInfo = [
             "Sleek dashboard with navigation and user's past generated projects",
             "User authentication using Google Single Sign-On"
         ],
-        tools: ['TypeScript', 'Vue', 'Python', 'Django', 'OpenAI API', 'PostgreSQL', 'Supabase', 'HTML/SCSS'],
+        tools: ['TypeScript', 'Vue', 'Python', 'Django', 'HTML/SCSS', 'PostgreSQL', 'Supabase', 'OpenAI API'],
         demo: 'https://drive.google.com/file/d/1kElBm9cdkVo2u4mbt1WujTUz563loOfe/view',
         code: 'https://github.com/EmmettMyers/Projex'
     },
@@ -76,7 +74,7 @@ export const projectsInfo = [
         features: ['Interactive campus map with points at every sports location', 'Real-time chat rooms for each facility based on time and sport',
             'Real-time signup pages for each facility based on time and sport', 'Customizable profiles with contact and sport information',
             'Find signed-up players feature based on sport, time, and outdoor/indoor', 'Google authentication login system'],
-        tools: ['JavaScript', 'React', 'OpenLayers', 'Node', 'Socket.io', 'Express', 'MySQL', 'Firebase', 'HTML/SCSS', 'Bootstrap'],
+        tools: ['JavaScript', 'React', 'Node', 'Express', 'HTML/SCSS', 'Bootstrap', 'MySQL', 'Firebase', 'Socket.IO', 'OpenLayers'],
         demo: 'https://drive.google.com/file/d/137ThzYqqBBeXxhHGenjB2Tm3HvgjQ-si/view',
         code: 'https://github.com/EmmettMyers/PickupUNL'
     },
@@ -100,7 +98,7 @@ export const projectsInfo = [
             "Remove all chat locks with email verification",
             "Forgot password email verification"
         ],
-        tools: ['JavaScript', 'jQuery', 'PHP', 'MySQL', 'phpMyAdmin', 'EmailJS SDK', 'HTML/SCSS', 'Bootstrap'],
+        tools: ['JavaScript', 'jQuery', 'PHP', 'HTML/SCSS', 'Bootstrap', 'MySQL', 'phpMyAdmin', 'EmailJS SDK'],
         demo: 'https://drive.google.com/file/d/13nnKTg7-8vtTcfH8g6AGDbO4fOUHspUh/view',
         code: 'https://github.com/EmmettMyers/Sure'
     },
@@ -113,7 +111,7 @@ export const projectsInfo = [
             + ' The longer the word and the more times it appears in the article, the more points you receive.'
             + ' The server pulls news article data from NewsAPI, then the client-side parses the data to use for the game.',
         features: ['Normal Mode (random news articles)', 'Topics Mode (specific news topics)'],
-        tools: ['JavaScript', 'React', 'Node', 'Axios', 'Express', 'Readability', 'HTML/SCSS', 'Tailwind'],
+        tools: ['JavaScript', 'React', 'Node', 'Express', 'HTML/SCSS', 'Tailwind', 'News API'],
         demo: 'https://drive.google.com/file/d/12MqS4YXL6hBH59ZvPJJDdxUdV7nwTFow/view',
         code: 'https://github.com/EmmettMyers/NewsGuesser'
     },
@@ -125,7 +123,7 @@ export const projectsInfo = [
         description: 'Mobile-based web game in which a user has to guess a random NBA player based on three of their stats, or more if they need hints.' +
             ' The program scrapes NBA data from the website basketball-reference.com and finds information about a random player.',
         features: [],
-        tools: ['JavaScript', 'React', 'Python', 'BeautifulSoup', 'Flask', 'HTML/CSS', 'Tailwind'],
+        tools: ['JavaScript', 'React', 'Python', 'Flask', 'HTML/CSS', 'Tailwind', 'BeautifulSoup'],
         demo: 'https://drive.google.com/file/d/1BpM5OlblCiiMnrE6K2Nu4yhVCsPQRFHj/view',
         code: 'https://github.com/EmmettMyers/GuessNBA'
     },
@@ -139,7 +137,7 @@ export const projectsInfo = [
             'Google Analytics tracking clicks, website views, and user demographics',
             'Dynamic information rendering, responsive user interface'
         ],
-        tools: ['TypeScript', 'Vue', 'Firebase', 'HTML/SCSS', 'Tailwind'],
+        tools: ['TypeScript', 'Vue', 'HTML/SCSS', 'Tailwind', 'Firebase'],
         demo: '',
         code: 'https://github.com/EmmettMyers/Portfolio'
     },

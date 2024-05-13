@@ -67,7 +67,7 @@ export const experienceInfo = [
             + ' Developed new About Us and Advertise With Us pages for clients.'
             + ' Created <strong>10+</strong> new site subsections, using queries to populate them with existing articles.'
             + ' Resolved bugs with existing software to improve user experience.',
-        skills: ['JavaScript', 'React', 'Python', 'Flask', 'HTML/SCSS', 'Tailwind', 'Material UI', 'Beehiiv API', 'Trello API', 'Spotify API', 'Firebase']
+        skills: ['JavaScript', 'React', 'Python', 'Flask', 'HTML/SCSS', 'Tailwind', 'Material UI', /*'Beehiiv API', 'Trello API', 'Spotify API',*/ 'Firebase']
     },
     {
         title: 'Computer Science-------Teaching Assistant',
@@ -122,7 +122,7 @@ export const experienceInfo = [
             + ' Built employee-authenticated login page, dynamic dashboard and navigation features.'
             + ' Assisted with machine learning model that optimized comparison times by <strong>94%</strong>.'
             + ' Awarded <strong>Design Studio Gold Project Award</strong>, placing <strong>2nd</strong> in Design Studio Projects out of 20+ teams.',
-        skills: ['JavaScript', 'HTML/CSS', 'Bootstrap', 'Python', 'Django', 'Autodesk API', 'Auth0 API']
+        skills: ['JavaScript', 'HTML/CSS', 'Bootstrap', 'Python', 'Django', 'Autodesk API', 'Auth0']
     },
     /*{
         title: 'Computer Science Tutor',
