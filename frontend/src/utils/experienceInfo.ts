@@ -25,7 +25,7 @@ export const experienceInfo = [
         screen: 'experienceScreens/garmin_screen.png',
         background: 'backgrounds/garmin_back.jpg',
         time: 'May 2024 - Present',
-        location: 'Olathe, KS',
+        location: 'Olathe, Kansas',
         links: [
             { title: "Clipboard Overview", url: "https://www.garmin.com/en-US/p/739176" },
             { title: "Clipboard Demo", url: "https://www.youtube.com/watch?v=_Saq212NlYc&ab_channel=GarminTraining" },
@@ -40,7 +40,7 @@ export const experienceInfo = [
         screen: 'experienceScreens/nest_screen2.png',
         background: 'backgrounds/nest_back.jpg',
         time: 'Mar. 2024 - Present',
-        location: 'Lincoln, NE',
+        location: 'Lincoln, Nebraska',
         links: [
             { title: "Product Overview", url: "https://www.mynestimate.com/" },
         ],
@@ -56,7 +56,7 @@ export const experienceInfo = [
         screen: 'experienceScreens/dn_screen2.png',
         background: 'backgrounds/dn_back.jpg',
         time: 'Aug. 2023 - Present',
-        location: 'Lincoln, NE',
+        location: 'Lincoln, Nebraska',
         links: [
             { title: "Main Site", url: "https://www.dailynebraskan.com/" },
             { title: "Impact Report", url: "https://dn-impact.web.app/" },
@@ -76,7 +76,7 @@ export const experienceInfo = [
         screen: 'experienceScreens/ta_screen.png',
         background: 'backgrounds/unl_back.jpg',
         time: 'Aug. 2023 - May 2024',
-        location: 'Lincoln, NE',
+        location: 'Lincoln, Nebraska',
         links: [
             { title: "Course Information", url: "https://catalog.unl.edu/undergraduate/courses/raik/" },
         ],
@@ -95,7 +95,7 @@ export const experienceInfo = [
         screen: 'experienceScreens/principal_screen.png',
         background: 'backgrounds/principal_back.jpg',
         time: 'May 2023 - Aug. 2023',
-        location: 'Des Moines, IA',
+        location: 'Des Moines, Iowa',
         links: [
             { title: "Sponsor App Demo", url: "https://landing.principal.com/advisor-retirement-dashboard-demo" },
         ],
@@ -113,7 +113,7 @@ export const experienceInfo = [
         screen: 'experienceScreens/olsson_screen.png',
         background: 'backgrounds/olsson_back.jpg',
         time: 'Jan. 2023 - May 2023',
-        location: 'Lincoln, NE',
+        location: 'Lincoln, Nebraska',
         links: [
             { title: "Olsson Project Story", url: "https://www.olsson.com/projects/seeing-the-possibilities" },
         ],
@@ -124,19 +124,19 @@ export const experienceInfo = [
             + ' Awarded <strong>Design Studio Gold Project Award</strong>, placing <strong>2nd</strong> in Design Studio Projects out of 20+ teams.',
         skills: ['JavaScript', 'HTML/CSS', 'Bootstrap', 'Python', 'Django', 'Autodesk API', 'Auth0 API']
     },
-    {
+    /*{
         title: 'Computer Science Tutor',
         company: 'Elkhorn Public Schools',
         image: 'experience/work_tutor2.png',
         screen: 'experienceScreens/tutor_screen.png',
         background: 'backgrounds/eshs_back.jpg',
         time: 'Sep. 2020 - Mar. 2022',
-        location: 'Omaha, NE',
+        location: 'Omaha, Nebraska',
         links: [
             { title: "Course Overview", url: "https://codehs.com/uploads/9f387437eb4a6e8385658ad050e33ac8" },
         ],
         description: 'Taught AP Computer Science A to <strong>10+</strong> high school students <strong>5</strong> days a week.'
             + ' Improved grades of all students by creating extensive learning modules tailored to each student.',
         skills: ['Java', 'OOP', 'Algorithms', 'Inheritance', 'Lists', 'Polymorphism', 'GUIs']
-    }
+    }*/
 ];

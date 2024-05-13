@@ -41,18 +41,6 @@ export const skillsInfo = [
         color: '#4086F4'
     },
     {
-        name: 'Next.js',
-        color: '#5daaa6'
-    },
-    {
-        name: 'Node',
-        color: '#93C745'
-    },
-    {
-        name: 'React Native',
-        color: '#077ea9'
-    },
-    {
         name: 'Ruby',
         color: '#AD0C00'
     },
@@ -61,16 +49,33 @@ export const skillsInfo = [
         color: '#CD0000'
     },
     {
-        name: 'Spring',
-        color: '#6db33f'
+        name: 'Next.js',
+        color: '#5daaa6'
     },
     {
         name: 'Django',
         color: '#2BA977'
     },
     {
-        name: 'Swift',
-        color: '#FD7734'
+        name: 'React Native',
+        color: '#077ea9'
+    },
+    {
+        name: 'Spring',
+        color: '#6db33f'
+    },
+    {
+        name: 'Node',
+        color: '#93C745'
+    },
+    {
+        name: 'SQL',
+        color: '#DC7939'
+    },
+    /*
+    {
+        name: 'Nuxt',
+        color: '#438B7B'
     },
     {
         name: 'Tailwind',
@@ -85,8 +90,8 @@ export const skillsInfo = [
         color: '#469E3F'
     },
     {
-        name: 'SQL',
-        color: '#DC7939'
+        name: 'Swift',
+        color: '#FD7734'
     },
     {
         name: 'Linux',
@@ -96,4 +101,5 @@ export const skillsInfo = [
         name: 'Git',
         color: '#F05639'
     },
+    */
 ];

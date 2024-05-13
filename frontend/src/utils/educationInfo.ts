@@ -47,7 +47,7 @@ export const educationInfo = [
         title: 'High School Diploma',
         links: [],
         academics: ['ACT: 35 (36 Math)', 'SAT: 1530 (790 Math)', 'GPA: 4.319', 'Rank: 15/356'],
-        activities: ['Track and Field', 'Football', 'Basketball', 'Striv Sports Broadcasting', 'Math Team'],
+        activities: ['Track and Field', 'Football', 'Basketball', 'Striv Sports Broadcasting', 'CS/Math Tutoring', 'Math Team'],
         honors: ['ACHIEVE Gold Scholar', 'Elkhorn Excellence Award', 'AP Scholar with Distinction',
             'National Honor Society', '4x Academic Letter', '8x Honor Roll'],
         coursework: []
