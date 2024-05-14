@@ -1,12 +1,14 @@
 <template>
-    <div v-on:click="boxClicked" class="contentBox relative" :class="screen == 'phone' && 'mt-3'" :style="{ width: boxWidth }">
+    <div v-on:click="boxClicked" class="contentBox relative" :class="screen == 'phone' && 'mt-3'"
+        :style="{ width: boxWidth }">
         <div class="holder absolute z-40 text-white">
             <div v-if="info.school">
                 <p :style="titleSize" class="title font-bold"> {{ info.school }} </p>
                 <p class="company font-bold"> {{ info.title }} </p>
             </div>
             <div v-else>
-                <p :style="titleSize" class="title font-bold"> {{ info.title.replace(new RegExp('-', 'g'), '&ensp;') }} </p>
+                <p :style="titleSize" class="title font-bold"> {{ info.title.replace(new RegExp('-', 'g'), '&ensp;') }}
+                </p>
                 <p class="company font-bold"> {{ info.company }} </p>
             </div>
         </div>
@@ -15,7 +17,7 @@
         <img :class="fit" class="object-cover z-10" :src="info.image" />
     </div>
 </template>
-  
+
 <script lang="ts">
 import { defineComponent } from 'vue';
 import { experienceModalOpen, experienceModalInfo } from '../utils/experienceInfo'
@@ -34,12 +36,12 @@ export default defineComponent({
         }
     },
     methods: {
-        boxClicked(){
-            if (this.info.company){
+        boxClicked() {
+            if (this.info.company) {
                 experienceModalOpen.value = true;
                 experienceModalInfo.value = this.info;
                 logExperienceBoxClick(this.info.title, this.info.company);
-            } else if (this.info.school){
+            } else if (this.info.school) {
                 educationModalOpen.value = true;
                 educationModalInfo.value = this.info;
                 logEducationBoxClick(this.info.school);
@@ -49,45 +51,50 @@ export default defineComponent({
                 logProjectBoxClick(this.info.title);
             }
         },
-        resize(){
+        resize() {
             window.innerWidth > 700 ? this.screen = "computer" : this.screen = "phone";
 
             this.fit = "w-full";
 
-            if (this.screen == 'computer'){
-                if (this.info.title == "Projex" || this.info.title == "NewsGuesser" || this.info.title == "CivicSendNE" || this.info.title == "Portfolio"){
+            if (this.screen == 'computer') {
+                if (this.info.title == "Projex" || this.info.title == "NewsGuesser" || this.info.title == "CivicSendNE" || this.info.title == "Portfolio") {
                     this.fit = "h-full";
                 }
-                if (!this.info.company){
+                if (!this.info.company) {
                     this.titleSize = "font-size: 1.875vw";
                 } else {
                     this.titleSize = "font-size: 1.67vw";
                 }
             } else {
-                if (this.info.title == "Projex" || this.info.title == "NewsGuesser" || this.info.title == "CivicSendNE" || this.info.title == "Portfolio" || this.info.school == "Elkhorn South High School"){
+                if (this.info.title == "Projex" || this.info.title == "NewsGuesser" || this.info.title == "CivicSendNE" || this.info.title == "Portfolio" || this.info.school == "Elkhorn South High School") {
                     this.fit = "h-full";
                 }
-                if (!this.info.company && !this.info.school){
+                if (!this.info.company && !this.info.school) {
                     this.titleSize = "font-size: 6vw";
-                } else if (this.info.school){
+                } else if (this.info.school) {
                     this.titleSize = "font-size: 4.5vw";
                 } else {
                     this.titleSize = "font-size: 5vw";
                 }
             }
 
-            if (this.info.school && this.screen == 'computer'){
-                this.boxWidth = "39.25vw";
+            if (this.info.school && this.screen == 'computer') {
+                if (this.info.school == "University of Nebraska-Lincoln") {
+                    this.boxWidth = "48.6vw";
+                } else {
+                    this.fit = "h-full";
+                    this.boxWidth = "30vw";
+                }
             }
         }
     },
-    mounted(){
+    mounted() {
         this.resize();
         window.addEventListener('resize', this.resize);
     },
 });
 </script>
-  
+
 <style lang="scss">
 @import "../styles/colors.scss";
 
@@ -97,56 +104,71 @@ export default defineComponent({
     border-radius: .65vw;
     overflow: hidden;
     transition: .2s ease;
+
     .holder {
         bottom: .65vw;
         left: .9vw;
     }
+
     .title {
         line-height: 1.2;
         filter: drop-shadow(2px 2px 2px #222);
     }
+
     .company {
         font-size: 1.3vw;
         color: #F9B959;
         filter: drop-shadow(2px 2px 2px #222);
     }
+
     .yellowShade {
         border-radius: .65vw;
         background: #F9B959;
         opacity: 40%;
     }
+
     .blackShade {
         border-radius: .65vw;
         background: #383838;
         opacity: 50%;
-    }   
+    }
+
     img {
         border-radius: .65vw;
     }
+
     &:hover {
         cursor: pointer;
         filter: brightness(130%);
     }
 }
+
 @media (max-width: 700px) {
-    .contentBox, .yellowShade, .blackShade, .contentBox img {
+
+    .contentBox,
+    .yellowShade,
+    .blackShade,
+    .contentBox img {
         border-radius: 2vw;
     }
+
     .contentBox {
         width: 80vw !important;
         height: 40vw;
         border-radius: 2vw;
+
         .holder {
             bottom: 2vw;
             left: 2.5vw;
         }
+
         .title {
             line-height: 1.2;
         }
+
         .company {
             font-size: 3.5vw;
         }
     }
 }
 </style>
-  
