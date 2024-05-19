@@ -11,8 +11,7 @@ export const projectsModalInfo = ref(
         description: "",
         features: [],
         tools: [],
-        demo: '',
-        code: ''
+        links: [{ title: "", url: "" }],
     }
 );
 
@@ -28,8 +27,10 @@ export const projectsInfo = [
         features: ["NFL Machine learning model that predicts team records", "Singleplayer draft mode", "Real-time multiplayer draft mode (up to 4 players)", "Saved teams storage",
             "Stored user draft statistics, visualized with graphs", "Google authenticated login", "Snappy, a dynamic animated game assistant"],
         tools: ['TypeScript', 'Vue', 'Python', 'Flask', 'HTML/SCSS', 'Tailwind', 'MongoDB', 'Firebase', 'Scikit', 'BeautifulSoup', 'Socket.IO', 'Chart.js'],
-        demo: 'https://drive.google.com/file/d/1X9OeuzdiSbPODgQcTKTXXR1pL1DuHjRb/view',
-        code: 'https://github.com/EmmettMyers/BlitzDraft'
+        links: [
+            { title: "Live Demo", url: "https://drive.google.com/file/d/1X9OeuzdiSbPODgQcTKTXXR1pL1DuHjRb/view" },
+            { title: "Source Code", url: "https://github.com/EmmettMyers/BlitzDraft" },
+        ],
     },
     {
         title: 'CivicSendNE',
@@ -42,8 +43,10 @@ export const projectsInfo = [
         features: ["Pre-tailored email multi-sender", "Pre-tailored letter multi-downloader", "Saved mail storage", "User Representative/Senator Information",
             "Six email and letter templates", "AI writer to generate mail based on user prompts", "User-friendly, dynamic dashboard", "Authenticated customizable profiles with user info"],
         tools: ['TypeScript', 'React', 'Python', 'Flask', 'HTML/SCSS', 'Tailwind', 'MongoDB', 'Heroku', 'OpenAI API', 'Selenium', 'BeautifulSoup', 'EmailJS SDK', 'Docamatic API'],
-        demo: 'https://drive.google.com/file/d/1CuL6cXabCZVm2w33mt-Y4uQjUmN8oNns/view',
-        code: 'https://github.com/EmmettMyers/CivicSendNE'
+        links: [
+            { title: "Live Demo", url: "https://drive.google.com/file/d/1CuL6cXabCZVm2w33mt-Y4uQjUmN8oNns/view" },
+            { title: "Source Code", url: "https://github.com/EmmettMyers/CivicSendNE" },
+        ],
     },
     {
         title: 'Projex',
@@ -61,8 +64,10 @@ export const projectsInfo = [
             "User authentication using Google Single Sign-On"
         ],
         tools: ['TypeScript', 'Vue', 'Python', 'Django', 'HTML/SCSS', 'PostgreSQL', 'Supabase', 'OpenAI API'],
-        demo: 'https://drive.google.com/file/d/1kElBm9cdkVo2u4mbt1WujTUz563loOfe/view',
-        code: 'https://github.com/EmmettMyers/Projex'
+        links: [
+            { title: "Live Demo", url: "https://drive.google.com/file/d/1kElBm9cdkVo2u4mbt1WujTUz563loOfe/view" },
+            { title: "Source Code", url: "https://github.com/EmmettMyers/Projex" },
+        ],
     },
     {
         title: 'PickupUNL',
@@ -75,8 +80,10 @@ export const projectsInfo = [
             'Real-time signup pages for each facility based on time and sport', 'Customizable profiles with contact and sport information',
             'Find signed-up players feature based on sport, time, and outdoor/indoor', 'Google authentication login system'],
         tools: ['JavaScript', 'React', 'Node', 'Express', 'HTML/SCSS', 'Bootstrap', 'MySQL', 'Firebase', 'Socket.IO', 'OpenLayers'],
-        demo: 'https://drive.google.com/file/d/137ThzYqqBBeXxhHGenjB2Tm3HvgjQ-si/view',
-        code: 'https://github.com/EmmettMyers/PickupUNL'
+        links: [
+            { title: "Live Demo", url: "https://drive.google.com/file/d/137ThzYqqBBeXxhHGenjB2Tm3HvgjQ-si/view" },
+            { title: "Source Code", url: "https://github.com/EmmettMyers/PickupUNL" },
+        ],
     },
     {
         title: 'Sure',
@@ -99,8 +106,34 @@ export const projectsInfo = [
             "Forgot password email verification"
         ],
         tools: ['JavaScript', 'jQuery', 'PHP', 'HTML/SCSS', 'Bootstrap', 'MySQL', 'phpMyAdmin', 'EmailJS SDK'],
-        demo: 'https://drive.google.com/file/d/13nnKTg7-8vtTcfH8g6AGDbO4fOUHspUh/view',
-        code: 'https://github.com/EmmettMyers/Sure'
+        links: [
+            { title: "Live Demo", url: "https://drive.google.com/file/d/13nnKTg7-8vtTcfH8g6AGDbO4fOUHspUh/view" },
+            { title: "Source Code", url: "https://github.com/EmmettMyers/Sure" },
+        ],
+    },
+    {
+        title: 'Blokus',
+        image: 'projects/blokus 1.png',
+        screen: 'projectScreens/blokus_screen.png',
+        time: 'School Project - Spring 2024',
+        description: 'Real-time multiplayer web game based on the popular board game Blokus.',
+        features: [
+            "4-player local gameplay",
+            "Rotate/flip piece, turn timers, pause game functionalities",
+            "Online gameplay with game lobbies and public games",
+            "Intelligent bots (easy, medium, hard)",
+            "Online leaderboard and game statistics",
+            "Customizable user profiles with nicknames and profile pictures",
+            "Secure accounts with password hashing and 2-factor authentication",
+            "Game rules modal with PDF download",
+            "Extensive game logic testing",
+        ],
+        tools: ['JavaScript', 'React', 'Python', 'Flask', 'HTML/CSS', 'Firebase', 'Socket.IO'],
+        links: [
+            { title: "2nd Presentation", url: "https://docs.google.com/presentation/d/1sTvqjjg-xdg9GPXPbcc5EDNPNzWsgae8kcIn5KCfmVU/edit?usp=sharing" },
+            { title: "1st Presentation", url: "https://docs.google.com/presentation/d/139YdosKyl75yl2Gmjuyp_be5NmV_B-0E8FNGJkNHgc8/edit?usp=sharing" },
+            { title: "Source Code", url: "https://github.com/EmmettMyers/Blokus" },
+        ],
     },
     {
         title: 'NewsGuesser',
@@ -112,8 +145,10 @@ export const projectsInfo = [
             + ' The server pulls news article data from NewsAPI, then the client-side parses the data to use for the game.',
         features: ['Normal Mode (random news articles)', 'Topics Mode (specific news topics)'],
         tools: ['JavaScript', 'React', 'Node', 'Express', 'HTML/SCSS', 'Tailwind', 'News API'],
-        demo: 'https://drive.google.com/file/d/12MqS4YXL6hBH59ZvPJJDdxUdV7nwTFow/view',
-        code: 'https://github.com/EmmettMyers/NewsGuesser'
+        links: [
+            { title: "Live Demo", url: "https://drive.google.com/file/d/12MqS4YXL6hBH59ZvPJJDdxUdV7nwTFow/view" },
+            { title: "Source Code", url: "https://github.com/EmmettMyers/NewsGuesser" },
+        ],
     },
     {
         title: 'GuessNBA',
@@ -124,8 +159,10 @@ export const projectsInfo = [
             ' The program scrapes NBA data from the website basketball-reference.com and finds information about a random player.',
         features: [],
         tools: ['JavaScript', 'React', 'Python', 'Flask', 'HTML/CSS', 'Tailwind', 'BeautifulSoup'],
-        demo: 'https://drive.google.com/file/d/1BpM5OlblCiiMnrE6K2Nu4yhVCsPQRFHj/view',
-        code: 'https://github.com/EmmettMyers/GuessNBA'
+        links: [
+            { title: "Live Demo", url: "https://drive.google.com/file/d/1BpM5OlblCiiMnrE6K2Nu4yhVCsPQRFHj/view" },
+            { title: "Source Code", url: "https://github.com/EmmettMyers/GuessNBA" },
+        ],
     },
     {
         title: 'Portfolio',
@@ -138,8 +175,9 @@ export const projectsInfo = [
             'Dynamic information rendering, responsive user interface'
         ],
         tools: ['TypeScript', 'Vue', 'HTML/SCSS', 'Tailwind', 'Firebase'],
-        demo: '',
-        code: 'https://github.com/EmmettMyers/Portfolio'
+        links: [
+            { title: "Source Code", url: "https://github.com/EmmettMyers/Portfolio" },
+        ],
     },
     /*{
         title: 'Connect 4 Bot',
