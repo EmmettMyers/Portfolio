@@ -34,6 +34,13 @@
                             OVERVIEW
                         </p>
                         <p class="desc font-normal" v-html="info.description"></p>
+                        <p v-if="info.contributions.length > 0" class="contributions font-bold mt-6">
+                            CONTRIBUTIONS
+                        </p>
+                        <div class="contributionsBox font-normal">
+                            <li v-for="contribution in info.contributions" v-html="contribution"
+                                class="contributionsList"></li>
+                        </div>
                         <p class="skills font-bold mt-6">
                             SKILLS
                         </p>
@@ -74,6 +81,13 @@
                             OVERVIEW
                         </p>
                         <p class="desc font-normal" v-html="info.description"></p>
+                        <p v-if="info.contributions.length > 0" class="contributions font-bold mt-6">
+                            CONTRIBUTIONS
+                        </p>
+                        <div class="contributionsBox font-normal">
+                            <li v-for="contribution in info.contributions" v-html="contribution"
+                                class="contributionsList"></li>
+                        </div>
                         <p class="skills font-bold mt-6">
                             SKILLS
                         </p>
@@ -162,6 +176,7 @@ export default defineComponent({
         transition: .3s ease;
         transform: scale(1);
         margin-right: .5vw;
+        margin-bottom: 0.25vw;
 
         &:hover {
             transform: scale(1.1);
@@ -226,7 +241,8 @@ export default defineComponent({
         }
 
         .overview,
-        .skills {
+        .skills,
+        .contributions {
             color: #F9B959;
             font-size: 1.5vw;
             letter-spacing: 0.8vw;
@@ -234,8 +250,15 @@ export default defineComponent({
             margin-top: 1.5vw;
         }
 
-        .desc {
+        .desc,
+        .contributionsBox {
             font-size: 1.25vw;
+        }
+
+        .contributionsList {
+            list-style-position: outside;
+            text-indent: -1.5em;
+            padding-left: 1.7em;
         }
 
         .skillsBox {
@@ -307,14 +330,16 @@ export default defineComponent({
             }
 
             .overview,
-            .skills {
+            .skills,
+            .contributions {
                 font-size: 3vw !important;
                 letter-spacing: 0.8vw;
                 line-height: 2;
                 margin-top: 2vw;
             }
 
-            .desc {
+            .desc,
+            .contributionsBox {
                 font-size: 2.5vw !important;
             }
 

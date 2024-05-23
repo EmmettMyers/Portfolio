@@ -37,7 +37,7 @@ export const projectsInfo = [
         image: 'projects/civicsend 2.png',
         screen: 'projectScreens/cs_screen.png',
         time: 'Summer 2023',
-        description: 'Web app that streamlines civic communication by multi-sending/creating customizable mail to senators. Senators are '
+        description: 'Web app that streamlines Nebraska civic communication by multi-sending/creating customizable mail to senators. Senators are '
             + ' auto-located by user location and the mail is pre-formatted with user information.' +
             ' The application gets its information by web scraping multiple sources for up-to-date government information.',
         features: ["Pre-tailored email multi-sender", "Pre-tailored letter multi-downloader", "Saved mail storage", "User Representative/Senator Information",

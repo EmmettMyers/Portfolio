@@ -13,6 +13,7 @@ export const experienceModalInfo = ref(
         location: "",
         links: [{ title: "", url: "" }],
         description: "",
+        contributions: [""],
         skills: []
     }
 );
@@ -30,8 +31,10 @@ export const experienceInfo = [
             { title: "Clipboard Overview", url: "https://www.garmin.com/en-US/p/739176" },
             { title: "Clipboard Demo", url: "https://www.youtube.com/watch?v=_Saq212NlYc&ab_channel=GarminTraining" },
         ],
-        description: 'Developing Garmin Clipboard, a mobile app designed to help cross country teams build workouts and review stats, for <strong>30k+</strong> registered users.',
-        skills: ['Kotlin', 'Java', 'Spring', 'Android Studio']
+        description: 'Developing Garmin Clipboard, a mobile app designed to help cross country teams build workouts and review stats, for <strong>110k+</strong> registered users.',
+        contributions: [
+        ],
+        skills: ['Kotlin', 'Java', 'Android Studio', 'Jetpack Compose']
     },
     {
         title: 'Software Engineer Intern',
@@ -44,9 +47,11 @@ export const experienceInfo = [
         links: [
             { title: "Product Overview", url: "https://www.mynestimate.com/" },
         ],
-        description: 'Front-end development for a retirement solutions and analytics startup with <strong>$1m+</strong> in VC funding.'
-            /*+ ' Created Sales Enablement page with interactive parameters and graphs for advisors to demonstrate lifetime income effects on retirement to clients.'
-            + ' Developed filterable Product Recordkeeper page to streamline 401k plan provider matching and card visuals for upcoming retirement products.'*/,
+        description: 'Front-end development for a retirement solutions and analytics startup with <strong>$1m+</strong> in VC funding.',
+        contributions: [/*
+            'Created Sales Enablement page with interactive parameters and graphs for advisors to demonstrate lifetime income effects on retirement to clients',
+            'Developed filterable Product Recordkeeper page to streamline 401k plan provider matching and card visuals for upcoming retirement products',*/
+        ],
         skills: ['JavaScript', 'Stimulus', 'Ruby', 'Ruby on Rails', 'HTML/CSS', 'Tailwind', 'DaisyUI', 'Chart.js']
     },
     {
@@ -61,12 +66,15 @@ export const experienceInfo = [
             { title: "Main Site", url: "https://www.dailynebraskan.com/" },
             { title: "Impact Report", url: "https://dn-impact.web.app/" },
         ],
-        description: 'Only web developer for news website with <strong>20k+</strong> weekly views and <strong>7k+</strong> registered users.'
-            + ' Built API-integrated components for newsletter with <strong>26k+</strong> subscribers, campus Q&A (Curious Cornhuskers) and sports podcasts, enabling <strong>150+</strong> weekly interactions.'
-            + ' Launched 2024 Endowment page and first-ever Impact Report site for <strong>3k+</strong> donors and alumni to promote company metrics and fundraising.'
-            + ' Developed new About Us and Advertise With Us pages for clients.'
-            + ' Created <strong>10+</strong> new site subsections, using queries to populate them with existing articles.'
-            + ' Resolved bugs with existing software to improve user experience.',
+        description: "Engineer interactive web pages and modules for UNL's main news website with <strong>20k+</strong> weekly views and <strong>7k+</strong> registered users.",
+        contributions: [
+            'Launched 2024 Endowment page and first-ever Impact Report site for <strong>3k+</strong> donors and alumni to promote company metrics and fundraising',
+            'Built the Curious Cornhuskers Q&A component, automatically sending <strong>8+</strong> student questions to the staff Trello board weekly',
+            'Deployed a module and server for students to sign up to the <strong>26k+</strong> subscriber University newsletter',
+            'Developed new About Us and Advertise With Us pages for improved exposure to clients, growing page views by <strong>44%</strong>',
+            'Generated <strong>10+</strong> new site subsections, using query population to fill them with existing articles',
+            'Resolved bugs with existing software to improve user experience',
+        ],
         skills: ['JavaScript', 'React', 'Python', 'Flask', 'HTML/SCSS', 'Tailwind', 'Material UI', /*'Beehiiv API', 'Trello API', 'Spotify API',*/ 'Firebase']
     },
     {
@@ -80,11 +88,12 @@ export const experienceInfo = [
         links: [
             { title: "Course Information", url: "https://catalog.unl.edu/undergraduate/courses/raik/" },
         ],
-        description: 'Taught Raikes Honors Computer Science courses to <strong>40</strong> students.'
-            + ' Served for Software Development Essentials (CS 2 / RAIK184H) in spring and Computer Problem Solving Essentials (CS 1 / RAIK183H) in fall.'
-            + ' Graded assignments, projects, and tests.'
-            + ' Hosted TA hours to assist students with their code and understanding of assignments.'
-            + ' Led lab groups and assisted in lectures.',
+        description: 'Taught Computer Science courses to <strong>40</strong> students in the Raikes School Honors Program.',
+        contributions: [
+            'Graded coding assignments, projects, and tests',
+            'Hosted TA hours to assist students with their programs and understanding of assignments',
+            'Led lab groups and assisted in lectures',
+        ],
         skills: ['Java', 'SQL', 'OOP', 'Algorithms', 'Relations', 'Optimization', 'Data Structures',
             'Discrete Math']
     },
@@ -99,11 +108,14 @@ export const experienceInfo = [
         links: [
             { title: "Sponsor App Demo", url: "https://landing.principal.com/advisor-retirement-dashboard-demo" },
         ],
-        description: 'Worked on a sponsor companies reporting app with <strong>12k+</strong> monthly active users, deploying improvements to the main site weekly.'
-            + ' Spearheaded creation of report favoriting feature to streamline report access for <strong>2k+</strong> users.'
-            + ' Pushed major UI/data improvements to loan reports, improved front-end of reports dashboard, created calendar component for report scheduling, and implemented analytics tracking.'
-            + ' Presented AI solution to <strong>300+</strong> employees and executives to streamline code documentation time by <strong>98%</strong>, placing <strong>3rd</strong> in Intern Innovation Projects.'
-            + ' Resolved <strong>10+</strong> client issues to optimize user experience, and tested report functions to ensure data privacy in various environments.',
+        description: "Worked on Principal's new client reporting web app for sponsor companies with <strong>12k+</strong> monthly active users.",
+        contributions: [
+            'Spearheaded creation of report favoriting feature, including its own page and logic, to streamline report access for <strong>2k+</strong> users',
+            'Pushed major UI/data improvements to loan reports and improved front-end of reports dashboard, increasing the reports user count by <strong>14%</strong>',
+            'Added user customization to report scheduling calendar and implemented analytics tracking on <strong>10+</strong> pages.',
+            'Presented AI solution to <strong>300+</strong> employees and executives to streamline code documentation time on existing repositories by <strong>98%</strong>, placing <strong>3rd</strong> in Intern Innovation Projects',
+            'Resolved <strong>10+</strong> client issues to optimize user experience and tested report functions to ensure data privacy in various environments',
+        ],
         skills: ['TypeScript', 'React', 'Java', 'Spring', 'HTML/CSS', 'Bootstrap', 'Google Analytics', 'JUnit']
     },
     {
@@ -117,11 +129,13 @@ export const experienceInfo = [
         links: [
             { title: "Olsson Project Story", url: "https://www.olsson.com/projects/seeing-the-possibilities" },
         ],
-        description: 'Worked in an agile, student-led team of 5 as a part of the Raikes School Design Studio Program, developing the Project ZeroDelta web app.'
-            + ' Visualized difference calculations between Revit models & LiDAR point clouds in a 3D space, automating the old <strong>80+</strong> hour manual task for Olsson engineers.'
-            + ' Built employee-authenticated login page, dynamic dashboard and navigation features.'
-            + ' Assisted with machine learning model that optimized comparison times by <strong>94%</strong>.'
-            + ' Awarded <strong>Design Studio Gold Project Award</strong>, placing <strong>2nd</strong> in Design Studio Projects out of 20+ teams.',
+        description: 'Developed the Project ZeroDelta web app under the Raikes School Design Studio Program to streamline building comparisons for Olsson engineers.',
+        contributions: [
+            'Visualized difference calculations between Revit models & LiDAR point clouds in a 3D platform, automating the old <strong>80+</strong> hour manual task for Olsson engineers',
+            'Built an employee-authenticated login page, dynamic dashboard and navigation features',
+            'Assisted with the difference calculation machine learning model that optimized comparison times by <strong>94%</strong>',
+            'Awarded <strong>Design Studio Gold Project Award</strong>, placing <strong>2nd</strong> in Design Studio Projects out of 20+ teams',
+        ],
         skills: ['JavaScript', 'HTML/CSS', 'Bootstrap', 'Python', 'Django', 'Autodesk API', 'Auth0']
     },
     /*{

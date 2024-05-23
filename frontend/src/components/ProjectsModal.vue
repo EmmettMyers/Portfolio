@@ -187,6 +187,7 @@ export default defineComponent({
         transition: .3s ease;
         transform: scale(1);
         margin-right: .5vw;
+        margin-bottom: 0.25vw;
 
         &:hover {
             transform: scale(1.1);
