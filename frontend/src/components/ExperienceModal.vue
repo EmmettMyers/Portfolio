@@ -38,8 +38,9 @@
                             CONTRIBUTIONS
                         </p>
                         <div class="contributionsBox font-normal">
-                            <li v-for="contribution in info.contributions" v-html="contribution"
-                                class="contributionsList"></li>
+                            <ul class="contributionsList">
+                                <li v-for="contribution in info.contributions" v-html="contribution"></li>
+                            </ul>
                         </div>
                         <p class="skills font-bold mt-6">
                             SKILLS
@@ -85,8 +86,9 @@
                             CONTRIBUTIONS
                         </p>
                         <div class="contributionsBox font-normal">
-                            <li v-for="contribution in info.contributions" v-html="contribution"
-                                class="contributionsList"></li>
+                            <ul class="contributionsList">
+                                <li v-for="contribution in info.contributions" v-html="contribution"></li>
+                            </ul>
                         </div>
                         <p class="skills font-bold mt-6">
                             SKILLS
@@ -257,8 +259,8 @@ export default defineComponent({
 
         .contributionsList {
             list-style-position: outside;
-            text-indent: -1.8vw;
-            padding-left: 1.7em;
+            list-style-type: disc;
+            padding-left: 1.6vw;
         }
 
         .skillsBox {
@@ -317,12 +319,12 @@ export default defineComponent({
                 font-size: 5vw;
                 margin-top: 2.5vw;
                 line-height: 6vw;
-                margin-bottom: 1vw;
+                margin-bottom: 0.5vw;
             }
 
             .company {
                 color: #F9B959;
-                font-size: 3vw;
+                font-size: 3.5vw;
             }
 
             .setting {
@@ -344,8 +346,7 @@ export default defineComponent({
             }
 
             .contributionsList {
-                text-indent: -3.6vw;
-                padding-left: 1.7em;
+                padding-left: 3.4vw;
             }
 
             .skillsBox {
@@ -359,8 +360,7 @@ export default defineComponent({
 
 @media (max-width: 499px) {
     .contributionsList {
-        text-indent: -2.6vw !important;
-        padding-left: 1.1em !important;
+        padding-left: 4vw !important;
     }
 }
 </style>
