@@ -69,10 +69,14 @@ export const skillsInfo = [
         color: '#93C745'
     },
     {
+        name: 'Git',
+        color: '#F05639'
+    },
+    /*
+    {
         name: 'SQL',
         color: '#DC7939'
     },
-    /*
     {
         name: 'Nuxt',
         color: '#438B7B'
@@ -96,10 +100,6 @@ export const skillsInfo = [
     {
         name: 'Linux',
         color: '#fe7e01'
-    },
-    {
-        name: 'Git',
-        color: '#F05639'
     },
     */
 ];

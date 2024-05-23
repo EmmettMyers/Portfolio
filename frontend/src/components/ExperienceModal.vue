@@ -245,7 +245,7 @@ export default defineComponent({
         .contributions {
             color: #F9B959;
             font-size: 1.5vw;
-            letter-spacing: 0.8vw;
+            letter-spacing: 0.7vw;
             line-height: 2;
             margin-top: 1.5vw;
         }
@@ -257,7 +257,7 @@ export default defineComponent({
 
         .contributionsList {
             list-style-position: outside;
-            text-indent: -1.5em;
+            text-indent: -1.8vw;
             padding-left: 1.7em;
         }
 
@@ -343,12 +343,24 @@ export default defineComponent({
                 font-size: 2.5vw !important;
             }
 
+            .contributionsList {
+                text-indent: -3.6vw;
+                padding-left: 1.7em;
+            }
+
             .skillsBox {
                 display: grid;
                 grid-template-columns: repeat(auto-fill, minmax(16vw, 1fr));
                 grid-gap: .5vw;
             }
         }
+    }
+}
+
+@media (max-width: 499px) {
+    .contributionsList {
+        text-indent: -2.1vw !important;
+        padding-left: 1.1em !important;
     }
 }
 </style>
