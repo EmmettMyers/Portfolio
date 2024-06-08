@@ -273,8 +273,8 @@ export default defineComponent({
 @media (max-width: 700px) {
     .projectsModal {
         width: 80vw;
-        height: 70vh;
-        max-height: none;
+        height: auto;
+        max-height: 70vh;
         overflow: hidden;
         border-radius: 2vw;
 
@@ -296,7 +296,7 @@ export default defineComponent({
         .rightSide {
             overflow-x: hidden;
             overflow-y: scroll;
-            height: 45vh;
+            max-height: 45vh;
             width: 100%;
             padding-left: 3vw;
             padding-right: 3vw;

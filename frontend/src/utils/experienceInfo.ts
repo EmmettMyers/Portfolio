@@ -26,12 +26,12 @@ export const experienceInfo = [
         screen: 'experienceScreens/garmin_screen.png',
         background: 'backgrounds/garmin_back.jpg',
         time: 'May 2024 - Present',
-        location: 'Olathe, Kansas',
+        location: 'Kansas City, Kansas',
         links: [
             { title: "Clipboard Overview", url: "https://www.garmin.com/en-US/p/739176" },
             { title: "Clipboard Demo", url: "https://www.youtube.com/watch?v=_Saq212NlYc&ab_channel=GarminTraining" },
         ],
-        description: 'Developing Garmin Clipboard, a mobile app designed to help cross country teams build workouts and review stats, for <strong>110k+</strong> registered users.',
+        description: 'Working in Labs R&D to develop Garmin Clipboard, a mobile app designed to help cross country teams build workouts and review stats, for <strong>110k+</strong> registered users.',
         contributions: [
         ],
         skills: ['Kotlin', 'Java', 'Android Studio', 'Jetpack Compose']
@@ -69,10 +69,10 @@ export const experienceInfo = [
         description: "Engineer interactive web pages and modules for UNL's main news website with <strong>20k+</strong> weekly views and <strong>7k+</strong> registered users.",
         contributions: [
             'Launched 2024 Endowment page and first-ever Impact Report site for <strong>3k+</strong> donors and alumni to promote company metrics and fundraising',
-            'Built the Curious Cornhuskers Q&A component, automatically sending <strong>8+</strong> student questions to the staff Trello board weekly',
+            'Built the Curious Cornhuskers Q&A component, automatically sending UNL student questions to the staff Trello board',
             'Deployed a module and server for students to sign up to the <strong>26k+</strong> subscriber University newsletter',
             'Developed new About Us and Advertise With Us pages for improved exposure to clients, growing page views by <strong>44%</strong>',
-            'Generated <strong>10+</strong> new site subsections, using query population to fill them with existing articles',
+            'Generated <strong>10+</strong> new site subsections using query population',
             'Resolved bugs with existing software to improve user experience',
         ],
         skills: ['JavaScript', 'React', 'Python', 'Flask', 'HTML/SCSS', 'Tailwind', 'Material UI', /*'Beehiiv API', 'Trello API', 'Spotify API',*/ 'Firebase']
@@ -111,7 +111,7 @@ export const experienceInfo = [
         description: "Worked on Principal's new client reporting web app for sponsor companies with <strong>12k+</strong> monthly active users.",
         contributions: [
             'Spearheaded creation of report favoriting feature, including its own page and logic, to streamline report access for <strong>2k+</strong> users',
-            'Pushed major UI/data improvements to loan reports and improved front-end of reports dashboard, increasing the reports user count by <strong>14%</strong>',
+            'Pushed UI and data pipeline improvements to loan reports, reports dashboard and report builder, growing active reports users by <strong>13%</strong>',
             'Added user customization to report scheduling calendar and implemented analytics tracking on <strong>10+</strong> pages.',
             'Presented AI solution to <strong>300+</strong> employees and executives to streamline code documentation time on existing repositories by <strong>98%</strong>, placing <strong>3rd</strong> in Intern Innovation Projects',
             'Resolved <strong>10+</strong> client issues to optimize user experience and tested report functions to ensure data privacy in various environments',
