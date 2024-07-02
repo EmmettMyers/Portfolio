@@ -31,8 +31,13 @@ export const experienceInfo = [
             { title: "Clipboard Overview", url: "https://www.garmin.com/en-US/p/739176" },
             { title: "Clipboard Demo", url: "https://www.youtube.com/watch?v=_Saq212NlYc&ab_channel=GarminTraining" },
         ],
-        description: 'Working in Labs R&D to develop Garmin Clipboard, a mobile app designed to help cross country teams build workouts and review stats, for <strong>110k+</strong> registered users.',
+        description: 'Working in Labs R&D to develop Garmin Clipboard, a mobile app designed to help cross country teams build workouts and review stats, for <strong>120k+</strong> registered users.',
         contributions: [
+            'Spearheaded creation of markup feature enabling <strong>22k+</strong> coaches to annotate on athlete workout charts with paint tools, tags, notes, sharing, notifications, and more',
+            'Developed notepad feature allowing coaches to efficiently type and draw notes directly within the app at any time',
+            'Launched a new bulletin board used by <strong>28k+</strong> athletes to view coach announcements with search, filter, bookmark and share features',
+            'Revamped UI and front-end architecture for athlete profile, statistics, personal bests and milestones pages, improving user experience and code efficiency',
+            'Deployed <strong>12+</strong> UI/UX enhancements to the workout builder and athlete portal to match new design system and iOS interfaces'
         ],
         skills: ['Kotlin', 'Java', 'Android Studio', 'Jetpack Compose']
     },
@@ -47,10 +52,10 @@ export const experienceInfo = [
         links: [
             { title: "Product Overview", url: "https://www.mynestimate.com/" },
         ],
-        description: 'Front-end development for a retirement solutions and analytics startup with <strong>$1m+</strong> in VC funding.',
-        contributions: [/*
-            'Created Sales Enablement page with interactive parameters and graphs for advisors to demonstrate lifetime income effects on retirement to clients',
-            'Developed filterable Product Recordkeeper page to streamline 401k plan provider matching and card visuals for upcoming retirement products',*/
+        description: 'Front-end development for a retirement solutions and analytics startup with <strong>$1m+</strong> in VC funding and Fortune 500 clients.',
+        contributions: [
+            'Created Sales Enablement section and Participant Engagement page with interactive parameters, graphs, and themes for advisors to demonstrate lifetime income effects on retirement to clients',
+            'Developed Product Recordkeeper Adoption page with search and filter functionalities to streamline 401k plan provider matching and card visuals for upcoming retirement products',
         ],
         skills: ['JavaScript', 'Stimulus', 'Ruby', 'Ruby on Rails', 'HTML/CSS', 'Tailwind', 'DaisyUI', 'Chart.js']
     },
@@ -71,7 +76,7 @@ export const experienceInfo = [
             'Launched 2024 Endowment page and first-ever Impact Report site for <strong>3k+</strong> donors and alumni to promote company metrics and fundraising',
             'Built the Curious Cornhuskers Q&A component, automatically sending UNL student questions to the staff Trello board',
             'Deployed a module and server for students to sign up to the <strong>26k+</strong> subscriber University newsletter',
-            'Developed new About Us and Advertise With Us pages for improved exposure to clients, growing page views by <strong>44%</strong>',
+            'Developed new About Us and Advertise With Us pages for improved exposure to clients',
             'Generated <strong>10+</strong> new site subsections using query population',
             'Resolved bugs with existing software to improve user experience',
         ],
@@ -110,11 +115,11 @@ export const experienceInfo = [
         ],
         description: "Worked on Principal's new client reporting web app for sponsor companies with <strong>12k+</strong> monthly active users.",
         contributions: [
-            'Spearheaded creation of report favoriting feature, including its own page and logic, to streamline report access for <strong>2k+</strong> users',
-            'Pushed UI and data pipeline improvements to loan reports, reports dashboard and report builder, growing active reports users by <strong>13%</strong>',
+            'Led creation of report favoriting feature, including its own page and logic, to streamline report access for <strong>2k+</strong> users',
+            'Pushed UI and data pipeline improvements to loan reports, reports dashboard and report builder',
             'Added user customization to report scheduling calendar and implemented analytics tracking on <strong>10+</strong> pages.',
             'Presented AI solution to <strong>300+</strong> employees and executives to streamline code documentation time on existing repositories by <strong>98%</strong>, placing <strong>3rd</strong> in Intern Innovation Projects',
-            'Resolved <strong>10+</strong> client issues to optimize user experience and tested report functions to ensure data privacy in various environments',
+            'Resolved <strong>8+</strong> client issues to optimize user experience and tested report event to ensure data privacy in various user environments',
         ],
         skills: ['TypeScript', 'React', 'Java', 'Spring', 'HTML/CSS', 'Bootstrap', 'Google Analytics', 'JUnit']
     },
@@ -131,7 +136,7 @@ export const experienceInfo = [
         ],
         description: 'Developed the Project ZeroDelta web app under the Raikes School Design Studio Program to streamline building comparisons for Olsson engineers.',
         contributions: [
-            'Visualized difference calculations between Revit models & LiDAR point clouds in a 3D platform, automating the old <strong>80+</strong> hour manual task for Olsson engineers',
+            'Visualized difference calculations between Revit models & LiDAR point clouds in a 3D interface, automating the old <strong>80+</strong> hour manual task for Olsson engineers',
             'Built an employee-authenticated login page, dynamic dashboard and navigation features',
             'Assisted with the difference calculation machine learning model that optimized comparison times by <strong>94%</strong>',
             'Awarded <strong>Design Studio Gold Project Award</strong>, placing <strong>2nd</strong> in Design Studio Projects out of 20+ teams',
