@@ -31,13 +31,14 @@ export const experienceInfo = [
             { title: "Clipboard Overview", url: "https://www.garmin.com/en-US/p/739176" },
             { title: "Clipboard Demo", url: "https://www.youtube.com/watch?v=_Saq212NlYc&ab_channel=GarminTraining" },
         ],
-        description: 'Working in Labs R&D to develop Garmin Clipboard, a mobile app designed to help cross country teams build workouts and review stats, for <strong>120k+</strong> registered users.',
+        description: 'Working on a Labs R&D team to develop Garmin Clipboard, a sports mobile app designed to help teams build workouts and review stats, for <strong>120k+</strong> registered users.',
         contributions: [
             'Spearheaded creation of markup feature enabling <strong>22k+</strong> coaches to annotate on athlete workout charts with paint tools, tags, notes, sharing, notifications, and more',
-            'Developed notepad feature allowing coaches to efficiently type and draw notes directly within the app at any time',
-            'Launched a new bulletin board used by <strong>28k+</strong> athletes to view coach announcements with search, filter, bookmark and share features',
+            'Implemented coach scratchpad to facilitate quick note taking on athletes including formatted text, charts, lists, images, and drawings',
+            'Launched new bulletin board used by <strong>28k+</strong> athletes to view coach announcements with search, filter, bookmark and share features',
             'Revamped UI and front-end architecture for athlete profile, statistics, personal bests and milestones pages, improving user experience and code efficiency',
-            'Deployed <strong>12+</strong> UI/UX enhancements to the workout builder and athlete portal to match new design system and iOS interfaces'
+            'Deployed <strong>12+</strong> UI/UX enhancements to the workout builder and athlete portal to match new design system and iOS interfaces',
+            'Addressed and resolved <strong>6+</strong> app issues reported by coaches'
         ],
         skills: ['Kotlin', 'Java', 'Android Studio', 'Jetpack Compose']
     },
