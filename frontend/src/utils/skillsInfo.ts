@@ -9,20 +9,20 @@ export const skillsInfo = [
         color: '#2D79C7'
     },
     {
-        name: 'React',
-        color: '#169aab'
-    },
-    {
-        name: 'Vue',
-        color: '#3FB984'
+        name: 'Java',
+        color: '#c7161a'
     },
     {
         name: 'Python',
         color: '#3878AA'
     },
     {
-        name: 'Java',
-        color: '#c7161a'
+        name: 'React',
+        color: '#169aab'
+    },
+    {
+        name: 'Vue',
+        color: '#3FB984'
     },
     {
         name: 'HTML',
@@ -37,8 +37,20 @@ export const skillsInfo = [
         color: '#E1725C'
     },
     {
-        name: 'Android Studio',
+        name: 'Android SDK',
         color: '#4086F4'
+    },
+    {
+        name: 'Jetpack Compose',
+        color: '#3570B4'
+    },
+    {
+        name: 'Swift',
+        color: '#FD7734'
+    },
+    {
+        name: 'SwiftUI',
+        color: '#0072FD'
     },
     {
         name: 'Ruby',
@@ -57,49 +69,31 @@ export const skillsInfo = [
         color: '#2BA977'
     },
     {
-        name: 'React Native',
-        color: '#077ea9'
+        name: 'Flask',
+        color: '#0D7963'
     },
     {
-        name: 'Spring',
+        name: 'Spring Boot',
         color: '#6db33f'
     },
     {
-        name: 'Node',
+        name: 'Node.js',
         color: '#93C745'
     },
     {
-        name: 'Git',
-        color: '#F05639'
+        name: 'React Native',
+        color: '#077ea9'
     },
-    /*
     {
         name: 'SQL',
         color: '#DC7939'
     },
     {
-        name: 'Nuxt',
-        color: '#438B7B'
-    },
-    {
-        name: 'Tailwind',
-        color: '#38BDF8'
-    },
-    {
-        name: 'Bootstrap',
-        color: '#7B09F8'
-    },
-    {
-        name: 'MongoDB',
-        color: '#469E3F'
-    },
-    {
-        name: 'Swift',
-        color: '#FD7734'
-    },
-    {
         name: 'Linux',
         color: '#fe7e01'
     },
-    */
+    {
+        name: 'Git',
+        color: '#F05639'
+    },
 ];

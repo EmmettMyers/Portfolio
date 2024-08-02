@@ -33,14 +33,14 @@ export const experienceInfo = [
         ],
         description: 'Working on a Labs R&D team to develop Garmin Clipboard, a sports mobile app designed to help teams build workouts and review stats, for <strong>120k+</strong> registered users.',
         contributions: [
-            'Spearheaded creation of markup feature enabling <strong>22k+</strong> coaches to annotate on athlete workout charts with paint tools, tags, notes, sharing, notifications, and more',
+            /*'Spearheaded creation of markup feature enabling <strong>22k+</strong> coaches to annotate on athlete workout charts with paint tools, tags, notes, sharing, notifications, and more',
             'Implemented coach scratchpad to facilitate quick note taking on athletes including formatted text, charts, lists, images, and drawings',
             'Launched new bulletin board used by <strong>28k+</strong> athletes to view coach announcements with search, filter, bookmark and share features',
             'Revamped UI and front-end architecture for athlete profile, statistics, personal bests and milestones pages, improving user experience and code efficiency',
             'Deployed <strong>12+</strong> UI/UX enhancements to the workout builder and athlete portal to match new design system and iOS interfaces',
-            'Addressed and resolved <strong>6+</strong> app issues reported by coaches'
+            'Addressed and resolved <strong>6+</strong> app issues reported by coaches',*/
         ],
-        skills: ['Kotlin', 'Java', 'Android Studio', 'Jetpack Compose']
+        skills: ['Kotlin', 'Jetpack Compose', 'Swift', 'SwiftUI', 'Java', 'Spring', 'Android SDK']
     },
     {
         title: 'Software Engineer Intern',
@@ -56,7 +56,9 @@ export const experienceInfo = [
         description: 'Front-end development for a retirement solutions and analytics startup with <strong>$1m+</strong> in VC funding and Fortune 500 clients.',
         contributions: [
             'Created Sales Enablement section and Participant Engagement page with interactive parameters, graphs, and themes for advisors to demonstrate lifetime income effects on retirement to clients',
-            'Developed Product Recordkeeper Adoption page with search and filter functionalities to streamline 401k plan provider matching and card visuals for upcoming retirement products',
+            'Developed Product Recordkeeper Adoption page with search and filter functionalities to streamline 401k plan provider matching',
+            /*'Improved UI/UX of proposal builder workflow and lifetime income proposal PDFs',*/
+            'Implemented new card visuals for upcoming retirement products',
         ],
         skills: ['JavaScript', 'Stimulus', 'Ruby', 'Ruby on Rails', 'HTML/CSS', 'Tailwind', 'DaisyUI', 'Chart.js']
     },
@@ -125,8 +127,8 @@ export const experienceInfo = [
         skills: ['TypeScript', 'React', 'Java', 'Spring', 'HTML/CSS', 'Bootstrap', 'Google Analytics', 'JUnit']
     },
     {
-        title: 'Software Developer Intern',
-        company: 'Olsson - Design Studio',
+        title: 'Design Studio Intern',
+        company: 'UNL Raikes School',
         image: 'experience/work_olsson2.png',
         screen: 'experienceScreens/olsson_screen.png',
         background: 'backgrounds/olsson_back.jpg',
