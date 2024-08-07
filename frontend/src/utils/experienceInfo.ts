@@ -33,12 +33,12 @@ export const experienceInfo = [
         ],
         description: 'Working on a Labs R&D team to develop Garmin Clipboard, a sports mobile app designed to help teams build workouts and review stats, for <strong>120k+</strong> registered users.',
         contributions: [
-            /*'Spearheaded creation of markup feature enabling <strong>22k+</strong> coaches to annotate on athlete workout charts with paint tools, tags, notes, sharing, notifications, and more',
+            'Spearheaded creation of markup feature enabling <strong>22k+</strong> coaches to annotate on athlete workout charts with paint tools, tags, notes, sharing, notifications, and more',
             'Implemented coach scratchpad to facilitate quick note taking on athletes including formatted text, charts, lists, images, and drawings',
             'Launched new bulletin board used by <strong>28k+</strong> athletes to view coach announcements with search, filter, bookmark and share features',
             'Revamped UI and front-end architecture for athlete profile, statistics, personal bests and milestones pages, improving user experience and code efficiency',
             'Deployed <strong>12+</strong> UI/UX enhancements to the workout builder and athlete portal to match new design system and iOS interfaces',
-            'Addressed and resolved <strong>6+</strong> app issues reported by coaches',*/
+            'Addressed and resolved <strong>6+</strong> app issues reported by coaches'
         ],
         skills: ['Kotlin', 'Jetpack Compose', 'Swift', 'SwiftUI', 'Java', 'Spring', 'Android SDK']
     },
@@ -86,7 +86,7 @@ export const experienceInfo = [
         skills: ['JavaScript', 'React', 'Python', 'Flask', 'HTML/SCSS', 'Tailwind', 'Material UI', /*'Beehiiv API', 'Trello API', 'Spotify API',*/ 'Firebase']
     },
     {
-        title: 'Computer Science-------Teaching Assistant',
+        title: 'Software Development-------Teaching Assistant',
         company: 'University of Nebraska-Lincoln',
         image: 'experience/work_ta.png',
         screen: 'experienceScreens/ta_screen.png',
@@ -96,7 +96,7 @@ export const experienceInfo = [
         links: [
             { title: "Course Information", url: "https://catalog.unl.edu/undergraduate/courses/raik/" },
         ],
-        description: 'Taught Computer Science courses to <strong>40</strong> students in the Raikes School Honors Program.',
+        description: 'Taught Software Development courses to <strong>40</strong> students in the Raikes School Honors Program.',
         contributions: [
             'Graded coding assignments, projects, and tests',
             'Hosted TA hours to assist students with their programs and understanding of assignments',
@@ -127,7 +127,7 @@ export const experienceInfo = [
         skills: ['TypeScript', 'React', 'Java', 'Spring', 'HTML/CSS', 'Bootstrap', 'Google Analytics', 'JUnit']
     },
     {
-        title: 'Design Studio Intern',
+        title: 'Design Studio--------------Developer Intern',
         company: 'UNL Raikes School',
         image: 'experience/work_olsson2.png',
         screen: 'experienceScreens/olsson_screen.png',

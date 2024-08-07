@@ -2,23 +2,23 @@
     <div :class="screen == 'phone' ? 'mt-3' : 'wordPadder'" class="flex justify-start">
         <a href="https://drive.google.com/file/d/14F5Z8eOhVzJzOl70Hiz_65fA68jDcjF0/view?usp=sharing"
             class="contactBox flex justify-center items-center" target="_blank" @click="logContactIconClick('resume')">
-            <img class="lg" src="https://icons.veryicon.com/png/o/miscellaneous/general-icon-library/resume-7.png" />
+            <img style="height: 75%;" src="icons/resume.png" />
         </a>
         <a href="https://www.linkedin.com/in/emmettmyers/" class="contactBox flex justify-center items-center"
             target="_blank" @click="logContactIconClick('linkedin')">
-            <img class="sm" src="https://cdn-icons-png.flaticon.com/512/3536/3536569.png" />
+            <img style="height: 55%;" src="icons/linkedin.png" />
         </a>
         <a href="https://github.com/EmmettMyers" class="contactBox flex justify-center items-center" target="_blank"
             @click="logContactIconClick('github')">
-            <img class="sm" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" />
+            <img style="height: 55%;" src="icons/github.png" />
         </a>
         <a href="mailto:emmettleemyers@gmail.com?subject=&body=" class="contactBox flex justify-center items-center"
             target="_blank" @click="logContactIconClick('email')">
-            <img class="md" src="https://img.freepik.com/free-icon/email_318-859700.jpg" />
+            <img style="height: 65%;" src="icons/email.png" />
         </a>
         <a href="https://www.instagram.com/emmett_myers/" class="contactBox flex justify-center items-center"
             target="_blank" @click="logContactIconClick('instagram')">
-            <img class="sm" src="https://cdn-icons-png.flaticon.com/512/87/87390.png" />
+            <img style="height: 60%;" src="icons/instagram.webp" />
         </a>
     </div>
 </template>
