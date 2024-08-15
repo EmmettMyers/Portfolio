@@ -229,13 +229,13 @@ export default defineComponent({
             font-size: 2.75vw;
             margin-top: 1.5vw;
             line-height: 3vw;
-            margin-bottom: .5vw;
+            margin-bottom: .25vw;
         }
 
         .company {
             color: #F9B959;
             font-size: 2vw;
-            margin-bottom: .5vw;
+            margin-bottom: .4vw;
         }
 
         .setting {

@@ -21,29 +21,6 @@ export const experienceModalInfo = ref(
 export const experienceInfo = [
     {
         title: 'Software Engineer Intern',
-        company: 'Garmin',
-        image: 'experience/work_garmin3.png',
-        screen: 'experienceScreens/garmin_screen.png',
-        background: 'backgrounds/garmin_back.jpg',
-        time: 'May 2024 - Present',
-        location: 'Kansas City, Kansas',
-        links: [
-            { title: "Clipboard Overview", url: "https://www.garmin.com/en-US/p/739176" },
-            { title: "Clipboard Demo", url: "https://www.youtube.com/watch?v=_Saq212NlYc&ab_channel=GarminTraining" },
-        ],
-        description: 'Working on a Labs R&D team to develop Garmin Clipboard, a sports mobile app designed to help teams build workouts and review stats, for <strong>120k+</strong> registered users.',
-        contributions: [
-            'Spearheaded creation of markup feature enabling <strong>22k+</strong> coaches to annotate on athlete workout charts with paint tools, tags, notes, sharing, notifications, and more',
-            'Implemented coach scratchpad to facilitate quick note taking on athletes including formatted text, charts, lists, images, and drawings',
-            'Launched new bulletin board used by <strong>28k+</strong> athletes to view coach announcements with search, filter, bookmark and share features',
-            'Revamped UI and front-end architecture for athlete profile, statistics, personal bests and milestones pages, improving user experience and code efficiency',
-            'Deployed <strong>12+</strong> UI/UX enhancements to the workout builder and athlete portal to match new design system and iOS interfaces',
-            'Addressed and resolved <strong>6+</strong> app issues reported by coaches'
-        ],
-        skills: ['Kotlin', 'Jetpack Compose', 'Swift', 'SwiftUI', 'Java', 'Spring', 'Android SDK']
-    },
-    {
-        title: 'Software Engineer Intern',
         company: 'Nestimate',
         image: 'experience/work_nest2.png',
         screen: 'experienceScreens/nest_screen2.png',
@@ -86,24 +63,47 @@ export const experienceInfo = [
         skills: ['JavaScript', 'React', 'Python', 'Flask', 'HTML/SCSS', 'Tailwind', 'Material UI', /*'Beehiiv API', 'Trello API', 'Spotify API',*/ 'Firebase']
     },
     {
-        title: 'Software Development-------Teaching Assistant',
+        title: 'Undergraduate-------------Teaching Assistant',
         company: 'University of Nebraska-Lincoln',
         image: 'experience/work_ta.png',
         screen: 'experienceScreens/ta_screen.png',
         background: 'backgrounds/unl_back.jpg',
-        time: 'Aug. 2023 - May 2024',
+        time: 'Aug. 2023 - Present',
         location: 'Lincoln, Nebraska',
         links: [
-            { title: "Course Information", url: "https://catalog.unl.edu/undergraduate/courses/raik/" },
+            { title: "Current Course Info", url: "https://catalog.unl.edu/undergraduate/courses/soft/" },
+            { title: "Past Courses Info", url: "https://catalog.unl.edu/undergraduate/courses/raik/" },
         ],
-        description: 'Taught Software Development courses to <strong>40</strong> students in the Raikes School Honors Program.',
+        description: 'Teach Software Engineering courses to <strong>110+</strong> Computer Science students. Currently teaching Software Engineering III, used to teach Honors Computer Problem Solving and Honors Software Development Essentials.',
         contributions: [
-            'Graded coding assignments, projects, and tests',
-            'Hosted TA hours to assist students with their programs and understanding of assignments',
-            'Led lab groups and assisted in lectures',
+            'Grade coding assignments, projects, and tests',
+            'Host TA hours to assist students with their assignments and understanding of core concepts',
+            'Lead lab groups and assisted in lectures'
         ],
-        skills: ['Java', 'SQL', 'OOP', 'Algorithms', 'Relations', 'Optimization', 'Data Structures',
-            'Discrete Math']
+        skills: ['Data Structures', 'Algorithms', 'JavaScript', 'Java', 'SQL', 'OOP', 'Discrete Math', 'Optimization']
+    },
+    {
+        title: 'Software Engineer Intern',
+        company: 'Garmin',
+        image: 'experience/work_garmin3.png',
+        screen: 'experienceScreens/garmin_screen.png',
+        background: 'backgrounds/garmin_back.jpg',
+        time: 'May 2024 - Aug 2024',
+        location: 'Kansas City, Kansas',
+        links: [
+            { title: "Clipboard Overview", url: "https://www.garmin.com/en-US/p/739176" },
+            { title: "Clipboard Demo", url: "https://www.youtube.com/watch?v=_Saq212NlYc&ab_channel=GarminTraining" },
+        ],
+        description: 'Worked on a Labs R&D team to develop Garmin Clipboard, a sports mobile app designed to help teams build workouts and review stats, for <strong>120k+</strong> registered users.',
+        contributions: [
+            'Spearheaded creation of markup feature enabling <strong>22k+</strong> coaches to annotate on athlete workout charts with paint tools, tags, notes, sharing, notifications, and more',
+            'Implemented coach scratchpad to facilitate quick note taking on athletes including formatted text, charts, lists, images, and drawings',
+            'Launched new bulletin board used by <strong>28k+</strong> athletes to view coach announcements with search, filter, bookmark and share features',
+            'Revamped UI and front-end architecture for athlete profile, statistics, personal bests and milestones pages, improving user experience and code efficiency',
+            'Deployed <strong>12+</strong> UI/UX enhancements to the workout builder and athlete portal to match new design system and iOS interfaces',
+            'Addressed and resolved <strong>6+</strong> app issues reported by coaches'
+        ],
+        skills: ['Kotlin', 'Jetpack Compose', 'Swift', 'SwiftUI', 'Java', 'Spring', 'Android SDK']
     },
     {
         title: 'Software Engineer Intern',

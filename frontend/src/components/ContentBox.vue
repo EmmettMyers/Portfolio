@@ -118,8 +118,8 @@ export default defineComponent({
     }
 
     .company {
-        font-size: 1.3vw;
-        color: #F9B959;
+        font-size: 1.4vw;
+        color: #feca7b;
         filter: drop-shadow(2px 2px 2px #222);
     }
 
@@ -169,7 +169,7 @@ export default defineComponent({
         }
 
         .company {
-            font-size: 3.5vw;
+            font-size: 4.25vw;
         }
     }
 }
