@@ -4,7 +4,7 @@
         <div class="holder absolute z-40 text-white">
             <div v-if="info.school">
                 <p :style="titleSize" class="title font-bold"> {{ info.school }} </p>
-                <p class="company font-bold"> {{ info.title }} </p>
+                <p class="school font-bold"> {{ info.title }} </p>
             </div>
             <div v-else>
                 <p :style="titleSize" class="title font-bold"> {{ info.title.replace(new RegExp('-', 'g'), '&ensp;') }}
@@ -123,6 +123,12 @@ export default defineComponent({
         filter: drop-shadow(2px 2px 2px #222);
     }
 
+    .school {
+        font-size: 1.4vw;
+        color: #feca7b;
+        filter: drop-shadow(2px 2px 2px #222);
+    }
+
     .yellowShade {
         border-radius: .65vw;
         background: #F9B959;
@@ -169,7 +175,11 @@ export default defineComponent({
         }
 
         .company {
-            font-size: 4.25vw;
+            font-size: 4.1vw;
+        }
+
+        .school {
+            font-size: 3.4vw;
         }
     }
 }

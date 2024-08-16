@@ -34,7 +34,7 @@ export const experienceInfo = [
         contributions: [
             'Created Sales Enablement section and Participant Engagement page with interactive parameters, graphs, and themes for advisors to demonstrate lifetime income effects on retirement to clients',
             'Developed Product Recordkeeper Adoption page with search and filter functionalities to streamline 401k plan provider matching',
-            /*'Improved UI/UX of proposal builder workflow and lifetime income proposal PDFs',*/
+            'Pushed <strong>20+</strong> user interface improvements to workflow builder, income calculator, product profile, proposal PDFs, and financial ratings',
             'Implemented new card visuals for upcoming retirement products',
         ],
         skills: ['JavaScript', 'Stimulus', 'Ruby', 'Ruby on Rails', 'HTML/CSS', 'Tailwind', 'DaisyUI', 'Chart.js']
@@ -63,7 +63,7 @@ export const experienceInfo = [
         skills: ['JavaScript', 'React', 'Python', 'Flask', 'HTML/SCSS', 'Tailwind', 'Material UI', /*'Beehiiv API', 'Trello API', 'Spotify API',*/ 'Firebase']
     },
     {
-        title: 'Undergraduate-------------Teaching Assistant',
+        title: 'Software Engineering---------Teaching Assistant',
         company: 'University of Nebraska-Lincoln',
         image: 'experience/work_ta.png',
         screen: 'experienceScreens/ta_screen.png',
