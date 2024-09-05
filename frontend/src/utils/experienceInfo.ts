@@ -55,7 +55,8 @@ export const experienceInfo = [
         contributions: [
             'Launched 2024 Endowment page and first-ever Impact Report site for <strong>3k+</strong> donors and alumni to promote company metrics and fundraising',
             'Built the Curious Cornhuskers Q&A component, automatically sending UNL student questions to the staff Trello board',
-            'Deployed a module and server for students to sign up to the <strong>26k+</strong> subscriber University newsletter',
+            'Created a component for students to sign up to the <strong>26k+</strong> subscriber University newsletter',
+            'Deployed a centralized server to handle <strong>200k+</strong> API requests monthly, utilizing SSL and CORS for robust security measures',
             'Developed new About Us and Advertise With Us pages for improved exposure to clients',
             'Generated <strong>10+</strong> new site subsections using query population',
             'Resolved bugs with existing software to improve user experience',
