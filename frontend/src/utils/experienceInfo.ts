@@ -79,9 +79,9 @@ export const experienceInfo = [
         contributions: [
             'Grade coding assignments, projects, and tests',
             'Host TA hours to assist students with their assignments and understanding of core concepts',
-            'Lead lab groups and assisted in lectures'
+            'Lead lab groups and assist in lectures'
         ],
-        skills: ['Data Structures', 'Algorithms', 'JavaScript', 'Java', 'SQL', 'OOP', 'Discrete Math', 'Optimization']
+        skills: ['JavaScript', 'Java', 'React', 'SQL', 'Data Structures', 'Algorithms', 'OOP', 'Discrete Math']
     },
     {
         title: 'Software Engineer Intern',
