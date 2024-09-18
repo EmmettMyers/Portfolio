@@ -61,10 +61,6 @@ export const skillsInfo = [
         color: '#CD0000'
     },
     {
-        name: 'Next.js',
-        color: '#5daaa6'
-    },
-    {
         name: 'Django',
         color: '#2BA977'
     },
@@ -83,6 +79,10 @@ export const skillsInfo = [
     {
         name: 'React Native',
         color: '#077ea9'
+    },
+    {
+        name: 'Redux',
+        color: '#7749BD'
     },
     {
         name: 'SQL',
