@@ -26,11 +26,11 @@ export const experienceInfo = [
         screen: 'experienceScreens/nest_screen2.png',
         background: 'backgrounds/nest_back.jpg',
         time: 'Mar. 2024 - Present',
-        location: 'Lincoln, Nebraska',
+        location: 'Remote',
         links: [
             { title: "Product Overview", url: "https://www.mynestimate.com/" },
         ],
-        description: 'Front-end development for a retirement solutions and analytics startup with <strong>$1m+</strong> in VC funding and Fortune 500 clients.',
+        description: 'Full-stack development for a retirement solutions and analytics startup with <strong>$1m+</strong> in VC funding and Fortune 500 clients.',
         contributions: [
             'Created Sales Enablement section and Participant Engagement page with interactive parameters, graphs, and themes for advisors to demonstrate lifetime income effects on retirement to clients',
             'Developed Product Recordkeeper Adoption page with search and filter functionalities to streamline 401k plan provider matching',
@@ -38,6 +38,21 @@ export const experienceInfo = [
             'Implemented new card visuals for upcoming retirement products',
         ],
         skills: ['JavaScript', 'Stimulus', 'Ruby', 'Ruby on Rails', 'HTML/CSS', 'Tailwind', 'DaisyUI', 'Chart.js']
+    },
+    {
+        title: 'Software Engineer',
+        company: 'brAIn rot',
+        image: 'experience/brainrot.png',
+        screen: 'experienceScreens/brainrot_screen2.png',
+        background: 'backgrounds/brainrot_back.jpg',
+        time: 'Sep. 2024 - Present',
+        location: 'Remote',
+        links: [
+            { title: "Home Page", url: "https://brainrotcode.com/" },
+        ],
+        description: "Founding engineer at a startup with <strong>100k+</strong> in VC funding and <strong>80+</strong> registered users. Build front-end features for a web platform allowing developers to create algorithms and machine learning models to compete in popular strategy games.",
+        contributions: [],
+        skills: ['JavaScript', 'React', 'Go', 'HTML/CSS', 'Tailwind', 'Firebase']
     },
     {
         title: 'Software Developer',

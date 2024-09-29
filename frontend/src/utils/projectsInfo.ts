@@ -49,6 +49,26 @@ export const projectsInfo = [
         ],
     },
     {
+        title: 'Seekr',
+        image: 'projects/seekr2.png',
+        screen: 'projectScreens/seekr_screen2.png',
+        time: 'Hackathon Project - Fall 2024',
+        description: 'Seekr is a scavenger hunt mobile app that gives users daily items to find and take photos of. It uses machine learning and object detection to determine whether a photo matches the prompted item.'
+        + ' The project won the <strong>HackMidwest Pinata AI Challenge</strong> for <strong>$2,500</strong>!',
+        features: [
+            "Speed Hunt: find the daily item as fast as you can",
+            "Item Hunt: look for as many prompted items as you can in a day",
+            "Group Hunt: search for as many prompted groups of items as you can in a day",
+            "Leaderboard storing the top daily hunt scorers with their captured photos",
+            "Custom camera with an object detection machine learning model",
+            "User authentication, stored game state and help pages",
+        ],
+        tools: ['JavaScript', 'React Native', 'Python', 'Flask', 'HTML/CSS', 'AWS', 'Firebase', 'Pinata API', 'Gemini API', 'Vision API', 'Expo'],
+        links: [
+            { title: "Hackathon Info", url: "https://hackmidwest.com/" },
+        ],
+    },
+    {
         title: 'Projex',
         image: 'projects/projex.png',
         screen: 'projectScreens/projex_screen.png',
@@ -86,6 +106,30 @@ export const projectsInfo = [
         ],
     },
     {
+        title: 'Blokus',
+        image: 'projects/blokus 1.png',
+        screen: 'projectScreens/blokus_screen.png',
+        time: 'School Project - Spring 2024',
+        description: 'Real-time multiplayer web game based on the popular board game Blokus.',
+        features: [
+            "4-player local gameplay",
+            "Rotate/flip piece, turn timers, pause game functionalities",
+            "Online gameplay with game lobbies and public games",
+            "Intelligent bots (easy, medium, hard)",
+            "Online leaderboard and game statistics",
+            "Customizable user profiles with nicknames and profile pictures",
+            "Secure accounts with password hashing and 2-factor authentication",
+            "Game rules modal with PDF download",
+            "Extensive game logic testing",
+        ],
+        tools: ['JavaScript', 'React', 'Python', 'Flask', 'HTML/CSS', 'Firebase', 'Socket.IO'],
+        links: [
+            { title: "2nd Presentation", url: "https://docs.google.com/presentation/d/1sTvqjjg-xdg9GPXPbcc5EDNPNzWsgae8kcIn5KCfmVU/edit?usp=sharing" },
+            { title: "1st Presentation", url: "https://docs.google.com/presentation/d/139YdosKyl75yl2Gmjuyp_be5NmV_B-0E8FNGJkNHgc8/edit?usp=sharing" },
+            { title: "Source Code", url: "https://github.com/EmmettMyers/Blokus" },
+        ],
+    },
+    {
         title: 'Sure',
         image: 'projects/sure 3.png',
         screen: 'projectScreens/sure_screen2.png',
@@ -109,30 +153,6 @@ export const projectsInfo = [
         links: [
             { title: "Live Demo", url: "https://drive.google.com/file/d/13nnKTg7-8vtTcfH8g6AGDbO4fOUHspUh/view" },
             { title: "Source Code", url: "https://github.com/EmmettMyers/Sure" },
-        ],
-    },
-    {
-        title: 'Blokus',
-        image: 'projects/blokus 1.png',
-        screen: 'projectScreens/blokus_screen.png',
-        time: 'School Project - Spring 2024',
-        description: 'Real-time multiplayer web game based on the popular board game Blokus.',
-        features: [
-            "4-player local gameplay",
-            "Rotate/flip piece, turn timers, pause game functionalities",
-            "Online gameplay with game lobbies and public games",
-            "Intelligent bots (easy, medium, hard)",
-            "Online leaderboard and game statistics",
-            "Customizable user profiles with nicknames and profile pictures",
-            "Secure accounts with password hashing and 2-factor authentication",
-            "Game rules modal with PDF download",
-            "Extensive game logic testing",
-        ],
-        tools: ['JavaScript', 'React', 'Python', 'Flask', 'HTML/CSS', 'Firebase', 'Socket.IO'],
-        links: [
-            { title: "2nd Presentation", url: "https://docs.google.com/presentation/d/1sTvqjjg-xdg9GPXPbcc5EDNPNzWsgae8kcIn5KCfmVU/edit?usp=sharing" },
-            { title: "1st Presentation", url: "https://docs.google.com/presentation/d/139YdosKyl75yl2Gmjuyp_be5NmV_B-0E8FNGJkNHgc8/edit?usp=sharing" },
-            { title: "Source Code", url: "https://github.com/EmmettMyers/Blokus" },
         ],
     },
     {
@@ -164,7 +184,7 @@ export const projectsInfo = [
             { title: "Source Code", url: "https://github.com/EmmettMyers/GuessNBA" },
         ],
     },
-    {
+    /*{
         title: 'Portfolio',
         image: 'projects/portfolio.png',
         screen: 'projectScreens/port_screen.png',
@@ -179,7 +199,7 @@ export const projectsInfo = [
             { title: "Source Code", url: "https://github.com/EmmettMyers/Portfolio" },
         ],
     },
-    /*{
+    {
         title: 'Connect 4 Bot',
         image: 'projects/connect 4 1.png',
         screen: 'projectScreens/c4_screen.png',

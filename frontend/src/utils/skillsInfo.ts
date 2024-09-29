@@ -45,6 +45,10 @@ export const skillsInfo = [
         color: '#3570B4'
     },
     {
+        name: 'React Native',
+        color: '#077ea9'
+    },
+    {
         name: 'Swift',
         color: '#FD7734'
     },
@@ -75,10 +79,6 @@ export const skillsInfo = [
     {
         name: 'Node.js',
         color: '#93C745'
-    },
-    {
-        name: 'React Native',
-        color: '#077ea9'
     },
     {
         name: 'Redux',

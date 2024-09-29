@@ -3,7 +3,7 @@
     </div>
     <div class="w-screen h-screen absolute">
         <div class="h-screen flex items-center justify-center">
-            <div class="experienceModal fixed mb-10">
+            <div class="experienceModal fixed mb-6">
                 <div v-if="screen == 'computer'" class="flex justify-between h-full">
                     <p v-on:click="handleClose" class="exit font-light absolute top-5 right-6">
                         x
@@ -137,7 +137,7 @@ export default defineComponent({
                     this.monitorWidth = '25% !important';
                     this.monitorMaxWidth = '90px';
                 }
-            } else if (this.info.company == 'Nestimate' || this.info.company == 'The Daily Nebraskan') {
+            } else if (this.info.company == 'Nestimate' || this.info.company == 'The Daily Nebraskan' || this.info.company == 'brAIn rot') {
                 if (this.screen == 'computer') {
                     this.monitorWidth = '85%';
                 } else {
@@ -159,8 +159,8 @@ export default defineComponent({
 @import "../styles/colors.scss";
 
 .experienceModal {
-    width: 75vw;
-    height: 70vh;
+    width: 77.5vw;
+    height: 75vh;
     max-height: 50vw;
     background: #1E1E1E;
     border-radius: .65vw 0 0 .65vw;
@@ -198,7 +198,7 @@ export default defineComponent({
     }
 
     .monitorHolder {
-        width: 40%;
+        width: 45%;
         border-radius: .65vw 0 0 .65vw;
         z-index: -1;
         background: #F9B959;

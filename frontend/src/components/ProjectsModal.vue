@@ -3,7 +3,7 @@
     </div>
     <div class="w-screen h-screen">
         <div class="h-screen flex items-center justify-center">
-            <div class="projectsModal fixed mb-10">
+            <div class="projectsModal fixed mb-6">
                 <div v-if="screen == 'computer'" class="flex justify-between h-full">
                     <p v-on:click="handleClose" class="exit font-light absolute top-5 right-6">
                         x
@@ -146,6 +146,13 @@ export default defineComponent({
                     this.monitorWidth = '35% !important';
                     this.monitorMaxWidth = '120px';
                 }
+            } else if (this.info.title == 'Seekr') {
+                if (this.screen == 'computer') {
+                    this.monitorWidth = '55%';
+                } else {
+                    this.monitorWidth = '35% !important';
+                    this.monitorMaxWidth = '100px';
+                }
             } else if (this.info.title == 'PickupUNL' || this.info.title == 'Sure' || this.info.title == 'Blokus') {
                 if (this.screen == 'computer') {
                     this.monitorWidth = '90%';
@@ -169,7 +176,7 @@ export default defineComponent({
 
 .projectsModal {
     width: 75vw;
-    height: 70vh;
+    height: 75vh;
     max-height: 50vw;
     background: #1E1E1E;
     border-radius: .65vw 0 0 .65vw;

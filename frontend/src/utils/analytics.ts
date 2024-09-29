@@ -1,7 +1,15 @@
 import { initializeApp } from "firebase/app";
 import { getAnalytics, logEvent } from "firebase/analytics";
 
-const firebaseConfig = { CONFIG };
+const firebaseConfig = {
+    apiKey: "AIzaSyCuy_n4ZGG8K3yB3SqgqcLmtr22JvUMXxI",
+    authDomain: "emmett-myers-portfolio.firebaseapp.com",
+    projectId: "emmett-myers-portfolio",
+    storageBucket: "emmett-myers-portfolio.appspot.com",
+    messagingSenderId: "1069425322484",
+    appId: "1:1069425322484:web:7e73bd5e1be67ce049b1a1",
+    measurementId: "G-J35JJF91Q1"
+  };
 
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
