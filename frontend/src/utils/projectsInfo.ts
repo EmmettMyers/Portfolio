@@ -184,36 +184,4 @@ export const projectsInfo = [
             { title: "Source Code", url: "https://github.com/EmmettMyers/GuessNBA" },
         ],
     },
-    /*{
-        title: 'Portfolio',
-        image: 'projects/portfolio.png',
-        screen: 'projectScreens/port_screen.png',
-        time: 'Summer 2023',
-        description: "The site you're on right now, my personal portfolio!",
-        features: [
-            'Google Analytics tracking clicks, website views, and user demographics',
-            'Dynamic information rendering, responsive user interface'
-        ],
-        tools: ['TypeScript', 'Vue', 'HTML/SCSS', 'Tailwind', 'Firebase'],
-        links: [
-            { title: "Source Code", url: "https://github.com/EmmettMyers/Portfolio" },
-        ],
-    },
-    {
-        title: 'Connect 4 Bot',
-        image: 'projects/connect 4 1.png',
-        screen: 'projectScreens/c4_screen.png',
-        time: 'Summer 2021',
-        description: 'Advanced, comprehensive Connect 4 web game meant to challenge your prowess at the game.'
-        + ' Includes a hard bot that detects win/loss and double win/double loss scenarios 100% correctly.',
-        features: [
-            "3 bot difficulties with different play styles: easy, medium, hard",
-            "Bot strategies based on predictions up to three rounds in the future",
-            "Take-turns style local play mode",
-            "Win tracking for each player with a scoreboard above the gameboard"
-          ],
-        tools: ['JavaScript', 'HTML', 'CSS'],
-        demo: 'https://emmetts-connect-4.emmettleemyers.repl.co/',
-        code: 'https://github.com/EmmettMyers/Connect-4-Bot'
-    }*/
 ];

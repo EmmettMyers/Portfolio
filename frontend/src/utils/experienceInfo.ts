@@ -50,7 +50,7 @@ export const experienceInfo = [
         links: [
             { title: "Home Page", url: "https://brainrotcode.com/" },
         ],
-        description: "Early stage engineer at a startup with <strong>100k+</strong> in VC funding and <strong>70+</strong> registered users. Build front-end features for a web platform allowing developers to create algorithms and machine learning models to compete in popular strategy games.",
+        description: "Early stage engineer at a startup with <strong>$100k+</strong> in VC funding and <strong>70+</strong> registered users. Build front-end features for a web platform allowing developers to create algorithms and machine learning models to compete in popular strategy games.",
         contributions: [],
         skills: ['JavaScript', 'React', 'Go', 'HTML/CSS', 'Tailwind', 'Firebase']
     },
@@ -104,7 +104,7 @@ export const experienceInfo = [
         image: 'experience/work_garmin3.png',
         screen: 'experienceScreens/garmin_screen.png',
         background: 'backgrounds/garmin_back.jpg',
-        time: 'May 2024 - Aug 2024',
+        time: 'May 2024 - Aug. 2024',
         location: 'Kansas City, KS',
         links: [
             { title: "Clipboard Overview", url: "https://www.garmin.com/en-US/p/739176" },
@@ -162,19 +162,4 @@ export const experienceInfo = [
         ],
         skills: ['JavaScript', 'HTML/CSS', 'Bootstrap', 'Python', 'Django', 'Autodesk API', 'Auth0']
     },
-    /*{
-        title: 'Computer Science Tutor',
-        company: 'Elkhorn Public Schools',
-        image: 'experience/work_tutor2.png',
-        screen: 'experienceScreens/tutor_screen.png',
-        background: 'backgrounds/eshs_back.jpg',
-        time: 'Sep. 2020 - Mar. 2022',
-        location: 'Omaha, Nebraska',
-        links: [
-            { title: "Course Overview", url: "https://codehs.com/uploads/9f387437eb4a6e8385658ad050e33ac8" },
-        ],
-        description: 'Taught AP Computer Science A to <strong>10+</strong> high school students <strong>5</strong> days a week.'
-            + ' Improved grades of all students by creating extensive learning modules tailored to each student.',
-        skills: ['Java', 'OOP', 'Algorithms', 'Inheritance', 'Lists', 'Polymorphism', 'GUIs']
-    }*/
 ];
