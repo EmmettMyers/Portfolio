@@ -56,10 +56,6 @@ export default defineComponent({
 
             this.fit = "w-full";
 
-            if (this.info.title == "Seekr"){
-                this.fit = "seekr";
-            }
-
             if (this.screen == 'computer') {
                 if (this.info.title == "Projex" || this.info.title == "NewsGuesser" || this.info.title == "CivicSendNE"
                     || this.info.title == "Portfolio" || this.info.school == "Elkhorn South High School") {
@@ -103,11 +99,6 @@ export default defineComponent({
 
 <style lang="scss">
 @import "../styles/colors.scss";
-
-.seekr {
-    position: absolute;
-    top: -40px;
-}
 
 .contentBox {
     height: 15vw;

@@ -50,7 +50,7 @@ export const projectsInfo = [
     },
     {
         title: 'Seekr',
-        image: 'projects/seekr2.png',
+        image: 'projects/seekr3.png',
         screen: 'projectScreens/seekr_screen2.png',
         time: 'Hackathon Project - Fall 2024',
         description: 'Seekr is a scavenger hunt mobile app that gives users daily items to find and take photos of. It uses machine learning and object detection to determine whether a photo matches the prompted item.'

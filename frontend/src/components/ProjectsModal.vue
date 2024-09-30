@@ -151,7 +151,7 @@ export default defineComponent({
                     this.monitorWidth = '55%';
                 } else {
                     this.monitorWidth = '35% !important';
-                    this.monitorMaxWidth = '100px';
+                    this.monitorMaxWidth = '80px';
                 }
             } else if (this.info.title == 'PickupUNL' || this.info.title == 'Sure' || this.info.title == 'Blokus') {
                 if (this.screen == 'computer') {

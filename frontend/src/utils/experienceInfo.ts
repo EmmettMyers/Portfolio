@@ -50,7 +50,7 @@ export const experienceInfo = [
         links: [
             { title: "Home Page", url: "https://brainrotcode.com/" },
         ],
-        description: "Founding engineer at a startup with <strong>100k+</strong> in VC funding and <strong>80+</strong> registered users. Build front-end features for a web platform allowing developers to create algorithms and machine learning models to compete in popular strategy games.",
+        description: "Early stage engineer at a startup with <strong>100k+</strong> in VC funding and <strong>70+</strong> registered users. Build front-end features for a web platform allowing developers to create algorithms and machine learning models to compete in popular strategy games.",
         contributions: [],
         skills: ['JavaScript', 'React', 'Go', 'HTML/CSS', 'Tailwind', 'Firebase']
     },
@@ -61,7 +61,7 @@ export const experienceInfo = [
         screen: 'experienceScreens/dn_screen2.png',
         background: 'backgrounds/dn_back.jpg',
         time: 'Aug. 2023 - Present',
-        location: 'Lincoln, Nebraska',
+        location: 'Lincoln, NE',
         links: [
             { title: "Main Site", url: "https://www.dailynebraskan.com/" },
             { title: "Impact Report", url: "https://dn-impact.web.app/" },
@@ -85,7 +85,7 @@ export const experienceInfo = [
         screen: 'experienceScreens/ta_screen.png',
         background: 'backgrounds/unl_back.jpg',
         time: 'Aug. 2023 - Present',
-        location: 'Lincoln, Nebraska',
+        location: 'Lincoln, NE',
         links: [
             { title: "Current Course Info", url: "https://catalog.unl.edu/undergraduate/courses/soft/" },
             { title: "Past Courses Info", url: "https://catalog.unl.edu/undergraduate/courses/raik/" },
@@ -105,7 +105,7 @@ export const experienceInfo = [
         screen: 'experienceScreens/garmin_screen.png',
         background: 'backgrounds/garmin_back.jpg',
         time: 'May 2024 - Aug 2024',
-        location: 'Kansas City, Kansas',
+        location: 'Kansas City, KS',
         links: [
             { title: "Clipboard Overview", url: "https://www.garmin.com/en-US/p/739176" },
             { title: "Clipboard Demo", url: "https://www.youtube.com/watch?v=_Saq212NlYc&ab_channel=GarminTraining" },
@@ -128,7 +128,7 @@ export const experienceInfo = [
         screen: 'experienceScreens/principal_screen.png',
         background: 'backgrounds/principal_back.jpg',
         time: 'May 2023 - Aug. 2023',
-        location: 'Des Moines, Iowa',
+        location: 'Des Moines, IA',
         links: [
             { title: "Sponsor App Demo", url: "https://landing.principal.com/advisor-retirement-dashboard-demo" },
         ],
@@ -149,7 +149,7 @@ export const experienceInfo = [
         screen: 'experienceScreens/olsson_screen.png',
         background: 'backgrounds/olsson_back.jpg',
         time: 'Jan. 2023 - May 2023',
-        location: 'Lincoln, Nebraska',
+        location: 'Lincoln, NE',
         links: [
             { title: "Olsson Project Story", url: "https://www.olsson.com/projects/seeing-the-possibilities" },
         ],
