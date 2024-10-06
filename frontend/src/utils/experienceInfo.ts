@@ -33,9 +33,9 @@ export const experienceInfo = [
         description: 'Full-stack development for a retirement solutions and analytics startup with <strong>$1m+</strong> in VC funding and Fortune 500 clients.',
         contributions: [
             'Created Sales Enablement section and Participant Engagement page with interactive parameters, graphs, and themes for advisors to demonstrate lifetime income effects on retirement to clients',
-            'Developed Product Recordkeeper Adoption page with search and filter functionalities to streamline 401k plan provider matching',
+            'Launched Product Recordkeeper Adoption page with search and filter functionalities to streamline 401k plan provider matching',
             'Pushed <strong>20+</strong> user interface improvements to workflow builder, income calculator, product profile, proposal PDFs, and financial ratings',
-            'Implemented new card visuals for upcoming retirement products',
+            'Developed Nestimate playground site to demo new features to clients and iterate on feedback',
         ],
         skills: ['JavaScript', 'Stimulus', 'Ruby', 'Ruby on Rails', 'HTML/CSS', 'Tailwind', 'DaisyUI', 'Chart.js']
     },
