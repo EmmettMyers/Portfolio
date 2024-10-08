@@ -15,7 +15,7 @@
                         <img class="back h-full absolute object-cover top-0 left-0" :src="info.background" />
                     </div>
                     <div class="rightSide">
-                        <p class="role font-bold">{{ info.title.replace(new RegExp('-', 'g'), '&ensp;') }}</p>
+                        <p class="role font-bold" v-html="info.title"></p>
                         <p class="company font-semibold">{{ info.company }}</p>
                         <p class="setting font-medium">
                             {{ info.location }}
@@ -63,7 +63,7 @@
                         <p v-on:click="handleClose" class="exit font-light absolute top-4 right-3">
                             x
                         </p>
-                        <p class="role font-bold">{{ info.title.replace(new RegExp('-', 'g'), '&ensp;') }}</p>
+                        <p class="role font-bold" v-html="info.title"></p>
                         <p class="company font-semibold">{{ info.company }}</p>
                         <p class="setting font-medium">
                             {{ info.location }}
@@ -130,14 +130,14 @@ export default defineComponent({
             window.innerWidth > 700 ? this.screen = "computer" : this.screen = "phone";
         },
         setMonitorWidth() {
-            if (this.info.company == 'Garmin') {
+            if (this.info.title == 'Garmin') {
                 if (this.screen == 'computer') {
                     this.monitorWidth = '50%';
                 } else {
                     this.monitorWidth = '25% !important';
                     this.monitorMaxWidth = '90px';
                 }
-            } else if (this.info.company == 'Nestimate' || this.info.company == 'The Daily Nebraskan' || this.info.company == 'brAIn rot') {
+            } else if (this.info.title == 'Nestimate' || this.info.title == 'The Daily Nebraskan' || this.info.title == 'brAIn rot') {
                 if (this.screen == 'computer') {
                     this.monitorWidth = '85%';
                 } else {

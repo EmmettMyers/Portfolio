@@ -20,8 +20,8 @@ export const experienceModalInfo = ref(
 
 export const experienceInfo = [
     {
-        title: 'Software Engineer Intern',
-        company: 'Nestimate',
+        title: 'Nestimate',
+        company: 'Software Engineer Intern',
         image: 'experience/work_nest2.png',
         screen: 'experienceScreens/nest_screen2.png',
         background: 'backgrounds/nest_back.jpg',
@@ -40,8 +40,8 @@ export const experienceInfo = [
         skills: ['JavaScript', 'Stimulus', 'Ruby', 'Ruby on Rails', 'HTML/CSS', 'Tailwind', 'DaisyUI', 'Chart.js']
     },
     {
-        title: 'Software Engineer',
-        company: 'brAIn rot',
+        title: 'brAIn rot',
+        company: 'Software Engineer',
         image: 'experience/brainrot.png',
         screen: 'experienceScreens/brainrot_screen2.png',
         background: 'backgrounds/brainrot_back.jpg',
@@ -55,8 +55,8 @@ export const experienceInfo = [
         skills: ['JavaScript', 'React', 'Go', 'HTML/CSS', 'Tailwind', 'Firebase']
     },
     {
-        title: 'Software Developer',
-        company: 'The Daily Nebraskan',
+        title: 'The Daily Nebraskan',
+        company: 'Software Developer',
         image: 'experience/work_dn3.png',
         screen: 'experienceScreens/dn_screen2.png',
         background: 'backgrounds/dn_back.jpg',
@@ -65,13 +65,15 @@ export const experienceInfo = [
         links: [
             { title: "Main Site", url: "https://www.dailynebraskan.com/" },
             { title: "Impact Report", url: "https://dn-impact.web.app/" },
+            { title: "Sports Newsletter", url: "https://daily-nebraskan-sports.web.app/" },
         ],
         description: "Engineer interactive web pages and modules for UNL's main news website with <strong>20k+</strong> weekly views and <strong>7k+</strong> registered users.",
         contributions: [
             'Launched 2024 Endowment page and first-ever Impact Report site for <strong>3k+</strong> donors and alumni to promote company metrics and fundraising',
             'Built the Curious Cornhuskers Q&A component, automatically sending UNL student questions to the staff Trello board',
             'Created a component for students to sign up to the <strong>26k+</strong> subscriber University newsletter',
-            'Deployed a centralized server to handle <strong>200k+</strong> API requests monthly, utilizing SSL and CORS for robust security measures',
+            'Constructed a centralized server to handle <strong>200k+</strong> API requests monthly, utilizing SSL and CORS for robust security measures',
+            'Deployed a new DN sports newsletter page for external subscriptions through social media',
             'Developed new About Us and Advertise With Us pages for improved exposure to clients',
             'Generated <strong>10+</strong> new site subsections using query population',
             'Resolved bugs with existing software to improve user experience',
@@ -79,8 +81,8 @@ export const experienceInfo = [
         skills: ['JavaScript', 'React', 'Python', 'Flask', 'HTML/SCSS', 'Tailwind', 'Material UI', /*'Beehiiv API', 'Trello API', 'Spotify API',*/ 'Firebase']
     },
     {
-        title: 'Software Engineering---------Teaching Assistant',
-        company: 'University of Nebraska-Lincoln',
+        title: 'Nebraska School<br/>of Computing',
+        company: 'SWE Teaching Assistant',
         image: 'experience/work_ta.png',
         screen: 'experienceScreens/ta_screen.png',
         background: 'backgrounds/unl_back.jpg',
@@ -99,8 +101,8 @@ export const experienceInfo = [
         skills: ['JavaScript', 'Java', 'React', 'SQL', 'Data Structures', 'Algorithms', 'OOP', 'Discrete Math']
     },
     {
-        title: 'Software Engineer Intern',
-        company: 'Garmin',
+        title: 'Garmin',
+        company: 'Software Engineer Intern',
         image: 'experience/work_garmin3.png',
         screen: 'experienceScreens/garmin_screen.png',
         background: 'backgrounds/garmin_back.jpg',
@@ -122,8 +124,8 @@ export const experienceInfo = [
         skills: ['Kotlin', 'Jetpack Compose', 'Swift', 'SwiftUI', 'Java', 'Spring', 'Android SDK']
     },
     {
-        title: 'Software Engineer Intern',
-        company: 'Principal Financial Group',
+        title: 'Principal Financial Group',
+        company: 'Software Engineer Intern',
         image: 'experience/work_principal2.png',
         screen: 'experienceScreens/principal_screen.png',
         background: 'backgrounds/principal_back.jpg',
@@ -143,8 +145,8 @@ export const experienceInfo = [
         skills: ['TypeScript', 'React', 'Java', 'Spring', 'HTML/CSS', 'Bootstrap', 'Google Analytics', 'JUnit']
     },
     {
-        title: 'Design Studio--------------Developer Intern',
-        company: 'UNL Raikes School',
+        title: 'UNL Raikes School',
+        company: 'Design Studio Developer Intern',
         image: 'experience/work_olsson2.png',
         screen: 'experienceScreens/olsson_screen.png',
         background: 'backgrounds/olsson_back.jpg',

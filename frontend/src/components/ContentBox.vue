@@ -7,8 +7,7 @@
                 <p class="school font-bold"> {{ info.title }} </p>
             </div>
             <div v-else>
-                <p :style="titleSize" class="title font-bold"> {{ info.title.replace(new RegExp('-', 'g'), '&ensp;') }}
-                </p>
+                <p :style="titleSize" class="title font-bold" v-html="info.title"></p>
                 <p class="company font-bold"> {{ info.company }} </p>
             </div>
         </div>
@@ -58,7 +57,7 @@ export default defineComponent({
 
             if (this.screen == 'computer') {
                 if (this.info.title == "Projex" || this.info.title == "NewsGuesser" || this.info.title == "CivicSendNE"
-                    || this.info.title == "Portfolio" || this.info.school == "Elkhorn South High School") {
+                    || this.info.title == "Portfolio") {
                     this.fit = "h-full";
                 }
                 if (!this.info.company) {
@@ -68,7 +67,7 @@ export default defineComponent({
                 }
             } else {
                 if (this.info.title == "Projex" || this.info.title == "NewsGuesser" || this.info.title == "CivicSendNE"
-                    || this.info.title == "Portfolio" || this.info.school == "Elkhorn South High School") {
+                    || this.info.title == "Portfolio") {
                     this.fit = "h-full";
                 }
                 if (!this.info.company && !this.info.school) {
