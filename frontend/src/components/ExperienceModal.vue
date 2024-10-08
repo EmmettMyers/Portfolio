@@ -22,7 +22,7 @@
                             &nbsp;&nbsp;|&nbsp;&nbsp;
                             {{ info.time }}
                         </p>
-                        <div class="flex justify-start">
+                        <div class="flex justify-start flex-wrap">
                             <div v-for="link in info.links">
                                 <a :href="link.url" target="_blank"
                                     class="btn link font-medium text-black flex justify-center items-center">
@@ -70,7 +70,7 @@
                             &nbsp;&nbsp;|&nbsp;&nbsp;
                             {{ info.time }}
                         </p>
-                        <div class="flex justify-start">
+                        <div class="flex justify-start flex-wrap">
                             <div v-for="link in info.links">
                                 <a :href="link.url" target="_blank"
                                     class="btn link font-medium text-black flex justify-center items-center">
@@ -174,7 +174,6 @@ export default defineComponent({
         color: #1E1E1E;
         border-radius: .35vw;
         font-size: 1vw;
-        margin-top: 1vw;
         transition: .3s ease;
         transform: scale(1);
         margin-right: .5vw;
@@ -240,6 +239,7 @@ export default defineComponent({
 
         .setting {
             font-size: 1.25vw;
+            margin-bottom: 1vw;
         }
 
         .overview,
@@ -310,9 +310,9 @@ export default defineComponent({
                 padding-right: 20px;
                 height: 7vw;
                 font-size: 2.5vw;
-                margin-top: 3vw;
                 border-radius: 5px;
                 margin-right: 2vw;
+                margin-top: 1.5vw;
             }
 
             .role {
@@ -329,6 +329,7 @@ export default defineComponent({
 
             .setting {
                 font-size: 2.5vw;
+                margin-bottom: 1.5vw;
             }
 
             .overview,
