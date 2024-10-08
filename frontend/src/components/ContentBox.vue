@@ -57,7 +57,7 @@ export default defineComponent({
 
             if (this.screen == 'computer') {
                 if (this.info.title == "Projex" || this.info.title == "NewsGuesser" || this.info.title == "CivicSendNE"
-                    || this.info.title == "Portfolio") {
+                    || this.info.title == "Portfolio" || this.info.school == "Elkhorn South High School") {
                     this.fit = "h-full";
                 }
                 if (!this.info.company) {
@@ -67,7 +67,7 @@ export default defineComponent({
                 }
             } else {
                 if (this.info.title == "Projex" || this.info.title == "NewsGuesser" || this.info.title == "CivicSendNE"
-                    || this.info.title == "Portfolio") {
+                    || this.info.title == "Portfolio" || this.info.school == "Elkhorn South High School") {
                     this.fit = "h-full";
                 }
                 if (!this.info.company && !this.info.school) {
