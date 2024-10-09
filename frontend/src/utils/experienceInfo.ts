@@ -37,7 +37,7 @@ export const experienceInfo = [
             'Pushed <strong>20+</strong> user interface improvements to workflow builder, income calculator, product profile, proposal PDFs, and financial ratings',
             'Developed Nestimate playground site to demo new features to clients and iterate on feedback',
         ],
-        skills: ['JavaScript', 'Stimulus', 'Ruby', 'Ruby on Rails', 'HTML/CSS', 'Tailwind', 'DaisyUI', 'Chart.js']
+        skills: ['JavaScript', 'Stimulus', 'Ruby', 'Ruby on Rails', 'HTML/CSS', 'Tailwind']
     },
     {
         title: 'brAIn rot',
@@ -78,7 +78,7 @@ export const experienceInfo = [
             'Generated <strong>10+</strong> new site subsections using query population',
             'Resolved bugs with existing software to improve user experience',
         ],
-        skills: ['JavaScript', 'React', 'Python', 'Flask', 'HTML/SCSS', 'Tailwind', 'Material UI', /*'Beehiiv API', 'Trello API', 'Spotify API',*/ 'Firebase']
+        skills: ['JavaScript', 'React', 'Python', 'Flask', 'HTML/SCSS', 'Tailwind', 'AWS', 'Firebase']
     },
     {
         title: 'Nebraska School<br/>of Computing',
@@ -142,7 +142,7 @@ export const experienceInfo = [
             'Presented AI solution to <strong>300+</strong> employees and executives to streamline code documentation time on existing repositories by <strong>98%</strong>, placing <strong>3rd</strong> in Intern Innovation Projects',
             'Resolved <strong>8+</strong> client issues to optimize user experience and tested report event to ensure data privacy in various user environments',
         ],
-        skills: ['TypeScript', 'React', 'Java', 'Spring', 'HTML/CSS', 'Bootstrap', 'Google Analytics', 'JUnit']
+        skills: ['TypeScript', 'React', 'Java', 'Spring', 'HTML/CSS', 'Bootstrap']
     },
     {
         title: 'UNL Raikes School',
@@ -162,6 +162,6 @@ export const experienceInfo = [
             'Assisted with the difference calculation machine learning model that optimized comparison times by <strong>94%</strong>',
             'Awarded <strong>Design Studio Gold Project Award</strong>, placing <strong>2nd</strong> in Design Studio Projects out of 20+ teams',
         ],
-        skills: ['JavaScript', 'HTML/CSS', 'Bootstrap', 'Python', 'Django', 'Autodesk API', 'Auth0']
+        skills: ['JavaScript', 'HTML/CSS', 'Bootstrap', 'Python', 'Django', 'Auth0']
     },
 ];

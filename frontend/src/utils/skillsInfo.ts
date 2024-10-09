@@ -69,11 +69,11 @@ export const skillsInfo = [
         color: '#2BA977'
     },
     {
-        name: 'Flask',
-        color: '#0D7963'
+        name: 'AWS',
+        color: '#FF9C08'
     },
     {
-        name: 'Spring Boot',
+        name: 'Spring',
         color: '#6db33f'
     },
     {
