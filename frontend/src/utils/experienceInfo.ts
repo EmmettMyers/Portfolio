@@ -20,24 +20,19 @@ export const experienceModalInfo = ref(
 
 export const experienceInfo = [
     {
-        title: 'Nestimate',
+        title: 'Bosch',
         company: 'Software Engineer Intern',
-        image: 'experience/work_nest2.png',
-        screen: 'experienceScreens/nest_screen2.png',
-        background: 'backgrounds/nest_back.jpg',
-        time: 'Mar. 2024 - Present',
-        location: 'Remote',
+        image: 'experience/work_garmin3.png',
+        screen: 'experienceScreens/garmin_screen.png',
+        background: 'backgrounds/bosch_back2.jpg',
+        time: 'Jan. 2025 - Present',
+        location: 'Lincoln, NE',
         links: [
-            { title: "Product Overview", url: "https://www.mynestimate.com/" },
+            { title: "RDC Overview", url: "https://products.telex.com/na/en/remote-dispatch-console/" },
         ],
-        description: 'Full-stack development for a retirement solutions and analytics startup with <strong>$1m+</strong> in VC funding and Fortune 500 clients.',
-        contributions: [
-            'Created Sales Enablement section and Participant Engagement page with interactive parameters, graphs, and themes for advisors to demonstrate lifetime income effects on retirement to clients',
-            'Launched Product Recordkeeper Adoption page with search and filter functionalities to streamline 401k plan provider matching',
-            'Pushed <strong>20+</strong> user interface improvements to workflow builder, income calculator, product profile, proposal PDFs, and financial ratings',
-            'Developed Nestimate playground site to demo new features to clients and iterate on feedback',
-        ],
-        skills: ['JavaScript', 'Stimulus', 'Ruby', 'Ruby on Rails', 'HTML/CSS', 'Tailwind']
+        description: 'Building a new Radio Dispatch Console mobile application to facilitate remote, real-time communication through radio networks.',
+        contributions: [],
+        skills: ['Swift', 'SwiftUI', 'Go', 'LiveKit']
     },
     {
         title: 'brAIn rot',
@@ -50,55 +45,35 @@ export const experienceInfo = [
         links: [
             { title: "Home Page", url: "https://brainrotcode.com/" },
         ],
-        description: "Early stage engineer at a startup with <strong>$100k+</strong> in VC funding and <strong>70+</strong> registered users. Build front-end features for a web platform allowing developers to create algorithms and machine learning models to compete in popular strategy games.",
-        contributions: [],
+        description: "Early stage engineer at a startup with <strong>$100k+</strong> in VC funding and <strong>80+</strong> registered users. Build front-end features for a web platform allowing developers to create algorithms and machine learning models to compete in popular strategy games.",
+        contributions: [
+            'Built front-end game logic and user interfaces for Othello and Filler',
+            'Developed real-time leaderboard displaying rankings for each game',
+            'Implemented submit and edit model workflows with validation',
+            'Created authentication system, including login/register pages and forgot password logic',
+            'Pushed various UI/UX improvements to code editor and model insights pages',
+        ],
         skills: ['JavaScript', 'React', 'Go', 'HTML/CSS', 'Tailwind', 'Firebase']
     },
     {
-        title: 'The Daily Nebraskan',
-        company: 'Software Developer',
-        image: 'experience/work_dn3.png',
-        screen: 'experienceScreens/dn_screen2.png',
-        background: 'backgrounds/dn_back.jpg',
-        time: 'Aug. 2023 - Present',
-        location: 'Lincoln, NE',
+        title: 'Nestimate',
+        company: 'Software Engineer Intern',
+        image: 'experience/work_nest2.png',
+        screen: 'experienceScreens/nest_screen2.png',
+        background: 'backgrounds/nest_back.jpg',
+        time: 'Mar. 2024 - Dec. 2024',
+        location: 'Remote',
         links: [
-            { title: "Main Site", url: "https://www.dailynebraskan.com/" },
-            { title: "Impact Report", url: "https://dn-impact.web.app/" },
-            { title: "Sports Newsletter", url: "https://daily-nebraskan-sports.web.app/" },
+            { title: "Product Overview", url: "https://www.mynestimate.com/" },
         ],
-        description: "Engineer interactive web pages and modules for UNL's main news website with <strong>20k+</strong> weekly views and <strong>7k+</strong> registered users.",
+        description: 'Full-stack development for a retirement solutions and analytics startup with <strong>$1m+</strong> in VC funding and Fortune 500 clients.',
         contributions: [
-            'Launched 2024 Endowment page and first-ever Impact Report site for <strong>3k+</strong> donors and alumni to promote company metrics and fundraising',
-            'Built the Curious Cornhuskers Q&A component, automatically sending UNL student questions to the staff Trello board',
-            'Created a component for students to sign up to the <strong>26k+</strong> subscriber University newsletter',
-            'Constructed a centralized server to handle <strong>200k+</strong> API requests monthly, utilizing SSL and CORS for robust security measures',
-            'Deployed a new DN sports newsletter page for external subscriptions through social media',
-            'Developed new About Us and Advertise With Us pages for improved exposure to clients',
-            'Generated <strong>10+</strong> new site subsections using query population',
-            'Resolved bugs with existing software to improve user experience',
+            'Created Sales Enablement section and Participant Engagement page with interactive parameters, graphs, and themes for advisors to demonstrate lifetime income effects on retirement to clients',
+            'Launched Product Recordkeeper Adoption page with search and filter functionalities to streamline 401k plan provider matching',
+            'Pushed <strong>20+</strong> user interface improvements to workflow builder, income calculator, product profile, proposal PDFs, and financial ratings',
+            'Developed Nestimate playground site to demo new features to clients and iterate on feedback',
         ],
-        skills: ['JavaScript', 'React', 'Python', 'Flask', 'HTML/SCSS', 'Tailwind', 'AWS', 'Firebase']
-    },
-    {
-        title: 'Nebraska School<br/>of Computing',
-        company: 'SWE Teaching Assistant',
-        image: 'experience/work_ta.png',
-        screen: 'experienceScreens/ta_screen.png',
-        background: 'backgrounds/unl_back.jpg',
-        time: 'Aug. 2023 - Present',
-        location: 'Lincoln, NE',
-        links: [
-            { title: "Current Course Info", url: "https://catalog.unl.edu/undergraduate/courses/soft/" },
-            { title: "Past Courses Info", url: "https://catalog.unl.edu/undergraduate/courses/raik/" },
-        ],
-        description: 'Teach Software Engineering courses to <strong>110+</strong> Computer Science students. Currently teaching Software Engineering III, used to teach Honors Computer Problem Solving and Honors Software Development Essentials.',
-        contributions: [
-            'Grade coding assignments, projects, and tests',
-            'Host TA hours to assist students with their assignments and understanding of core concepts',
-            'Lead lab groups and assist in lectures'
-        ],
-        skills: ['JavaScript', 'Java', 'React', 'SQL', 'Data Structures', 'Algorithms', 'OOP', 'Discrete Math']
+        skills: ['JavaScript', 'Stimulus', 'Ruby', 'Ruby on Rails', 'HTML/CSS', 'Tailwind', 'Docker']
     },
     {
         title: 'Garmin',

@@ -130,7 +130,7 @@ export default defineComponent({
             window.innerWidth > 700 ? this.screen = "computer" : this.screen = "phone";
         },
         setMonitorWidth() {
-            if (this.info.title == 'Garmin') {
+            if (this.info.title == 'Garmin' || this.info.title == 'Bosch') {
                 if (this.screen == 'computer') {
                     this.monitorWidth = '50%';
                 } else {

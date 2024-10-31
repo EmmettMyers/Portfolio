@@ -57,6 +57,10 @@ export const skillsInfo = [
         color: '#0072FD'
     },
     {
+        name: 'Go',
+        color: '#08AFD8'
+    },
+    {
         name: 'Ruby',
         color: '#AD0C00'
     },
@@ -65,12 +69,12 @@ export const skillsInfo = [
         color: '#CD0000'
     },
     {
-        name: 'Django',
-        color: '#2BA977'
-    },
-    {
         name: 'AWS',
         color: '#FF9C08'
+    },
+    {
+        name: 'Django',
+        color: '#2BA977'
     },
     {
         name: 'Spring',
@@ -89,11 +93,15 @@ export const skillsInfo = [
         color: '#DC7939'
     },
     {
+        name: 'GraphQL',
+        color: '#E63BAE'
+    },
+    /*{
         name: 'Linux',
         color: '#fe7e01'
     },
     {
         name: 'Git',
         color: '#F05639'
-    },
+    },*/
 ];

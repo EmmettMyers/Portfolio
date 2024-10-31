@@ -8,6 +8,7 @@
       <ProjectsModal v-if="projectsModalOpen" />
       <TopSection />
       <BoxSection title="EXPERIENCE" :allInfo="experienceInfo" />
+      <BoxSection title="LEADERSHIP" :allInfo="leadershipInfo" />
       <BoxSection title="PROJECTS" :allInfo="projectsInfo" />
       <BoxSection title="SKILLS" :allInfo="skillsInfo" />
       <BoxSection title="EDUCATION" :allInfo="educationInfo" />
@@ -30,6 +31,7 @@ import { experienceModalOpen } from './utils/experienceInfo';
 import { projectsModalOpen } from './utils/projectsInfo';
 import { educationModalOpen } from './utils/educationInfo';
 import { experienceInfo } from './utils/experienceInfo';
+import { leadershipInfo, leadershipModalOpen } from './utils/leadershipInfo';
 import { projectsInfo } from './utils/projectsInfo';
 import { skillsInfo } from './utils/skillsInfo';
 import { educationInfo } from './utils/educationInfo';
@@ -47,9 +49,11 @@ export default defineComponent({
   data(){
     return {
       experienceModalOpen: experienceModalOpen,
+      leadershipModalOpen: leadershipModalOpen,
       educationModalOpen: educationModalOpen,
       projectsModalOpen: projectsModalOpen,
       experienceInfo: experienceInfo,
+      leadershipInfo: leadershipInfo,
       projectsInfo: projectsInfo,
       skillsInfo: skillsInfo,
       educationInfo: educationInfo,
