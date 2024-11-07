@@ -32,8 +32,9 @@ export const leadershipInfo = [
             { title: "Impact Report", url: "https://dn-impact.web.app/" },
             { title: "Sports Newsletter", url: "https://daily-nebraskan-sports.web.app/" },
         ],
-        description: "Engineer interactive web pages and modules for UNL's main news website with <strong>20k+</strong> weekly views and <strong>7k+</strong> registered users.",
+        description: "Engineer interactive web pages and modules for UNL's main news website with <strong>20k+</strong> weekly views and <strong>7k+</strong> registered users. Placed <strong>2nd</strong> in National College Media Website of the Year.",
         contributions: [
+            'Placed <strong>2nd</strong> in National College Media Website of the Year',
             'Launched 2024 Endowment page and first-ever Impact Report site for <strong>3k+</strong> donors and alumni to promote company metrics and fundraising',
             'Built the Curious Cornhuskers Q&A component, automatically sending UNL student questions to the staff Trello board',
             'Created a component for students to sign up to the <strong>26k+</strong> subscriber University newsletter',
