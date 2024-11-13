@@ -5,12 +5,12 @@ export const skillsInfo = [
         color: '#E4A125'
     },
     {
-        name: 'TypeScript',
-        color: '#2D79C7'
-    },
-    {
         name: 'Java',
         color: '#c7161a'
+    },
+    {
+        name: 'TypeScript',
+        color: '#2D79C7'
     },
     {
         name: 'Python',

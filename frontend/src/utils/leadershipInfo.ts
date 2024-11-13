@@ -20,6 +20,21 @@ export const leadershipModalInfo = ref(
 
 export const leadershipInfo = [
     {
+        title: 'Pi Kappa Alpha',
+        company: 'Internet Chair',
+        image: 'experience/work_pike.png',
+        screen: 'experienceScreens/pike_screen.png',
+        background: 'backgrounds/pike_back.jpg',
+        time: 'Nov. 2024 - Present',
+        location: 'Lincoln, NE',
+        links: [
+            { title: "Main Site", url: "https://app.pikeunl.com/" },
+        ],
+        description: "Develop new features for the Gamma Beta website to optimize chapter operations and communication for <strong>200+</strong> active members and alumni.",
+        contributions: [],
+        skills: ['TypeScript', 'React', 'Firebase', 'PostgreSQL', 'HTML/CSS', 'MaterialUI', 'Jest']
+    },
+    {
         title: 'The Daily Nebraskan',
         company: 'Software Development Lead',
         image: 'experience/work_dn3.png',
