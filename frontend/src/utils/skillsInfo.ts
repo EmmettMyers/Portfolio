@@ -61,6 +61,10 @@ export const skillsInfo = [
         color: '#08AFD8'
     },
     {
+        name: 'Next.js',
+        color: '#5e5e5e'
+    },
+    {
         name: 'Ruby',
         color: '#AD0C00'
     },
@@ -91,10 +95,6 @@ export const skillsInfo = [
     {
         name: 'SQL',
         color: '#DC7939'
-    },
-    {
-        name: 'GraphQL',
-        color: '#E63BAE'
     },
     /*{
         name: 'Linux',

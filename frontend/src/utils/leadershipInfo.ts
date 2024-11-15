@@ -32,7 +32,7 @@ export const leadershipInfo = [
         ],
         description: "Develop new features for the Gamma Beta website to optimize chapter operations and communication for <strong>200+</strong> active members and alumni.",
         contributions: [],
-        skills: ['TypeScript', 'React', 'Firebase', 'PostgreSQL', 'HTML/CSS', 'MaterialUI', 'Jest']
+        skills: ['TypeScript', 'Next.js', 'React', 'Firebase', 'PostgreSQL', 'HTML/CSS', 'MaterialUI', 'Jest']
     },
     {
         title: 'The Daily Nebraskan',

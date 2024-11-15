@@ -19,10 +19,10 @@ export const experienceModalInfo = ref(
 );
 
 export const experienceInfo = [
-    /*{
+    {
         title: 'Bosch',
         company: 'Software Engineer Intern',
-        image: 'experience/work_garmin3.png',
+        image: 'experience/work_brainrot.png',
         screen: 'experienceScreens/garmin_screen.png',
         background: 'backgrounds/bosch_back2.jpg',
         time: 'Jan. 2025 - Present',
@@ -33,11 +33,11 @@ export const experienceInfo = [
         description: 'Building a new Radio Dispatch Console mobile application to facilitate remote, real-time communication through radio networks.',
         contributions: [],
         skills: ['Swift', 'SwiftUI', 'Go', 'LiveKit']
-    },*/
+    },
     {
         title: 'brAIn rot',
         company: 'Software Engineer',
-        image: 'experience/brainrot.png',
+        image: 'experience/work_brainrot.png',
         screen: 'experienceScreens/brainrot_screen2.png',
         background: 'backgrounds/brainrot_back.jpg',
         time: 'Sep. 2024 - Present',
