@@ -19,7 +19,7 @@ export const experienceModalInfo = ref(
 );
 
 export const experienceInfo = [
-    {
+    /*{
         title: 'Bosch',
         company: 'Software Engineer Intern',
         image: 'experience/work_brainrot.png',
@@ -33,6 +33,27 @@ export const experienceInfo = [
         description: 'Building a new Radio Dispatch Console mobile application to facilitate remote, real-time communication through radio networks.',
         contributions: [],
         skills: ['Swift', 'SwiftUI', 'Go', 'LiveKit']
+    },*/
+    {
+        title: 'Nestimate',
+        company: 'Software Engineer Intern',
+        image: 'experience/work_nest2.png',
+        screen: 'experienceScreens/nest_screen2.png',
+        background: 'backgrounds/nest_back.jpg',
+        time: 'Mar. 2024 - Present',
+        location: 'Remote',
+        links: [
+            { title: "Product Overview", url: "https://www.mynestimate.com/" },
+        ],
+        description: 'Full-stack development for a retirement solutions and analytics startup with <strong>$1m+</strong> in VC funding and Fortune 500 clients.',
+        contributions: [
+            'Created Sales Enablement section and Participant Engagement page with interactive parameters, graphs, and themes for advisors to demonstrate lifetime income effects on retirement to clients',
+            'Launched Product Recordkeeper Adoption page with search and filter functionalities to streamline 401k plan provider matching',
+            'Built interactive target date fund flow with <strong>12+</strong> pages including complex graphs and tables',
+            'Pushed <strong>20+</strong> user interface improvements to workflow builder, income calculator, product profile, proposal PDFs, and financial ratings',
+            'Developed Nestimate playground site to demo new features to clients and iterate on feedback',
+        ],
+        skills: ['JavaScript', 'Stimulus', 'Ruby', 'Ruby on Rails', 'HTML/CSS', 'Tailwind', 'Docker']
     },
     {
         title: 'brAIn rot',
@@ -48,32 +69,13 @@ export const experienceInfo = [
         description: "Early stage engineer at a startup with <strong>$100k+</strong> in VC funding and <strong>80+</strong> registered users. Build front-end features for a web platform allowing developers to create algorithms and machine learning models to compete in popular strategy games.",
         contributions: [
             'Built front-end game logic and user interfaces for Othello and Filler',
+            'Created contests page showing upcoming and past competitions sponsored by companies',
             'Developed real-time leaderboard displaying rankings for each game',
             'Implemented submit and edit model workflows with validation',
             'Created authentication system, including login/register pages and forgot password logic',
             'Pushed various UI/UX improvements to code editor and model insights pages',
         ],
         skills: ['JavaScript', 'React', 'Go', 'HTML/CSS', 'Tailwind', 'Firebase']
-    },
-    {
-        title: 'Nestimate',
-        company: 'Software Engineer Intern',
-        image: 'experience/work_nest2.png',
-        screen: 'experienceScreens/nest_screen2.png',
-        background: 'backgrounds/nest_back.jpg',
-        time: 'Mar. 2024 - Dec. 2024',
-        location: 'Remote',
-        links: [
-            { title: "Product Overview", url: "https://www.mynestimate.com/" },
-        ],
-        description: 'Full-stack development for a retirement solutions and analytics startup with <strong>$1m+</strong> in VC funding and Fortune 500 clients.',
-        contributions: [
-            'Created Sales Enablement section and Participant Engagement page with interactive parameters, graphs, and themes for advisors to demonstrate lifetime income effects on retirement to clients',
-            'Launched Product Recordkeeper Adoption page with search and filter functionalities to streamline 401k plan provider matching',
-            'Pushed <strong>20+</strong> user interface improvements to workflow builder, income calculator, product profile, proposal PDFs, and financial ratings',
-            'Developed Nestimate playground site to demo new features to clients and iterate on feedback',
-        ],
-        skills: ['JavaScript', 'Stimulus', 'Ruby', 'Ruby on Rails', 'HTML/CSS', 'Tailwind', 'Docker']
     },
     {
         title: 'Garmin',
