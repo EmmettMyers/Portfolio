@@ -19,13 +19,28 @@ export const experienceModalInfo = ref(
 );
 
 export const experienceInfo = [
-    /*{
+    {
+        title: 'Google',
+        company: 'Software Engineer Intern',
+        image: 'experience/work_google.webp',
+        screen: 'experienceScreens/google_screen.png',
+        background: 'backgrounds/google_back2.jpg',
+        time: 'May 2025 - Aug. 2025',
+        location: 'Sunnyvale, CA',
+        links: [
+            { title: "Google Chat App", url: "https://play.google.com/store/apps/details?id=com.google.android.apps.dynamite&hl=en_US" },
+        ],
+        description: "Building cross-platform functionalities to support the web and mobile platforms of Google Chat and its over <strong>100 million</strong> monthly active users.",
+        contributions: [],
+        skills: ['Java', 'JavaScript', 'JUnit']
+    },
+    {
         title: 'Bosch',
         company: 'Software Engineer Intern',
-        image: 'experience/work_brainrot.png',
-        screen: 'experienceScreens/garmin_screen.png',
+        image: 'experience/work_bosch3.jpg',
+        screen: 'experienceScreens/bosch_screen.png',
         background: 'backgrounds/bosch_back2.jpg',
-        time: 'Jan. 2025 - Present',
+        time: 'Jan. 2025 - May 2025',
         location: 'Lincoln, NE',
         links: [
             { title: "RDC Overview", url: "https://products.telex.com/na/en/remote-dispatch-console/" },
@@ -33,27 +48,6 @@ export const experienceInfo = [
         description: 'Building a new Radio Dispatch Console mobile application to facilitate remote, real-time communication through radio networks.',
         contributions: [],
         skills: ['Swift', 'SwiftUI', 'Go', 'LiveKit']
-    },*/
-    {
-        title: 'Nestimate',
-        company: 'Software Engineer Intern',
-        image: 'experience/work_nest2.png',
-        screen: 'experienceScreens/nest_screen2.png',
-        background: 'backgrounds/nest_back.jpg',
-        time: 'Mar. 2024 - Present',
-        location: 'Remote',
-        links: [
-            { title: "Product Overview", url: "https://www.mynestimate.com/" },
-        ],
-        description: 'Full-stack development for a retirement solutions and analytics startup with <strong>$1m+</strong> in VC funding and Fortune 500 clients.',
-        contributions: [
-            'Created Sales Enablement section and Participant Engagement page with interactive parameters, graphs, and themes for advisors to demonstrate lifetime income effects on retirement to clients',
-            'Launched Product Recordkeeper Adoption page with search and filter functionalities to streamline 401k plan provider matching',
-            'Built interactive target date fund flow with <strong>12+</strong> pages including complex graphs and tables',
-            'Pushed <strong>20+</strong> user interface improvements to workflow builder, income calculator, product profile, proposal PDFs, and financial ratings',
-            'Developed Nestimate playground site to demo new features to clients and iterate on feedback',
-        ],
-        skills: ['JavaScript', 'Stimulus', 'Ruby', 'Ruby on Rails', 'HTML/CSS', 'Tailwind', 'Docker']
     },
     {
         title: 'brAIn rot',
@@ -61,7 +55,7 @@ export const experienceInfo = [
         image: 'experience/work_brainrot.png',
         screen: 'experienceScreens/brainrot_screen2.png',
         background: 'backgrounds/brainrot_back.jpg',
-        time: 'Sep. 2024 - Present',
+        time: 'Sep. 2024 - May 2025',
         location: 'Remote',
         links: [
             { title: "Home Page", url: "https://brainrotcode.com/" },
@@ -76,6 +70,27 @@ export const experienceInfo = [
             'Pushed various UI/UX improvements to code editor and model insights pages',
         ],
         skills: ['JavaScript', 'React', 'Go', 'HTML/CSS', 'Tailwind', 'Firebase']
+    },
+    {
+        title: 'Nestimate',
+        company: 'Software Engineer Intern',
+        image: 'experience/work_nest2.png',
+        screen: 'experienceScreens/nest_screen2.png',
+        background: 'backgrounds/nest_back.jpg',
+        time: 'Mar. 2024 - Dec. 2024',
+        location: 'Remote',
+        links: [
+            { title: "Product Overview", url: "https://www.mynestimate.com/" },
+        ],
+        description: 'Full-stack development for a retirement solutions and analytics startup with <strong>$1m+</strong> in VC funding and Fortune 500 clients.',
+        contributions: [
+            'Created Sales Enablement section and Participant Engagement page with interactive parameters, graphs, and themes for advisors to demonstrate lifetime income effects on retirement to clients',
+            'Launched Product Recordkeeper Adoption page with search and filter functionalities to streamline 401k plan provider matching',
+            'Built interactive target date fund flow with <strong>12+</strong> pages including complex graphs and tables',
+            'Pushed <strong>20+</strong> user interface improvements to workflow builder, income calculator, product profile, proposal PDFs, and financial ratings',
+            'Developed Nestimate playground site to demo new features to clients and iterate on feedback',
+        ],
+        skills: ['JavaScript', 'Stimulus', 'Ruby', 'Ruby on Rails', 'HTML/CSS', 'Tailwind', 'Docker']
     },
     {
         title: 'Garmin',

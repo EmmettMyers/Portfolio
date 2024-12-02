@@ -137,7 +137,8 @@ export default defineComponent({
                     this.monitorWidth = '25% !important';
                     this.monitorMaxWidth = '90px';
                 }
-            } else if (this.info.title == 'Nestimate' || this.info.title == 'The Daily Nebraskan' || this.info.title == 'brAIn rot' || this.info.title == 'Pi Kappa Alpha') {
+            } else if (this.info.title == 'Google' || this.info.title == 'Nestimate' || this.info.title == 'The Daily Nebraskan' 
+                       || this.info.title == 'brAIn rot' || this.info.title == 'Pi Kappa Alpha') {
                 if (this.screen == 'computer') {
                     this.monitorWidth = '85%';
                 } else {

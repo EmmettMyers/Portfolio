@@ -20,7 +20,7 @@ export const leadershipModalInfo = ref(
 
 export const leadershipInfo = [
     {
-        title: 'Nebraska School<br/>of Computing',
+        title: 'UNL Raikes School',
         company: 'SWE Teaching Assistant',
         image: 'experience/work_ta.png',
         screen: 'experienceScreens/ta_screen.png',
@@ -30,13 +30,28 @@ export const leadershipInfo = [
         links: [
             { title: "Courses Info", url: "https://catalog.unl.edu/undergraduate/courses/raik/" },
         ],
-        description: 'Teach Software Engineering courses to <strong>110+</strong> students. Currently teaching Software Engineering III. Previously taught Honors Computer Problem Solving and Honors Software Development Essentials.',
+        description: 'Teach Software Engineering courses to <strong>110+</strong> students. Currently teaching Honors Software Engineering IV. Previously taught Software Engineering III, Honors Computer Problem Solving and Honors Software Development Essentials.',
         contributions: [
             'Grade coding assignments, projects, and tests',
             'Host TA hours to assist students with their assignments and understanding of core concepts',
             'Lead lab groups and assist in lectures'
         ],
         skills: ['React', 'Java', 'Python', 'SQL', 'Data Structures', 'Algorithms', 'OOP', 'Discrete Math']
+    },
+    {
+        title: 'Pi Kappa Alpha',
+        company: 'Internet Chair',
+        image: 'experience/work_pike.png',
+        screen: 'experienceScreens/pike_screen.png',
+        background: 'backgrounds/pike_back.jpg',
+        time: 'Nov. 2024 - Present',
+        location: 'Lincoln, NE',
+        links: [
+            { title: "Main Site", url: "https://app.pikeunl.com/" },
+        ],
+        description: "Develop new features for the Gamma Beta website to optimize chapter operations and communication for <strong>200+</strong> active members and alumni.",
+        contributions: [],
+        skills: ['TypeScript', 'Next.js', 'React', 'Firebase', 'PostgreSQL', 'HTML/CSS', 'MaterialUI', 'Jest']
     },
     {
         title: 'The Daily Nebraskan',
@@ -64,20 +79,5 @@ export const leadershipInfo = [
             'Resolved bugs with existing software to improve user experience',
         ],
         skills: ['JavaScript', 'React', 'Python', 'Flask', 'HTML/SCSS', 'Tailwind', 'AWS', 'Firebase']
-    },
-    {
-        title: 'Pi Kappa Alpha',
-        company: 'Internet Chair',
-        image: 'experience/work_pike.png',
-        screen: 'experienceScreens/pike_screen.png',
-        background: 'backgrounds/pike_back.jpg',
-        time: 'Nov. 2024 - Present',
-        location: 'Lincoln, NE',
-        links: [
-            { title: "Main Site", url: "https://app.pikeunl.com/" },
-        ],
-        description: "Develop new features for the Gamma Beta website to optimize chapter operations and communication for <strong>200+</strong> active members and alumni.",
-        contributions: [],
-        skills: ['TypeScript', 'Next.js', 'React', 'Firebase', 'PostgreSQL', 'HTML/CSS', 'MaterialUI', 'Jest']
     },
 ];
