@@ -99,7 +99,7 @@ export const experienceInfo = [
         screen: 'experienceScreens/garmin_screen.png',
         background: 'backgrounds/garmin_back.jpg',
         time: 'May 2024 - Aug. 2024',
-        location: 'Kansas City, KS',
+        location: 'Olathe, KS',
         links: [
             { title: "Clipboard Overview", url: "https://www.garmin.com/en-US/p/739176" },
             { title: "Clipboard Demo", url: "https://www.youtube.com/watch?v=_Saq212NlYc&ab_channel=GarminTraining" },
