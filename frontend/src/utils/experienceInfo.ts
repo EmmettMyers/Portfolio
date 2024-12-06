@@ -32,7 +32,7 @@ export const experienceInfo = [
         ],
         description: "Building cross-platform functionalities to support the web and mobile platforms of Google Chat and its over <strong>100 million</strong> monthly active users.",
         contributions: [],
-        skills: ['Java', 'JavaScript', 'JUnit']
+        skills: ['Java', 'JavaScript', 'Android Studio', 'JUnit']
     },
     {
         title: 'Bosch',
