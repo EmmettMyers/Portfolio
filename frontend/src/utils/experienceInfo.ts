@@ -60,7 +60,7 @@ export const experienceInfo = [
         links: [
             { title: "Home Page", url: "https://brainrotcode.com/" },
         ],
-        description: "Early stage engineer at a startup with <strong>$100k+</strong> in VC funding and <strong>80+</strong> registered users. Build front-end features for a web platform allowing developers to create algorithms and machine learning models to compete in popular strategy games.",
+        description: "Early stage engineer at a startup with <strong>$100k+</strong> in VC funding and <strong>150+</strong> registered users. Build front-end features for a web platform allowing developers to create algorithms and machine learning models to compete in popular strategy games.",
         contributions: [
             'Built front-end game logic and user interfaces for Othello and Filler',
             'Created contests page showing upcoming and past competitions sponsored by companies',
@@ -82,7 +82,7 @@ export const experienceInfo = [
         links: [
             { title: "Product Overview", url: "https://www.mynestimate.com/" },
         ],
-        description: 'Full-stack development for a retirement solutions and analytics startup with <strong>$1m+</strong> in VC funding and Fortune 500 clients.',
+        description: 'Full-stack development for a retirement solutions and analytics startup with <strong>4k+</strong> users and <strong>$1m+</strong> in VC funding.',
         contributions: [
             'Created Sales Enablement section and Participant Engagement page with interactive parameters, graphs, and themes for advisors to demonstrate lifetime income effects on retirement to clients',
             'Launched Product Recordkeeper Adoption page with search and filter functionalities to streamline 401k plan provider matching',
@@ -134,7 +134,7 @@ export const experienceInfo = [
             'Presented AI solution to <strong>300+</strong> employees and executives to streamline code documentation time on existing repositories by <strong>98%</strong>, placing <strong>3rd</strong> in Intern Innovation Projects',
             'Resolved <strong>8+</strong> client issues to optimize user experience and tested report event to ensure data privacy in various user environments',
         ],
-        skills: ['TypeScript', 'React', 'Java', 'Spring', 'HTML/CSS', 'Bootstrap']
+        skills: ['TypeScript', 'React', 'Java', 'Spring', 'HTML/CSS', 'Bootstrap', 'JUnit']
     },
     {
         title: 'Olsson',
