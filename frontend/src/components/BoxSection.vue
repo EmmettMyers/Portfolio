@@ -1,7 +1,7 @@
 <template>
     <div class="flex justify-center">
         <div class="section" :style="{
-            paddingTop: (title == 'SKILLS' || title == 'LEADERSHIP') ? (screen === 'computer' ? '2vw' : '4vw') : (screen === 'computer' ? '5vw' : '10vw'),
+            paddingTop: (title == 'SKILLS') ? (screen === 'computer' ? '2vw' : '4vw') : (screen === 'computer' ? '5vw' : '10vw'),
             paddingBottom: (title == 'EDUCATION') ? (screen === 'computer' ? '8vw' : '15vw') : '0'
         }">
             <p class="title font-bold" :class="screen == 'computer' ? 'pb-4' : 'pb-1'">
