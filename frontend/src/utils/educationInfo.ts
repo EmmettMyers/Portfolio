@@ -18,7 +18,7 @@ export const educationInfo = [
         links: [
             { title: "Raikes School Overview", url: "https://raikes.unl.edu/" },
         ],
-        academics: ['Focus: Software Engineering', 'Minor: Business', 'GPA: 3.92', 'Major GPA: 4.00'],
+        academics: ['Focus: Software Engineering', 'Minor: Business', 'GPA: 3.93', 'Major GPA: 4.00'],
         activities: ['Raikes School of Computer Science and Management', 'University Honors Program', 'Pi Kappa Alpha Fraternity', 'Intramural Basketball & Football'],
         honors: ['Raikes Foundation Scholar', 'Nebraska Career Scholar', 'Regents Scholar', "4x Deans' List"],
         coursework: [
