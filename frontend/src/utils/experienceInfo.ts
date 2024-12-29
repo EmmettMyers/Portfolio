@@ -19,7 +19,7 @@ export const experienceModalInfo = ref(
 );
 
 export const experienceInfo = [
-    /*{
+    {
         title: 'Google',
         company: 'Software Engineer Intern',
         image: 'experience/work_google.webp',
@@ -33,7 +33,7 @@ export const experienceInfo = [
         description: "Building cross-platform functionalities to support the web and mobile platforms of Google Chat and its over <strong>100 million</strong> monthly active users.",
         contributions: [],
         skills: ['Java', 'JavaScript', 'Android Studio', 'JUnit']
-    },*/
+    },
     {
         title: 'Bosch',
         company: 'Software Engineer Intern',
@@ -149,10 +149,10 @@ export const experienceInfo = [
         ],
         description: 'Developed the Project ZeroDelta web app under the Raikes School Design Studio Program to streamline building comparisons for Olsson engineers.',
         contributions: [
-            'Awarded <strong>Design Studio Gold Project Award</strong>, placing <strong>2nd</strong> in Design Studio Projects out of 20+ teams',
             'Visualized difference calculations between Revit models & LiDAR point clouds in a 3D interface, automating the old <strong>80+</strong> hour manual task for Olsson engineers',
             'Built an employee-authenticated login page, dynamic dashboard and navigation features',
             'Assisted with the difference calculation machine learning model that optimized comparison times by <strong>94%</strong>',
+            'Awarded <strong>Design Studio Gold Project Award</strong>, placing <strong>2nd</strong> in Design Studio Projects out of 20+ teams',
         ],
         skills: ['JavaScript', 'HTML/CSS', 'Bootstrap', 'Python', 'Django', 'Auth0']
     },

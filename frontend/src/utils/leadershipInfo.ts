@@ -53,7 +53,6 @@ export const leadershipInfo = [
         ],
         description: "Engineer interactive web pages and modules for UNL's main news website with <strong>20k+</strong> weekly views and <strong>7k+</strong> registered users.",
         contributions: [
-            'Placed <strong>2nd</strong> in National College Media Website of the Year',
             'Launched 2024 Endowment page and first-ever Impact Report site for <strong>3k+</strong> donors and alumni to promote company metrics and fundraising',
             'Built the Curious Cornhuskers Q&A component, automatically sending UNL student questions to the staff Trello board',
             'Created a component for students to sign up to the <strong>26k+</strong> subscriber University newsletter',
@@ -62,6 +61,7 @@ export const leadershipInfo = [
             'Developed new About Us and Advertise With Us pages for improved exposure to clients',
             'Generated <strong>10+</strong> new site subsections using query population',
             'Resolved bugs with existing software to improve user experience',
+            'Placed <strong>2nd</strong> in National College Media Website of the Year',
         ],
         skills: ['JavaScript', 'React', 'Python', 'Flask', 'HTML/SCSS', 'Tailwind', 'AWS', 'Firebase']
     },
