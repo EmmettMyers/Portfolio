@@ -40,7 +40,7 @@ export const experienceInfo = [
         image: 'experience/work_bosch3.jpg',
         screen: 'experienceScreens/bosch_screen.png',
         background: 'backgrounds/bosch_back2.jpg',
-        time: 'Jan. 2025 - Present',
+        time: 'Jan. 2025 - May 2025',
         location: 'Lincoln, NE',
         links: [
             { title: "RDC Overview", url: "https://products.telex.com/na/en/remote-dispatch-console/" },
@@ -55,7 +55,7 @@ export const experienceInfo = [
         image: 'experience/work_brainrot.png',
         screen: 'experienceScreens/brainrot_screen2.png',
         background: 'backgrounds/brainrot_back.jpg',
-        time: 'Sep. 2024 - Present',
+        time: 'Sep. 2024 - May 2025',
         location: 'Remote',
         links: [
             { title: "Home Page", url: "https://brainrotcode.com/" },
