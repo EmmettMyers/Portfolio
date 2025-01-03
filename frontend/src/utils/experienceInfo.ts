@@ -19,7 +19,7 @@ export const experienceModalInfo = ref(
 );
 
 export const experienceInfo = [
-    {
+    /*{
         title: 'Google',
         company: 'Software Engineer Intern',
         image: 'experience/work_google.webp',
@@ -48,14 +48,14 @@ export const experienceInfo = [
         description: 'Building a new Radio Dispatch Console mobile application to facilitate remote, real-time communication through radio networks.',
         contributions: [],
         skills: ['Swift', 'SwiftUI', 'Go', 'LiveKit']
-    },
+    },*/
     {
         title: 'brAIn rot',
         company: 'Software Engineer',
         image: 'experience/work_brainrot.png',
         screen: 'experienceScreens/brainrot_screen2.png',
         background: 'backgrounds/brainrot_back.jpg',
-        time: 'Sep. 2024 - May 2025',
+        time: 'Sep. 2024 - Present',
         location: 'Remote',
         links: [
             { title: "Home Page", url: "https://brainrotcode.com/" },
@@ -77,7 +77,7 @@ export const experienceInfo = [
         image: 'experience/work_nest2.png',
         screen: 'experienceScreens/nest_screen2.png',
         background: 'backgrounds/nest_back.jpg',
-        time: 'Mar. 2024 - Jan. 2025',
+        time: 'Mar. 2024 - Present',
         location: 'Remote',
         links: [
             { title: "Product Overview", url: "https://www.mynestimate.com/" },
