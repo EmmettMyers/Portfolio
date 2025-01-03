@@ -19,36 +19,21 @@ export const experienceModalInfo = ref(
 );
 
 export const experienceInfo = [
-    /*{
-        title: 'Google',
-        company: 'Software Engineer Intern',
-        image: 'experience/work_google.webp',
-        screen: 'experienceScreens/google_screen.png',
-        background: 'backgrounds/google_back2.jpg',
-        time: 'May 2025 - Aug. 2025',
-        location: 'Sunnyvale, CA',
-        links: [
-            { title: "Google Chat App", url: "https://play.google.com/store/apps/details?id=com.google.android.apps.dynamite&hl=en_US" },
-        ],
-        description: "Building cross-platform functionalities to support the web and mobile platforms of Google Chat and its over <strong>100 million</strong> monthly active users.",
-        contributions: [],
-        skills: ['Java', 'JavaScript', 'Android Studio', 'JUnit']
-    },
     {
         title: 'Bosch',
         company: 'Software Engineer Intern',
         image: 'experience/work_bosch3.jpg',
         screen: 'experienceScreens/bosch_screen.png',
         background: 'backgrounds/bosch_back2.jpg',
-        time: 'Jan. 2025 - May 2025',
-        location: 'Lincoln, NE',
+        time: 'Jan. 2025 - Present',
+        location: 'Lincoln, Nebraska',
         links: [
             { title: "RDC Overview", url: "https://products.telex.com/na/en/remote-dispatch-console/" },
         ],
         description: 'Building a new Radio Dispatch Console mobile application to facilitate remote, real-time communication through radio networks.',
         contributions: [],
         skills: ['Swift', 'SwiftUI', 'Go', 'LiveKit']
-    },*/
+    },
     {
         title: 'brAIn rot',
         company: 'Software Engineer',
@@ -77,7 +62,7 @@ export const experienceInfo = [
         image: 'experience/work_nest2.png',
         screen: 'experienceScreens/nest_screen2.png',
         background: 'backgrounds/nest_back.jpg',
-        time: 'Mar. 2024 - Present',
+        time: 'Mar. 2024 - Jan. 2025',
         location: 'Remote',
         links: [
             { title: "Product Overview", url: "https://www.mynestimate.com/" },
@@ -99,7 +84,7 @@ export const experienceInfo = [
         screen: 'experienceScreens/garmin_screen.png',
         background: 'backgrounds/garmin_back.jpg',
         time: 'May 2024 - Aug. 2024',
-        location: 'Olathe, KS',
+        location: 'Olathe, Kansas',
         links: [
             { title: "Clipboard Overview", url: "https://www.garmin.com/en-US/p/739176" },
             { title: "Clipboard Demo", url: "https://www.youtube.com/watch?v=_Saq212NlYc&ab_channel=GarminTraining" },
@@ -122,7 +107,7 @@ export const experienceInfo = [
         screen: 'experienceScreens/principal_screen.png',
         background: 'backgrounds/principal_back.jpg',
         time: 'May 2023 - Aug. 2023',
-        location: 'Des Moines, IA',
+        location: 'Des Moines, Iowa',
         links: [
             { title: "Sponsor App Demo", url: "https://landing.principal.com/advisor-retirement-dashboard-demo" },
         ],
@@ -143,7 +128,7 @@ export const experienceInfo = [
         screen: 'experienceScreens/olsson_screen.png',
         background: 'backgrounds/olsson_back.jpg',
         time: 'Jan. 2023 - May 2023',
-        location: 'Lincoln, NE',
+        location: 'Lincoln, Nebraska',
         links: [
             { title: "Olsson Project Story", url: "https://www.olsson.com/projects/seeing-the-possibilities" },
         ],

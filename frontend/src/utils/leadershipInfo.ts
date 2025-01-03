@@ -26,7 +26,7 @@ export const leadershipInfo = [
         screen: 'experienceScreens/ta_screen.png',
         background: 'backgrounds/unl_back.jpg',
         time: 'Aug. 2023 - Present',
-        location: 'Lincoln, NE',
+        location: 'Lincoln, Nebraska',
         links: [
             { title: "Courses Info", url: "https://catalog.unl.edu/undergraduate/courses/raik/" },
         ],
@@ -45,7 +45,7 @@ export const leadershipInfo = [
         screen: 'experienceScreens/dn_screen2.png',
         background: 'backgrounds/dn_back.jpg',
         time: 'Aug. 2023 - Present',
-        location: 'Lincoln, NE',
+        location: 'Lincoln, Nebraska',
         links: [
             { title: "Main Site", url: "https://www.dailynebraskan.com/" },
             { title: "Impact Report", url: "https://dn-impact.web.app/" },
@@ -72,7 +72,7 @@ export const leadershipInfo = [
         screen: 'experienceScreens/pike_screen.png',
         background: 'backgrounds/pike_back.jpg',
         time: 'Nov. 2024 - Present',
-        location: 'Lincoln, NE',
+        location: 'Lincoln, Nebraska',
         links: [
             { title: "Main Site", url: "https://app.pikeunl.com/" },
         ],
