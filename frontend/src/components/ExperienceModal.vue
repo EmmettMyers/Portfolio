@@ -5,7 +5,7 @@
         <div class="h-screen flex items-center justify-center">
             <div class="experienceModal fixed mb-6">
                 <div v-if="screen == 'computer'" class="flex justify-between h-full">
-                    <p v-on:click="handleClose" class="exit font-light absolute top-5 right-6">
+                    <p v-on:click="handleClose" class="exit font-light absolute top-6 right-6">
                         x
                     </p>
                     <div class="monitorHolder h-full relative">
@@ -16,7 +16,7 @@
                     </div>
                     <div class="rightSide">
                         <p class="role font-bold" v-html="info.title"></p>
-                        <p class="company font-semibold">{{ info.company }}</p>
+                        <p class="company font-semibold" v-html="info.company"></p>
                         <p class="setting font-medium">
                             {{ info.location }}
                             &nbsp;&nbsp;|&nbsp;&nbsp;
@@ -235,7 +235,9 @@ export default defineComponent({
         .company {
             color: #F9B959;
             font-size: 2vw;
-            margin-bottom: .4vw;
+            margin-top: .5vw;
+            margin-bottom: .5vw;
+            line-height: 2.5vw;
         }
 
         .setting {

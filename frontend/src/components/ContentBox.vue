@@ -8,7 +8,7 @@
             </div>
             <div v-else>
                 <p :style="titleSize" class="title font-bold" v-html="info.title"></p>
-                <p class="company font-bold"> {{ info.company }} </p>
+                <p class="company font-bold" v-html="info.company"></p>
             </div>
         </div>
         <div class="blackShade absolute top-0 z-30 left-0 w-full h-full"></div>
@@ -117,6 +117,7 @@ export default defineComponent({
     }
 
     .company {
+        line-height: 1.2;
         font-size: 1.4vw;
         color: #feca7b;
         filter: drop-shadow(2px 2px 2px #222);

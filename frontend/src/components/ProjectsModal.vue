@@ -5,7 +5,7 @@
         <div class="h-screen flex items-center justify-center">
             <div class="projectsModal fixed mb-6">
                 <div v-if="screen == 'computer'" class="flex justify-between h-full">
-                    <p v-on:click="handleClose" class="exit font-light absolute top-5 right-6">
+                    <p v-on:click="handleClose" class="exit font-light absolute top-6 right-6">
                         x
                     </p>
                     <div class="monitorHolder h-full relative">

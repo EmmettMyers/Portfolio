@@ -21,7 +21,7 @@ export const leadershipModalInfo = ref(
 export const leadershipInfo = [
     {
         title: 'UNL Raikes School',
-        company: 'SWE Teaching Assistant',
+        company: 'Software Engineering<br/>Teaching Assistant',
         image: 'experience/work_ta.png',
         screen: 'experienceScreens/ta_screen.png',
         background: 'backgrounds/unl_back.jpg',
