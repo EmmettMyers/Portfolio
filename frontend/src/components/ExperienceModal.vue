@@ -64,7 +64,7 @@
                             x
                         </p>
                         <p class="role font-bold" v-html="info.title"></p>
-                        <p class="company font-semibold">{{ info.company }}</p>
+                        <p class="company font-semibold" v-html="info.company"></p>
                         <p class="setting font-medium">
                             {{ info.location }}
                             &nbsp;&nbsp;|&nbsp;&nbsp;
@@ -327,11 +327,13 @@ export default defineComponent({
 
             .company {
                 color: #F9B959;
-                font-size: 3.5vw;
+                font-size: 3.75vw;
+                margin-top: .5vw;
+                line-height: 4.75vw;
             }
 
             .setting {
-                font-size: 2.5vw;
+                font-size: 2.75vw;
                 margin-bottom: 1.5vw;
             }
 
