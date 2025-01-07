@@ -45,7 +45,7 @@ export const experienceInfo = [
         links: [
             { title: "Home Page", url: "https://brainrotcode.com/" },
         ],
-        description: "Early stage engineer at a startup with <strong>$100k+</strong> in VC funding and <strong>150+</strong> registered users. Build front-end features for a web platform allowing developers to create algorithms and machine learning models to compete in popular strategy games.",
+        description: "Early stage engineer at a startup with <strong>$100k+</strong> in VC funding and <strong>150+</strong> registered users, building front-end features for a web platform allowing developers to create algorithms and machine learning models to compete in popular strategy games.",
         contributions: [
             'Built front-end game logic and user interfaces for Othello and Filler',
             'Created contests page showing upcoming and past competitions sponsored by companies',
