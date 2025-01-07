@@ -30,7 +30,7 @@ export const experienceInfo = [
         links: [
             { title: "RDC Overview", url: "https://products.telex.com/na/en/remote-dispatch-console/" },
         ],
-        description: 'Building a new Radio Dispatch Console mobile application to facilitate remote, real-time communication between multiple radio lines.',
+        description: 'Building a new Radio Dispatch Console mobile app to facilitate remote, real-time communication between multiple radio lines for <strong>250+</strong> users.',
         contributions: [],
         skills: ['Swift', 'SwiftUI', 'Go', 'LiveKit']
     },
@@ -114,7 +114,7 @@ export const experienceInfo = [
         ],
         description: "Worked on Principal's new client reporting web application for sponsor companies with <strong>12k+</strong> monthly active users.",
         contributions: [
-            'Led creation of report favoriting feature, including its own page and logic, to streamline report access for <strong>2k+</strong> users',
+            'Led creation of report favoriting feature, including its own pages and logic, to streamline report access for <strong>2k+</strong> users',
             'Pushed UI and data pipeline improvements to loan reports, reports dashboard and report builder',
             'Added user customization to report scheduling calendar and implemented analytics tracking on <strong>10+</strong> pages.',
             'Presented AI solution to <strong>300+</strong> employees and executives to streamline code documentation time on existing repositories by <strong>98%</strong>, placing <strong>3rd</strong> in Intern Innovation Projects',
