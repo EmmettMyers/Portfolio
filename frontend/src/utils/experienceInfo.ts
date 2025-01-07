@@ -51,8 +51,8 @@ export const experienceInfo = [
             'Created contests page showing upcoming and past competitions sponsored by companies',
             'Developed real-time leaderboard displaying rankings for each game',
             'Implemented submit and edit model workflows with validation',
-            'Created authentication system, including login/register pages and forgot password logic',
-            'Pushed various UI/UX improvements to code editor and model insights pages',
+            'Created authentication system with login/register pages and forgotten password functionality',
+            'Pushed various UI/UX improvements to code editor, model insights, profile and games pages',
         ],
         skills: ['JavaScript', 'React', 'Go', 'HTML/CSS', 'Tailwind', 'Firebase']
     },
@@ -71,8 +71,9 @@ export const experienceInfo = [
         contributions: [
             'Created Sales Enablement section and Participant Engagement page with interactive parameters, graphs, and themes for advisors to demonstrate lifetime income effects on retirement to clients',
             'Launched Product Recordkeeper Adoption page with search and filter functionalities to streamline 401k plan provider matching',
-            'Built interactive target date fund flow with <strong>12+</strong> pages including complex graphs and tables',
-            'Pushed <strong>20+</strong> user interface improvements to workflow builder, income calculator, product profile, proposal PDFs, and financial ratings',
+            'Built interactive target date fund flow with <strong>12+</strong> pages including complex financial charts and tables',
+            'Automated email notifications for plan demographics file uploads',
+            'Pushed <strong>25+</strong> user interface improvements to workflow builder, income calculator, product profile, proposal PDFs, and financial ratings',
             'Developed Nestimate playground site to demo new features to clients and iterate on feedback',
         ],
         skills: ['JavaScript', 'Stimulus', 'Ruby', 'Ruby on Rails', 'HTML/CSS', 'Tailwind', 'Docker']
@@ -135,7 +136,8 @@ export const experienceInfo = [
         description: 'Developed the Project ZeroDelta web app under the Raikes School Design Studio Program to streamline building comparisons for Olsson engineers.',
         contributions: [
             'Visualized difference calculations between Revit models & LiDAR point clouds in a 3D interface, automating the old <strong>80+</strong> hour manual task for Olsson engineers',
-            'Built an employee-authenticated login page, dynamic dashboard and navigation features',
+            'Built a secure employee-authenticated login page with animated visuals',
+            'Created a dynamic dashboard and navigation features to enhance user experience and data input',
             'Assisted with the difference calculation machine learning model that optimized comparison times by <strong>94%</strong>',
             'Awarded <strong>Design Studio Gold Project Award</strong>, placing <strong>2nd</strong> in Design Studio Projects out of 20+ teams',
         ],
