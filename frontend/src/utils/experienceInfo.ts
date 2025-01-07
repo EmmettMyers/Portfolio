@@ -30,7 +30,7 @@ export const experienceInfo = [
         links: [
             { title: "RDC Overview", url: "https://products.telex.com/na/en/remote-dispatch-console/" },
         ],
-        description: 'Building a new Radio Dispatch Console mobile application to facilitate remote, real-time communication through radio networks.',
+        description: 'Building a new Radio Dispatch Console mobile application to facilitate remote, real-time communication between multiple radio lines.',
         contributions: [],
         skills: ['Swift', 'SwiftUI', 'Go', 'LiveKit']
     },
