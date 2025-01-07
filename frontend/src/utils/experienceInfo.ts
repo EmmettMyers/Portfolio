@@ -112,7 +112,7 @@ export const experienceInfo = [
         links: [
             { title: "Sponsor App Demo", url: "https://landing.principal.com/advisor-retirement-dashboard-demo" },
         ],
-        description: "Worked on Principal's new client reporting web app for sponsor companies with <strong>12k+</strong> monthly active users.",
+        description: "Worked on Principal's new client reporting web application for sponsor companies with <strong>12k+</strong> monthly active users.",
         contributions: [
             'Led creation of report favoriting feature, including its own page and logic, to streamline report access for <strong>2k+</strong> users',
             'Pushed UI and data pipeline improvements to loan reports, reports dashboard and report builder',
