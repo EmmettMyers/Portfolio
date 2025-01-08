@@ -32,7 +32,7 @@ export const experienceInfo = [
         ],
         description: 'Building a new Radio Dispatch Console mobile app to facilitate remote, real-time communication between multiple radio lines for <strong>250+</strong> users.',
         contributions: [],
-        skills: ['Swift', 'SwiftUI', 'Go', 'LiveKit']
+        skills: ['Swift', 'SwiftUI', 'Go', 'Node.js', 'SQLite', 'Azure', 'LiveKit']
     },*/
     {
         title: 'brAIn rot',
