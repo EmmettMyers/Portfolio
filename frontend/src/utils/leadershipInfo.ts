@@ -21,7 +21,7 @@ export const leadershipModalInfo = ref(
 export const leadershipInfo = [
     {
         title: 'UNL Raikes School',
-        company: 'Software Engineering<br/>Teaching Assistant',
+        company: 'Teaching Assistant',
         image: 'experience/work_ta.png',
         screen: 'experienceScreens/ta_screen.png',
         background: 'backgrounds/unl_back.jpg',
@@ -76,7 +76,7 @@ export const leadershipInfo = [
         links: [
             { title: "Main Site", url: "https://app.pikeunl.com/" },
         ],
-        description: "Develop new features for the Gamma Beta website to optimize chapter operations and communication for <strong>200+</strong> active members and alumni.",
+        description: "Develop new features for the Gamma Beta website to optimize chapter operations and communication for <strong>140+</strong> active members.",
         contributions: [],
         skills: ['TypeScript', 'Next.js', 'React', 'Firebase', 'PostgreSQL', 'HTML/CSS', 'MaterialUI', 'Jest']
     },
