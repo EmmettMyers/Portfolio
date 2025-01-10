@@ -71,9 +71,9 @@ export const experienceInfo = [
         contributions: [
             'Created Sales Enablement section and Participant Engagement page with interactive parameters, graphs, and themes for advisors to demonstrate lifetime income effects on retirement to clients',
             'Launched Product Recordkeeper Adoption page with search and filter functionalities to streamline 401k plan provider matching',
-            'Built interactive target date fund flow with <strong>12+</strong> pages including complex financial charts and tables',
+            'Built interactive target date fund flow with <strong>20+</strong> pages including complex financial charts and tables',
             'Automated email notifications for plan demographics file uploads',
-            'Pushed <strong>25+</strong> user interface improvements to workflow builder, income calculator, product profile, proposal PDFs, and financial ratings',
+            'Pushed <strong>30+</strong> user interface improvements to workflow builder, income calculator, product profile, proposal PDFs, and financial ratings',
             'Developed Nestimate playground site to demo new features to clients and iterate on feedback',
         ],
         skills: ['JavaScript', 'Stimulus', 'Ruby', 'Ruby on Rails', 'HTML/CSS', 'Tailwind', 'Docker']
