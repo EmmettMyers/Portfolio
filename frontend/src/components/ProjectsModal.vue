@@ -323,7 +323,7 @@ export default defineComponent({
 
             .role {
                 font-size: 5vw;
-                margin-top: 2.5vw;
+                margin-top: 1.75vw;
             }
 
             .setting {

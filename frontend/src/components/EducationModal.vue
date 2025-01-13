@@ -279,13 +279,13 @@ export default defineComponent({
             }
 
             .school {
-                font-size: 4vw;
+                font-size: 4.5vw;
                 margin-top: 2vw;
             }
 
             .major {
                 color: #F9B959;
-                font-size: 3vw;
+                font-size: 3.5vw;
                 line-height: 1.5;
             }
 

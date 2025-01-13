@@ -39,6 +39,21 @@ export const leadershipInfo = [
         skills: ['React', 'Java', 'Python', 'SQL', 'Data Structures', 'Algorithms', 'OOP', 'Discrete Math']
     },
     {
+        title: 'Pi Kappa Alpha',
+        company: 'Technology Chair',
+        image: 'experience/work_pike.png',
+        screen: 'experienceScreens/pike_screen.png',
+        background: 'backgrounds/pike_back.jpg',
+        time: 'Nov. 2024 - Present',
+        location: 'Lincoln, Nebraska',
+        links: [
+            { title: "Main Site", url: "https://app.pikeunl.com/" },
+        ],
+        description: "Develop new features for the Gamma Beta website to optimize chapter operations and communication for <strong>140+</strong> active members.",
+        contributions: [],
+        skills: ['TypeScript', 'Next.js', 'React', 'Firebase', 'PostgreSQL', 'HTML/CSS', 'MaterialUI', 'Jest']
+    },
+    {
         title: 'The Daily Nebraskan',
         company: 'Lead Software Developer',
         image: 'experience/work_dn3.png',
@@ -64,20 +79,5 @@ export const leadershipInfo = [
             'Placed <strong>2nd</strong> in National College Media Website of the Year',
         ],
         skills: ['JavaScript', 'React', 'Python', 'Flask', 'HTML/SCSS', 'Tailwind', 'AWS', 'Firebase']
-    },
-    {
-        title: 'Pi Kappa Alpha',
-        company: 'Internet Chair',
-        image: 'experience/work_pike.png',
-        screen: 'experienceScreens/pike_screen.png',
-        background: 'backgrounds/pike_back.jpg',
-        time: 'Nov. 2024 - Present',
-        location: 'Lincoln, Nebraska',
-        links: [
-            { title: "Main Site", url: "https://app.pikeunl.com/" },
-        ],
-        description: "Develop new features for the Gamma Beta website to optimize chapter operations and communication for <strong>140+</strong> active members.",
-        contributions: [],
-        skills: ['TypeScript', 'Next.js', 'React', 'Firebase', 'PostgreSQL', 'HTML/CSS', 'MaterialUI', 'Jest']
     },
 ];
