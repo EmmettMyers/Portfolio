@@ -81,7 +81,7 @@ export const skillsInfo = [
         color: '#2BA977'
     },
     {
-        name: 'Spring',
+        name: 'Spring Boot',
         color: '#6db33f'
     },
     {

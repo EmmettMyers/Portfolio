@@ -19,7 +19,7 @@ export const experienceModalInfo = ref(
 );
 
 export const experienceInfo = [
-    {
+    /*{
         title: 'Bosch',
         company: 'Software Engineer Intern',
         image: 'experience/work_bosch3.jpg',
@@ -33,7 +33,7 @@ export const experienceInfo = [
         description: 'Building a new Radio Dispatch Console mobile app to facilitate real-time, remote communication between multiple radio lines.',
         contributions: [],
         skills: ['Swift', 'SwiftUI', 'Go', 'Node.js', 'SQLite', 'Azure', 'LiveKit']
-    },
+    },*/
     {
         title: 'brAIn rot',
         company: 'Software Engineer',
@@ -99,7 +99,7 @@ export const experienceInfo = [
             'Deployed <strong>12+</strong> UI/UX enhancements to the workout builder and athlete portal to match new design system and iOS interfaces',
             'Addressed and resolved <strong>6+</strong> app issues reported by coaches'
         ],
-        skills: ['Kotlin', 'Jetpack Compose', 'Swift', 'SwiftUI', 'Java', 'Spring', 'Android SDK']
+        skills: ['Kotlin', 'Jetpack Compose', 'Swift', 'SwiftUI', 'Java', 'Spring Boot', 'Android SDK']
     },
     {
         title: 'Principal Financial Group',
