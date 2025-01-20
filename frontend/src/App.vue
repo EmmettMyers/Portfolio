@@ -12,7 +12,7 @@
     <!-- preloading images -->
     <img style="display: none;" @load="onImageLoad" v-for="imageSrc in imageSources" :key="imageSrc" :src="imageSrc">
 
-    <div v-if="imagesLoaded">
+    <div v-if="imagesLoaded" class="sm:pt-4 pt-16">
       <EducationModal v-if="educationModalOpen" />
       <ExperienceModal v-if="experienceModalOpen" />
       <ProjectsModal v-if="projectsModalOpen" />
