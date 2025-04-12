@@ -1,17 +1,7 @@
 <template>
   <div class="w-screen h-screen">
-    <!-- Fixed Deprecation Banner -->
-    <div class="fixed top-0 left-0 w-full bg-red-600 text-white text-center p-2 z-50">
-      <p>
-        This page will be deprecated soon, and the information may be outdated. 
-        Please visit my <a href="https://www.linkedin.com/in/emmettmyers/" target="_blank" class="underline text-blue-200 hover:text-blue-400">LinkedIn</a>
-        for the latest updates.
-      </p>
-    </div>
-
     <!-- preloading images -->
     <img style="display: none;" @load="onImageLoad" v-for="imageSrc in imageSources" :key="imageSrc" :src="imageSrc">
-
     <div v-if="imagesLoaded">
       <EducationModal v-if="educationModalOpen" />
       <ExperienceModal v-if="experienceModalOpen" />
@@ -98,12 +88,6 @@ export default defineComponent({
   color: white;
   overflow-x: hidden;
   user-select: none;
-}
-/* Deprecation Banner */
-.fixed {
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  font-size: 0.875rem;
-  z-index: 100;
 }
 /* width */
 ::-webkit-scrollbar {
