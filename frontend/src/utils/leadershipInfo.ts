@@ -54,12 +54,49 @@ export const leadershipInfo = [
         skills: ['TypeScript', 'Next.js', 'React', 'Firebase', 'PostgreSQL', 'HTML/CSS', 'MaterialUI', 'Jest']
     },
     {
+        title: 'brainrotcode',
+        company: 'Software Engineer',
+        image: 'experience/work_brainrot.png',
+        screen: 'experienceScreens/brainrot_screen2.png',
+        background: 'backgrounds/brainrot_back.jpg',
+        time: 'Sep. 2024 - Apr. 2025',
+        location: 'Remote',
+        links: [
+            { title: "Home Page", url: "https://brainrotcode.com/" },
+        ],
+        description: "Early stage engineer at a startup with <strong>$100k+</strong> in VC funding and <strong>150+</strong> registered users, building front-end features for a web platform allowing developers to create algorithms and machine learning models to compete in popular strategy games.",
+        contributions: [
+            'Built front-end game logic and user interfaces for Othello and Filler',
+            'Created contests page showing upcoming and past competitions sponsored by companies',
+            'Developed real-time leaderboard displaying rankings for each game',
+            'Implemented submit and edit model workflows with validation',
+            'Created authentication system with login/register pages and forgotten password functionality',
+            'Pushed various UI/UX improvements to code editor, model insights, profile and games pages',
+        ],
+        skills: ['JavaScript', 'React', 'Go', 'HTML/CSS', 'Tailwind', 'Firebase']
+    },
+    {
+        title: 'NIYOU',
+        company: 'Contracted Software Developer',
+        image: 'experience/work_pike.png',
+        screen: 'experienceScreens/pike_screen.png',
+        background: 'backgrounds/pike_back.jpg',
+        time: 'Mar. 2025 - Apr. 2025',
+        location: 'Remote',
+        links: [
+            { title: "Main Site", url: "https://app.pikeunl.com/" },
+        ],
+        description: "Develop new features for the Gamma Beta website to optimize chapter operations and communication for <strong>140+</strong> active members.",
+        contributions: [],
+        skills: ['TypeScript', 'Next.js', 'React', 'Firebase', 'PostgreSQL', 'HTML/CSS', 'MaterialUI', 'Jest']
+    },
+    {
         title: 'The Daily Nebraskan',
-        company: 'Lead Software Developer',
+        company: 'Software Developer',
         image: 'experience/work_dn3.png',
         screen: 'experienceScreens/dn_screen2.png',
         background: 'backgrounds/dn_back.jpg',
-        time: 'Aug. 2023 - Present',
+        time: 'Aug. 2023 - Aug. 2024',
         location: 'Lincoln, Nebraska',
         links: [
             { title: "Main Site", url: "https://www.dailynebraskan.com/" },

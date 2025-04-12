@@ -74,7 +74,7 @@ export default defineComponent({
     .title {
         color: #F9B959;
         font-size: 2.5vw;
-        letter-spacing: 0.781vw;
+        letter-spacing: 0.5vw;
     }
 
     .container {
@@ -115,7 +115,7 @@ export default defineComponent({
 @media (max-width: 700px) {
     .title {
         font-size: 5vw !important;
-        letter-spacing: 1.5vw !important;
+        letter-spacing: 1vw !important;
     }
 
     .container {

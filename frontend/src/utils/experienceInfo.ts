@@ -19,13 +19,28 @@ export const experienceModalInfo = ref(
 );
 
 export const experienceInfo = [
-    /*{
+    {
+        title: 'Google',
+        company: 'Software Engineer Intern',
+        image: 'experience/work_google.webp',
+        screen: 'experienceScreens/google_screen.png',
+        background: 'backgrounds/google_back2.jpg',
+        time: 'May 2025 - Aug. 2025',
+        location: 'Sunnyvale, CA',
+        links: [
+            { title: "Google Chat App", url: "https://play.google.com/store/apps/details?id=com.google.android.apps.dynamite&hl=en_US" },
+        ],
+        description: "Building cross-platform functionalities to support the web and mobile platforms of Google Chat and its over <strong>100 million</strong> monthly active users.",
+        contributions: [],
+        skills: ['Java', 'JavaScript', 'Android Studio', 'JUnit']
+    },
+    {
         title: 'Bosch',
         company: 'Software Engineer Intern',
         image: 'experience/work_bosch3.jpg',
         screen: 'experienceScreens/bosch_screen.png',
         background: 'backgrounds/bosch_back2.jpg',
-        time: 'Jan. 2025 - Present',
+        time: 'Jan. 2025 - May 2025',
         location: 'Lincoln, Nebraska',
         links: [
             { title: "RDC Overview", url: "https://products.telex.com/na/en/remote-dispatch-console/" },
@@ -33,28 +48,6 @@ export const experienceInfo = [
         description: 'Building a new Radio Dispatch Console mobile app to facilitate real-time, remote communication between multiple radio lines.',
         contributions: [],
         skills: ['Swift', 'SwiftUI', 'Go', 'Node.js', 'SQLite', 'Azure', 'LiveKit']
-    },*/
-    {
-        title: 'brAIn rot',
-        company: 'Software Engineer',
-        image: 'experience/work_brainrot.png',
-        screen: 'experienceScreens/brainrot_screen2.png',
-        background: 'backgrounds/brainrot_back.jpg',
-        time: 'Sep. 2024 - Present',
-        location: 'Remote',
-        links: [
-            { title: "Home Page", url: "https://brainrotcode.com/" },
-        ],
-        description: "Early stage engineer at a startup with <strong>$100k+</strong> in VC funding and <strong>150+</strong> registered users, building front-end features for a web platform allowing developers to create algorithms and machine learning models to compete in popular strategy games.",
-        contributions: [
-            'Built front-end game logic and user interfaces for Othello and Filler',
-            'Created contests page showing upcoming and past competitions sponsored by companies',
-            'Developed real-time leaderboard displaying rankings for each game',
-            'Implemented submit and edit model workflows with validation',
-            'Created authentication system with login/register pages and forgotten password functionality',
-            'Pushed various UI/UX improvements to code editor, model insights, profile and games pages',
-        ],
-        skills: ['JavaScript', 'React', 'Go', 'HTML/CSS', 'Tailwind', 'Firebase']
     },
     {
         title: 'Nestimate',

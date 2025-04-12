@@ -16,10 +16,14 @@
             target="_blank" @click="logContactIconClick('email')">
             <img style="height: 65%;" src="icons/email.png" />
         </a>
-        <a href="https://www.instagram.com/emmett_myers/" class="contactBox flex justify-center items-center"
+        <a href="https://leetcode.com/u/emmettmyers/" class="contactBox flex justify-center items-center"
+            target="_blank" @click="logContactIconClick('leetcode')">
+            <img style="height: 50%;" src="icons/leetcode.png" />
+        </a>
+        <!--<a href="https://www.instagram.com/emmett_myers/" class="contactBox flex justify-center items-center"
             target="_blank" @click="logContactIconClick('instagram')">
             <img style="height: 60%;" src="icons/instagram.webp" />
-        </a>
+        </a>-->
     </div>
 </template>
 

@@ -7,9 +7,9 @@
       <ExperienceModal v-if="experienceModalOpen" />
       <ProjectsModal v-if="projectsModalOpen" />
       <TopSection />
-      <BoxSection title="EXPERIENCE" :allInfo="experienceInfo" />
-      <BoxSection title="LEADERSHIP" :allInfo="leadershipInfo" />
-      <BoxSection title="PROJECTS" :allInfo="projectsInfo" />
+      <BoxSection title="INTERNSHIPS" :allInfo="experienceInfo" />
+      <BoxSection title="PART-TIME WORK" :allInfo="leadershipInfo" />
+      <BoxSection title="PERSONAL PROJECTS" :allInfo="projectsInfo" />
       <BoxSection title="SKILLS" :allInfo="skillsInfo" />
       <BoxSection title="EDUCATION" :allInfo="educationInfo" />
     </div>
