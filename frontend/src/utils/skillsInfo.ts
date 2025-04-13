@@ -5,10 +5,6 @@ export const skillsInfo = [
         color: '#E4A125'
     },
     {
-        name: 'Java',
-        color: '#c7161a'
-    },
-    {
         name: 'TypeScript',
         color: '#2D79C7'
     },
@@ -17,12 +13,16 @@ export const skillsInfo = [
         color: '#3878AA'
     },
     {
+        name: 'Java',
+        color: '#c7161a'
+    },
+    {
         name: 'React',
         color: '#169aab'
     },
     {
-        name: 'Vue',
-        color: '#3FB984'
+        name: 'React Native',
+        color: '#077ea9'
     },
     {
         name: 'HTML',
@@ -33,20 +33,16 @@ export const skillsInfo = [
         color: '#2465F1'
     },
     {
+        name: 'Vue',
+        color: '#3FB984'
+    },
+    {
         name: 'Kotlin',
         color: '#E1725C'
     },
     {
-        name: 'Android SDK',
-        color: '#4086F4'
-    },
-    {
         name: 'Jetpack Compose',
         color: '#3570B4'
-    },
-    {
-        name: 'React Native',
-        color: '#077ea9'
     },
     {
         name: 'Swift',
@@ -55,10 +51,6 @@ export const skillsInfo = [
     {
         name: 'SwiftUI',
         color: '#0072FD'
-    },
-    {
-        name: 'Go',
-        color: '#08AFD8'
     },
     {
         name: 'Next.js',
@@ -73,10 +65,6 @@ export const skillsInfo = [
         color: '#CD0000'
     },
     {
-        name: 'AWS',
-        color: '#FF9C08'
-    },
-    {
         name: 'Django',
         color: '#2BA977'
     },
@@ -89,19 +77,23 @@ export const skillsInfo = [
         color: '#93C745'
     },
     {
-        name: 'Redux',
-        color: '#7749BD'
+        name: 'AWS',
+        color: '#FF9C08'
+    },
+    {
+        name: 'GCP',
+        color: '#EB493D'
+    },
+    {
+        name: 'Docker',
+        color: '#1C63ED'
     },
     {
         name: 'SQL',
         color: '#DC7939'
     },
-    /*{
-        name: 'Linux',
-        color: '#fe7e01'
-    },
     {
-        name: 'Git',
-        color: '#F05639'
-    },*/
+        name: 'MongoDB',
+        color: '#4FAA41'
+    },
 ];
