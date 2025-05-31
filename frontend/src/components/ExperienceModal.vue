@@ -55,7 +55,7 @@
                 <div v-else class="h-full">
                     <div class="monitorHolder w-full relative">
                         <div class="w-full h-full flex justify-center items-center">
-                            <img class="monitor" :src="info.screen" :style="{ width: monitorWidth }" />
+                            <img class="monitor" :src="info.screen" :style="{ width: monitorWidth, maxWidth: monitorMaxWidth }" />
                         </div>
                         <img class="back h-full w-full absolute object-cover top-0 left-0" :src="info.background" />
                     </div>
@@ -134,8 +134,8 @@ export default defineComponent({
                 if (this.screen == 'computer') {
                     this.monitorWidth = '52%';
                 } else {
-                    this.monitorWidth = '30% !important';
-                    this.monitorMaxWidth = '100px';
+                    this.monitorWidth = '35% !important';
+                    this.monitorMaxWidth = '80px';
                 }
             } else if (this.info.title == 'Google' || this.info.title == 'Nestimate' || this.info.title == 'The Daily Nebraskan' 
                        || this.info.title == 'brainrotcode' || this.info.title == 'Pi Kappa Alpha' || this.info.title == 'NIYOU') {

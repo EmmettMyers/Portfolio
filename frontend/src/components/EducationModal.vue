@@ -306,4 +306,10 @@ export default defineComponent({
         }
     }
 }
+
+@media (max-width: 499px) {
+    .academicsBox {
+        padding-left: 0.5vw !important;
+    }
+}
 </style>
