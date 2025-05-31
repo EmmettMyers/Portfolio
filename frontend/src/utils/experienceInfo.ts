@@ -74,7 +74,7 @@ export const experienceInfo = [
             "Automated email notifications for plan demographics file uploads",
             "Pushed 30+ UI/UX improvements throughout the site"
         ],
-        skills: ['JavaScript', 'Stimulus', 'Ruby', 'Ruby on Rails', 'Tailwind']
+        skills: ['TypeScript', 'Stimulus', 'Ruby', 'Ruby on Rails', 'Tailwind']
     },
     {
         title: 'Garmin',
