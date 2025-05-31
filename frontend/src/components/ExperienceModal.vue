@@ -132,13 +132,13 @@ export default defineComponent({
         setMonitorWidth() {
             if (this.info.title == 'Garmin' || this.info.title == 'Bosch') {
                 if (this.screen == 'computer') {
-                    this.monitorWidth = '50%';
+                    this.monitorWidth = '52%';
                 } else {
-                    this.monitorWidth = '25% !important';
-                    this.monitorMaxWidth = '90px';
+                    this.monitorWidth = '30% !important';
+                    this.monitorMaxWidth = '100px';
                 }
             } else if (this.info.title == 'Google' || this.info.title == 'Nestimate' || this.info.title == 'The Daily Nebraskan' 
-                       || this.info.title == 'brAIn rot' || this.info.title == 'Pi Kappa Alpha') {
+                       || this.info.title == 'brainrotcode' || this.info.title == 'Pi Kappa Alpha' || this.info.title == 'NIYOU') {
                 if (this.screen == 'computer') {
                     this.monitorWidth = '85%';
                 } else {
@@ -160,7 +160,7 @@ export default defineComponent({
 @import "../styles/colors.scss";
 
 .experienceModal {
-    width: 77.5vw;
+    width: 75vw;
     height: 75vh;
     max-height: 50vw;
     background: #1E1E1E;
@@ -178,7 +178,7 @@ export default defineComponent({
         transition: .3s ease;
         transform: scale(1);
         margin-right: .5vw;
-        margin-bottom: 0.25vw;
+        margin-bottom: 0.6vw;
 
         &:hover {
             transform: scale(1.1);
@@ -250,7 +250,7 @@ export default defineComponent({
         .contributions {
             color: #F9B959;
             font-size: 1.5vw;
-            letter-spacing: 0.7vw;
+            letter-spacing: 0.6vw;
             line-height: 2;
             margin-top: 1.5vw;
         }
@@ -268,7 +268,7 @@ export default defineComponent({
 
         .skillsBox {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(10vw, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(9.5vw, 1fr));
             grid-gap: .5vw;
         }
     }
@@ -316,6 +316,7 @@ export default defineComponent({
                 border-radius: 5px;
                 margin-right: 2vw;
                 margin-top: 1.5vw;
+                margin-bottom: 1.5vw;
             }
 
             .role {

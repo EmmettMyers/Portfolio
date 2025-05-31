@@ -43,7 +43,7 @@ export default defineComponent({
     font-size: 1.2vw;
 }
 .skillsBox {
-    width: 10.25vw;
+    width: 9.75vw;
     height: 4vw;
     font-size: 1.2vw;
 }

@@ -228,7 +228,7 @@ export default defineComponent({
         .academics {
             color: #F9B959;
             font-size: 1.5vw;
-            letter-spacing: .8vw;
+            letter-spacing: .6vw;
             line-height: 2;
             margin-top: 1vw;
         }

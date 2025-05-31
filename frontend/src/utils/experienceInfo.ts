@@ -30,24 +30,30 @@ export const experienceInfo = [
         links: [
             { title: "Google Chat App", url: "https://play.google.com/store/apps/details?id=com.google.android.apps.dynamite&hl=en_US" },
         ],
-        description: "Building cross-platform functionalities to support the web and mobile platforms of Google Chat and its over <strong>100 million</strong> monthly active users.",
+        description: "Engineering cross-platform data infrastructure for Google Chat's <strong>100m+</strong> monthly users on web and mobile.",
         contributions: [],
-        skills: ['Java', 'JavaScript', 'Android Studio', 'JUnit']
+        skills: ['Java', 'JavaScript', 'Protocol Buffers', 'WebChannels', 'JUnit']
     },
     {
         title: 'Bosch',
         company: 'Software Engineer Intern',
-        image: 'experience/work_bosch3.jpg',
+        image: 'experience/work_bosch2.png',
         screen: 'experienceScreens/bosch_screen.png',
         background: 'backgrounds/bosch_back2.jpg',
         time: 'Jan. 2025 - May 2025',
         location: 'Lincoln, Nebraska',
         links: [
-            { title: "RDC Overview", url: "https://products.telex.com/na/en/remote-dispatch-console/" },
+            { title: "Old RDC Overview", url: "https://products.telex.com/na/en/remote-dispatch-console/" },
         ],
-        description: 'Building a new Radio Dispatch Console mobile app to facilitate real-time, remote communication between multiple radio lines.',
-        contributions: [],
-        skills: ['Swift', 'SwiftUI', 'Go', 'Node.js', 'SQLite', 'Azure', 'LiveKit']
+        description: 'Developed a new Radio Dispatch Console mobile app to facilitate real-time full/half duplex communication between multiple user rooms and radio lines at once.',
+        contributions: [
+            "Facilitated duplex communication between multiple user rooms and radio lines at once",
+            "Incorporated 10+ legacy features including PTT toggling, volume options, floor control, crosspatch audio, and IP-224 auto-connection",
+            "Engineered direct calling functionality with call history and admin settings for users, groups, and radios",
+            "Developed drag-and-drop dispatch modules with room controls, tabs, and user layouts",
+            "Implemented admin settings for users, groups, and radios"
+        ],
+        skills: ['TypeScript', 'React Native', 'Node.js', 'Expo', 'LiveKit', 'Socket.IO']
     },
     {
         title: 'Nestimate',
@@ -62,14 +68,13 @@ export const experienceInfo = [
         ],
         description: 'Full-stack development for a retirement solutions and analytics startup with <strong>4k+</strong> users and <strong>$1m+</strong> in VC funding.',
         contributions: [
-            'Created Sales Enablement section and Participant Engagement page with interactive parameters, graphs, and themes for advisors to demonstrate lifetime income effects on retirement to clients',
-            'Launched Product Recordkeeper Adoption page with search and filter functionalities to streamline 401k plan provider matching',
-            'Built interactive target date fund flow with <strong>20+</strong> pages including complex financial charts and tables',
-            'Automated email notifications for plan demographics file uploads',
-            'Pushed <strong>30+</strong> user interface improvements to workflow builder, income calculator, product profile, proposal PDFs, and financial ratings',
-            'Developed Nestimate playground site to demo new features to clients and iterate on feedback',
+            "Created Sales Enablement pages with interactive graphs and themes to demonstrate lifetime income effects on retirement to clients",
+            "Built Target Date Fund flow with 20+ pages and layered financial charts to model investment strategies and their fit with client plans",
+            "Developed filterable Product Recordkeeper page to streamline 401k plan provider matching and card visuals for upcoming products",
+            "Automated email notifications for plan demographics file uploads",
+            "Pushed 30+ UI/UX improvements throughout the site"
         ],
-        skills: ['JavaScript', 'Stimulus', 'Ruby', 'Ruby on Rails', 'HTML/CSS', 'Tailwind', 'Docker']
+        skills: ['JavaScript', 'Stimulus', 'Ruby', 'Ruby on Rails', 'Tailwind']
     },
     {
         title: 'Garmin',
@@ -85,14 +90,13 @@ export const experienceInfo = [
         ],
         description: 'Worked on a Labs R&D team to develop Garmin Clipboard, a sports mobile app designed to help teams build workouts and review stats, for <strong>120k+</strong> registered users.',
         contributions: [
-            'Spearheaded creation of markup feature enabling <strong>22k+</strong> coaches to annotate on athlete workout charts with paint tools, tags, notes, sharing, notifications, and more',
-            'Implemented coach scratchpad to facilitate quick note taking on athletes including formatted text, charts, lists, images, and drawings',
-            'Launched new bulletin board used by <strong>28k+</strong> athletes to view coach announcements with search, filter, bookmark and share features',
-            'Revamped UI and front-end architecture for athlete profile, statistics, personal bests and milestones pages, improving user experience and code efficiency',
-            'Deployed <strong>12+</strong> UI/UX enhancements to the workout builder and athlete portal to match new design system and iOS interfaces',
-            'Addressed and resolved <strong>6+</strong> app issues reported by coaches'
+            "Led creation of markup feature enabling coaches to annotate on athlete charts with paint tools, tags, notes, sharing, alerts, and more",
+            "Developed coach scratchpad to facilitate quick note taking on athletes with pages including text, charts, lists, images, and drawings",
+            "Revamped bulletin board, profile, statistics and milestones pages to improve page load times and code quality",
+            "Deployed 12+ UI/UX enhancements to the coach and athlete portals to match new design system",
+            "Addressed and solved 6+ app issues reported by coaches"
         ],
-        skills: ['Kotlin', 'Jetpack Compose', 'Swift', 'SwiftUI', 'Java', 'Spring Boot', 'Android SDK']
+        skills: ['Kotlin', 'Jetpack Compose', 'Swift', 'SwiftUI', 'Java']
     },
     {
         title: 'Principal Financial Group',
@@ -107,13 +111,14 @@ export const experienceInfo = [
         ],
         description: "Worked on Principal's new client reporting web application for sponsor companies with <strong>12k+</strong> monthly active users.",
         contributions: [
-            'Led creation of report favoriting feature, including its own pages and logic, to streamline report access for <strong>2k+</strong> users',
-            'Pushed UI and data pipeline improvements to loan reports, reports dashboard and report builder',
-            'Added user customization to report scheduling calendar and implemented analytics tracking on <strong>10+</strong> pages.',
-            'Presented AI solution to <strong>300+</strong> employees and executives to streamline code documentation time on existing repositories by <strong>98%</strong>, placing <strong>3rd</strong> in Intern Innovation Projects',
-            'Resolved <strong>8+</strong> client issues to optimize user experience and tested report event to ensure data privacy in various user environments',
+            "Spearheaded creation of report favoriting feature and favorites page to streamline report access for users",
+            "Pushed UI and data pipeline improvements to loan reports, reports dashboard and report builder",
+            "Created and presented an AI solution to automate code documentation, placing 3rd in Intern Innovation Projects",
+            "Integrated Google Analytics on 10+ pages to log user events and session statistics",
+            "Resolved 8+ client issues to enhance user experience",
+            "Tested events with JUnit to ensure data privacy in various user environments"
         ],
-        skills: ['TypeScript', 'React', 'Java', 'Spring', 'HTML/CSS', 'Bootstrap', 'JUnit']
+        skills: ['TypeScript', 'React', 'Java', 'Bootstrap', 'JUnit']
     },
     {
         title: 'Olsson',
@@ -128,12 +133,11 @@ export const experienceInfo = [
         ],
         description: 'Developed the Project ZeroDelta web app under the Raikes School Design Studio Program to streamline building comparisons for Olsson engineers.',
         contributions: [
-            'Visualized difference calculations between Revit models & LiDAR point clouds in a 3D interface, automating the old <strong>80+</strong> hour manual task for Olsson engineers',
-            'Built a secure employee-authenticated login page with animated visuals',
-            'Created a dynamic dashboard and navigation features to enhance user experience and data input',
-            'Assisted with the difference calculation machine learning model that optimized comparison times by <strong>94%</strong>',
-            'Awarded <strong>Design Studio Gold Project Award</strong>, placing <strong>2nd</strong> in Design Studio Projects out of 20+ teams',
+            "Rendered Revit and LiDAR building files difference calculations in a 3D environment, automating the 80+ hours manual task",
+            "Visualized building model overlaps with highlighting based on user-defined tolerances",
+            "Built an Olsson-authenticated login page and interactive dashboard",
+            "Assisted with development of a machine learning model to optimize file comparison times"
         ],
-        skills: ['JavaScript', 'HTML/CSS', 'Bootstrap', 'Python', 'Django', 'Auth0']
+        skills: ['JavaScript', 'Python', 'Django', 'Bootstrap']
     },
 ];

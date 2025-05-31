@@ -26,7 +26,7 @@ export const projectsInfo = [
             + 'It grades the strength of each team using a machine learning model trained from <strong>50k+</strong> NFL statistics, scraped from Pro-Football-Reference.',
         features: ["NFL Machine learning model that predicts team records", "Singleplayer draft mode", "Real-time multiplayer draft mode (up to 4 players)", "Saved teams storage",
             "Stored user draft statistics, visualized with graphs", "Google authenticated login", "Snappy, a dynamic animated game assistant"],
-        tools: ['TypeScript', 'Vue', 'Python', 'Flask', 'HTML/SCSS', 'Tailwind', 'MongoDB', 'Firebase', 'Scikit', 'BeautifulSoup', 'Socket.IO', 'Chart.js'],
+        tools: ['TypeScript', 'Vue', 'Python', 'Flask', 'Tailwind', 'MongoDB', 'Firebase', 'Scikit', 'BeautifulSoup', 'Socket.IO'],
         links: [
             { title: "Live Demo", url: "https://drive.google.com/file/d/1X9OeuzdiSbPODgQcTKTXXR1pL1DuHjRb/view" },
             { title: "Source Code", url: "https://github.com/EmmettMyers/BlitzDraft" },
@@ -42,10 +42,32 @@ export const projectsInfo = [
             ' The application gets its information by web scraping multiple sources for up-to-date government information.',
         features: ["Pre-tailored email multi-sender", "Pre-tailored letter multi-downloader", "Saved mail storage", "User Representative/Senator Information",
             "Six email and letter templates", "AI writer to generate mail based on user prompts", "User-friendly, dynamic dashboard", "Authenticated customizable profiles with user info"],
-        tools: ['TypeScript', 'React', 'Python', 'Flask', 'HTML/SCSS', 'Tailwind', 'MongoDB', 'Heroku', 'OpenAI API', 'Selenium', 'BeautifulSoup', 'EmailJS SDK', 'Docamatic API'],
+        tools: ['TypeScript', 'React', 'Python', 'Flask', 'Tailwind', 'MongoDB', 'Heroku', 'OpenAI API', 'Selenium', 'BeautifulSoup'],
         links: [
             { title: "Live Demo", url: "https://drive.google.com/file/d/1CuL6cXabCZVm2w33mt-Y4uQjUmN8oNns/view" },
             { title: "Source Code", url: "https://github.com/EmmettMyers/CivicSendNE" },
+        ],
+    },
+    {
+        title: 'FlowPVP',
+        image: 'projects/flow.png',
+        screen: 'projectScreens/flow_screen.png',
+        time: 'Spring 2025',
+        description: 'Online multiplayer web game based off the Flow Mobile Game. Users compete by solving the most grids in a set amount of time. '
+            + 'Grids are solved by connecting colored pairs and completely filling the board with pipes.',
+        features: [
+            "Online multiplayer with 1-4 players in each lobby",
+            "Create and join game lobbies by ID",
+            "Customizable games by grid size, time and usernames",
+            "Real-time score updates between users",
+            "Board generation using union find and pathfinding algorithms",
+            "Advanced piping functionality and intelligence",
+            "Web and mobile compatibility (mouse and press)"
+        ],
+        tools: ['SolidJS', 'Python', 'Flask', 'Render', 'Firebase', 'Socket.IO'],
+        links: [
+            { title: "Play Now", url: "https://flow-pvp.web.app/" },
+            { title: "Source Code", url: "https://github.com/EmmettMyers/FlowPVP" },
         ],
     },
     {
@@ -53,7 +75,7 @@ export const projectsInfo = [
         image: 'projects/seekr3.png',
         screen: 'projectScreens/seekr_screen2.png',
         time: 'Hackathon Project - Fall 2024',
-        description: 'Seekr is a scavenger hunt mobile app that gives users daily items to find and take photos of. It uses machine learning and object detection to determine whether a photo matches the prompted item.'
+        description: 'Scavenger hunt mobile app that gives users daily items to find and take photos of. It uses machine learning and object detection to determine whether a photo matches the prompted item.'
         + ' The project won the <strong>HackMidwest Pinata AI Challenge</strong> for <strong>$2,500</strong>!',
         features: [
             "Speed Hunt: find the daily item as fast as you can",
@@ -63,7 +85,7 @@ export const projectsInfo = [
             "Custom camera with an object detection machine learning model",
             "User authentication, stored game state and help pages",
         ],
-        tools: ['JavaScript', 'React Native', 'Python', 'Flask', 'HTML/CSS', 'AWS', 'Firebase', 'Pinata API', 'Gemini API', 'Vision API', 'Expo'],
+        tools: ['React Native', 'Python', 'Flask', 'AWS', 'Firebase', 'Pinata', 'Gemini API', 'Expo'],
         links: [
             { title: "Hackathon Info", url: "https://hackmidwest.com/" },
         ],
@@ -73,7 +95,7 @@ export const projectsInfo = [
         image: 'projects/projex.png',
         screen: 'projectScreens/projex_screen.png',
         time: 'Winter Break 2023-24',
-        description: 'Projex is a web app that uses machine learning to generate coding personal project ideas based on user preferences, skills, and interests.',
+        description: 'Web app that uses machine learning to generate coding personal project ideas based on user preferences, skills, and interests.',
         features: [
             "Project idea generation based on users' selected options and traits",
             "User coding traits storage for more personalized project generations",
@@ -83,7 +105,7 @@ export const projectsInfo = [
             "Sleek dashboard with navigation and user's past generated projects",
             "User authentication using Google Single Sign-On"
         ],
-        tools: ['TypeScript', 'Vue', 'Python', 'Django', 'HTML/SCSS', 'PostgreSQL', 'Supabase', 'OpenAI API'],
+        tools: ['TypeScript', 'Vue', 'Python', 'Django', 'Supabase', 'OpenAI API'],
         links: [
             { title: "Live Demo", url: "https://drive.google.com/file/d/1kElBm9cdkVo2u4mbt1WujTUz563loOfe/view" },
             { title: "Source Code", url: "https://github.com/EmmettMyers/Projex" },
@@ -99,7 +121,7 @@ export const projectsInfo = [
         features: ['Interactive campus map with points at every sports location', 'Real-time chat rooms for each facility based on time and sport',
             'Real-time signup pages for each facility based on time and sport', 'Customizable profiles with contact and sport information',
             'Find signed-up players feature based on sport, time, and outdoor/indoor', 'Google authentication login system'],
-        tools: ['JavaScript', 'React', 'Node', 'Express', 'HTML/SCSS', 'Bootstrap', 'MySQL', 'Firebase', 'Socket.IO', 'OpenLayers'],
+        tools: ['React', 'Node.js', 'Express.js', 'Bootstrap', 'MySQL', 'Firebase', 'Socket.IO', 'OpenLayers'],
         links: [
             { title: "Live Demo", url: "https://drive.google.com/file/d/137ThzYqqBBeXxhHGenjB2Tm3HvgjQ-si/view" },
             { title: "Source Code", url: "https://github.com/EmmettMyers/PickupUNL" },
@@ -110,7 +132,7 @@ export const projectsInfo = [
         image: 'projects/blokus 1.png',
         screen: 'projectScreens/blokus_screen.png',
         time: 'School Project - Spring 2024',
-        description: 'Real-time multiplayer web game based on the popular board game Blokus.',
+        description: 'Real-time multiplayer web game based on the popular board game Blokus. Players take turns placing uniquely shaped pieces to cover as much of the board as possible while blocking opponents.',
         features: [
             "4-player local gameplay",
             "Rotate/flip piece, turn timers, pause game functionalities",
@@ -122,7 +144,7 @@ export const projectsInfo = [
             "Game rules modal with PDF download",
             "Extensive game logic testing",
         ],
-        tools: ['JavaScript', 'React', 'Python', 'Flask', 'HTML/CSS', 'Firebase', 'Socket.IO'],
+        tools: ['React', 'Python', 'Flask', 'Firebase', 'Socket.IO'],
         links: [
             { title: "2nd Presentation", url: "https://docs.google.com/presentation/d/1sTvqjjg-xdg9GPXPbcc5EDNPNzWsgae8kcIn5KCfmVU/edit?usp=sharing" },
             { title: "1st Presentation", url: "https://docs.google.com/presentation/d/139YdosKyl75yl2Gmjuyp_be5NmV_B-0E8FNGJkNHgc8/edit?usp=sharing" },
@@ -149,13 +171,13 @@ export const projectsInfo = [
             "Remove all chat locks with email verification",
             "Forgot password email verification"
         ],
-        tools: ['JavaScript', 'jQuery', 'PHP', 'HTML/SCSS', 'Bootstrap', 'MySQL', 'phpMyAdmin', 'EmailJS SDK'],
+        tools: ['JavaScript', 'jQuery', 'PHP', 'Bootstrap', 'MySQL', 'phpMyAdmin'],
         links: [
             { title: "Live Demo", url: "https://drive.google.com/file/d/13nnKTg7-8vtTcfH8g6AGDbO4fOUHspUh/view" },
             { title: "Source Code", url: "https://github.com/EmmettMyers/Sure" },
         ],
     },
-    {
+    /*{
         title: 'NewsGuesser',
         image: 'projects/ng2.png',
         screen: 'projectScreens/ng_screen.png',
@@ -183,5 +205,5 @@ export const projectsInfo = [
             { title: "Live Demo", url: "https://drive.google.com/file/d/1BpM5OlblCiiMnrE6K2Nu4yhVCsPQRFHj/view" },
             { title: "Source Code", url: "https://github.com/EmmettMyers/GuessNBA" },
         ],
-    },
+    },*/
 ];

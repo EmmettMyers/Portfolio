@@ -1,16 +1,12 @@
 
 export const skillsInfo = [
     {
-        name: 'JavaScript',
-        color: '#E4A125'
-    },
-    {
         name: 'TypeScript',
         color: '#2D79C7'
     },
     {
-        name: 'Python',
-        color: '#3878AA'
+        name: 'JavaScript',
+        color: '#E4A125'
     },
     {
         name: 'Java',
@@ -25,16 +21,16 @@ export const skillsInfo = [
         color: '#077ea9'
     },
     {
+        name: 'Python',
+        color: '#3878AA'
+    },
+    {
         name: 'HTML',
         color: '#E5532C'
     },
     {
         name: 'CSS',
         color: '#2465F1'
-    },
-    {
-        name: 'Vue',
-        color: '#3FB984'
     },
     {
         name: 'Kotlin',
@@ -53,8 +49,24 @@ export const skillsInfo = [
         color: '#0072FD'
     },
     {
+        name: 'Vue',
+        color: '#3FB984'
+    },
+    {
         name: 'Next.js',
         color: '#5e5e5e'
+    },
+    {
+        name: 'Node.js',
+        color: '#93C745'
+    },
+    {
+        name: 'AWS',
+        color: '#FF9C08'
+    },
+    {
+        name: 'GCP',
+        color: '#EB493D'
     },
     {
         name: 'Ruby',
@@ -73,20 +85,8 @@ export const skillsInfo = [
         color: '#6db33f'
     },
     {
-        name: 'Node.js',
-        color: '#93C745'
-    },
-    {
-        name: 'AWS',
-        color: '#FF9C08'
-    },
-    {
-        name: 'GCP',
-        color: '#EB493D'
-    },
-    {
-        name: 'Docker',
-        color: '#1C63ED'
+        name: 'Go',
+        color: '#1EAED8'
     },
     {
         name: 'SQL',

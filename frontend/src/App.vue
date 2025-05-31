@@ -9,7 +9,7 @@
       <TopSection />
       <BoxSection title="INTERNSHIPS" :allInfo="experienceInfo" />
       <BoxSection title="PART-TIME WORK" :allInfo="leadershipInfo" />
-      <BoxSection title="PERSONAL PROJECTS" :allInfo="projectsInfo" />
+      <BoxSection title="FULL-STACK PROJECTS" :allInfo="projectsInfo" />
       <BoxSection title="SKILLS" :allInfo="skillsInfo" />
       <BoxSection title="EDUCATION" :allInfo="educationInfo" />
     </div>

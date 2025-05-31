@@ -39,7 +39,7 @@
                         </div>
                         </p>
                         <div v-if="info.tools">
-                            <p class="skills font-bold mt-6">
+                            <p class="tools font-bold mt-6">
                                 TOOLS USED
                             </p>
                             <p class="toolBox font-normal pb-2">
@@ -87,7 +87,7 @@
                         </div>
                         </p>
                         <div v-if="info.tools">
-                            <p class="skills font-bold mt-6">
+                            <p class="tools font-bold mt-6">
                                 TOOLS USED
                             </p>
                             <p class="toolBox font-normal pb-5">
@@ -146,7 +146,7 @@ export default defineComponent({
                     this.monitorWidth = '35% !important';
                     this.monitorMaxWidth = '120px';
                 }
-            } else if (this.info.title == 'Seekr') {
+            } else if (this.info.title == 'Seekr' || this.info.title == 'FlowPVP') {
                 if (this.screen == 'computer') {
                     this.monitorWidth = '55%';
                 } else {
@@ -193,7 +193,7 @@ export default defineComponent({
         transition: .3s ease;
         transform: scale(1);
         margin-right: .5vw;
-        margin-bottom: 0.25vw;
+        margin-bottom: 0.6vw;
 
         &:hover {
             transform: scale(1.1);
@@ -251,12 +251,17 @@ export default defineComponent({
         }
 
         .overview,
-        .skills {
+        .skills,
+        .tools {
             color: #F9B959;
             font-size: 1.5vw;
-            letter-spacing: 0.8vw;
+            letter-spacing: 0.6vw;
             line-height: 2;
             margin-top: 1.5vw;
+        }
+
+        .tools {
+            margin-top: 2vw;
         }
 
         .desc {
@@ -319,6 +324,7 @@ export default defineComponent({
                 border-radius: 5px;
                 margin-right: 2vw;
                 margin-top: 1.5vw;
+                margin-bottom: 1.5vw;
             }
 
             .role {
@@ -334,11 +340,16 @@ export default defineComponent({
             }
 
             .overview,
-            .skills {
+            .skills,
+            .tools {
                 font-size: 3vw !important;
                 letter-spacing: 1.5vw;
                 line-height: 2;
                 margin-top: 2.5vw;
+            }
+            
+            .tools {
+                margin-top: 3vw;
             }
 
             .desc {
