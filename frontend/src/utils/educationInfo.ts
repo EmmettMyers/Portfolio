@@ -18,7 +18,7 @@ export const educationInfo = [
         links: [
             { title: "Raikes School Overview", url: "https://raikes.unl.edu/" },
         ],
-        academics: ['Focus: Software Engineering', 'Minor: Business', 'GPA: 3.94', 'Major GPA: 4.00'],
+        academics: ['Focus Area: Software Engineering', 'Minor: Business', 'GPA: 3.94', 'Major GPA: 4.00'],
         activities: ['Raikes School of Computer Science and Management', 'University Honors Program', 'Pi Kappa Alpha Fraternity', 'Intramural Basketball & Football'],
         honors: ['Intellectual Curiosity Raikes Core Value Award', '2025 Raikes Design Studio Gold Project of the Year', '2023 Raikes Design Studio Gold Project of the Year', 'Raikes Foundation Scholar', 'Nebraska Career Scholar', 'Regents Scholar', "5x Deans' List"],
         coursework: [
@@ -46,9 +46,13 @@ export const educationInfo = [
         title: 'High School Diploma',
         links: [],
         academics: ['ACT: 35 (36 Math)', 'SAT: 1530 (790 Math)', 'GPA: 4.319', 'Rank: 15/356'],
-        activities: ['Track and Field', 'Football', 'Basketball', 'Striv Sports Broadcasting', 'CS/Math Tutoring', 'Math Team'],
+        activities: ['Track and Field', 'Striv.TV Sports Broadcasting', 'Computer Science and Math Tutoring', 'Football', 'Basketball', 'Math Team'],
         honors: ['ACHIEVE Gold Scholar', 'Elkhorn Excellence Award', 'AP Scholar with Distinction',
             'National Honor Society', '4x Academic Letter', '8x Honor Roll'],
-        coursework: []
+        coursework: [
+            "AP Computer Science A (5)",
+            "AP Calculus BC (5)",
+            "AP Statistics (5)",
+        ]
     }
 ];

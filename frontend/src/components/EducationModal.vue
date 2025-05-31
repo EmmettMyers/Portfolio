@@ -31,33 +31,33 @@
                             ACADEMICS
                         </p>
                         <p class="academicsBox font-normal">
-                            <li v-for="academic in info.academics">
-                                {{ academic }}
-                            </li>
+                            <ul class="academicsList">
+                                <li v-for="academic in info.academics" v-html="academic"></li>
+                            </ul>
                         </p>
                         <p class="academics font-bold mt-6">
                             {{ info.school === 'University of Nebraska-Lincoln' ? 'INVOLVEMENTS' : 'ACTIVITIES' }}
                         </p>
                         <p class="academicsBox font-normal">
-                            <li v-for="activity in info.activities">
-                                {{ activity }}
-                            </li>
+                            <ul class="academicsList">
+                                <li v-for="activity in info.activities" v-html="activity"></li>
+                            </ul>
                         </p>
                         <p class="academics font-bold mt-6">
                             HONORS
                         </p>
                         <p class="academicsBox font-normal">
-                            <li v-for="honor in info.honors">
-                                {{ honor }}
-                            </li>
+                            <ul class="academicsList">
+                                <li v-for="honor in info.honors" v-html="honor"></li>
+                            </ul>
                         </p>
                         <p v-if="info.coursework.length > 0" class="academics font-bold mt-6">
-                            COURSEWORK
+                            RELEVANT COURSEWORK
                         </p>
                         <p class="academicsBox font-normal pb-3">
-                            <li v-for="course in info.coursework">
-                                {{ course }}
-                            </li>
+                            <ul class="academicsList">
+                                <li v-for="course in info.coursework" v-html="course"></li>
+                            </ul>
                         </p>
                     </div>
                 </div>
@@ -88,33 +88,33 @@
                             ACADEMICS
                         </p>
                         <p class="academicsBox font-normal">
-                            <li v-for="academic in info.academics">
-                                {{ academic }}
-                            </li>
+                            <ul class="academicsList">
+                                <li v-for="academic in info.academics" v-html="academic"></li>
+                            </ul>
                         </p>
                         <p class="academics font-bold mt-6">
                             {{ info.school === 'University of Nebraska-Lincoln' ? 'INVOLVEMENTS' : 'ACTIVITIES' }}
                         </p>
                         <p class="academicsBox font-normal">
-                            <li v-for="activity in info.activities">
-                                {{ activity }}
-                            </li>
+                            <ul class="academicsList">
+                                <li v-for="activity in info.activities" v-html="activity"></li>
+                            </ul>
                         </p>
                         <p class="academics font-bold mt-6">
                             HONORS
                         </p>
                         <p class="academicsBox font-normal">
-                            <li v-for="honor in info.honors">
-                                {{ honor }}
-                            </li>
+                            <ul class="academicsList">
+                                <li v-for="honor in info.honors" v-html="honor"></li>
+                            </ul>
                         </p>
                         <p v-if="info.coursework.length > 0" class="academics font-bold mt-6">
-                            COURSEWORK
+                            RELEVANT COURSEWORK
                         </p>
                         <p class="academicsBox font-normal pb-5">
-                            <li v-for="course in info.coursework">
-                                {{ course }}
-                            </li>
+                            <ul class="academicsList">
+                                <li v-for="course in info.coursework" v-html="course"></li>
+                            </ul>
                         </p>
                     </div>
                 </div>
@@ -236,6 +236,12 @@ export default defineComponent({
         .academicsBox {
             font-size: 1.25vw;
         }
+
+        .academicsList {
+            list-style-position: outside;
+            list-style-type: disc;
+            padding-left: 1.6vw;
+        }
     }
 }
 
@@ -303,13 +309,17 @@ export default defineComponent({
             .academicsBox {
                 font-size: 2.5vw;
             }
+
+            .academicsList {
+                padding-left: 3.4vw;
+            }
         }
     }
 }
 
 @media (max-width: 499px) {
-    .academicsBox {
-        padding-left: 0.5vw !important;
+    .academicsList {
+        padding-left: 4vw !important;
     }
 }
 </style>
