@@ -111,7 +111,7 @@ export const experienceInfo = [
         ],
         description: "Worked on Principal's new client reporting web application for sponsor companies with <strong>12k+</strong> monthly active users.",
         contributions: [
-            "Spearheaded creation of report favoriting feature and favorites page to streamline report access for users",
+            "Spearheaded report favoriting system with dedicated page, sharing, and backend support to streamline report access for clients",
             "Pushed UI and data pipeline improvements to loan reports, reports dashboard and report builder",
             "Created and presented an AI solution to automate code documentation, placing 3rd in Intern Innovation Projects",
             "Integrated Google Analytics on 10+ pages to log user events and session statistics",
