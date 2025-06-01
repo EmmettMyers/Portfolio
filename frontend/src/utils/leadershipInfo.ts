@@ -54,7 +54,7 @@ export const leadershipInfo = [
         contributions: [
             "Launched sections to display shifts, meeting notes, events, and attendance with view settings and admin CRUD",
             "Created campus involvement leaderboard with complex forms and rankings to boost member engagement",
-            "Implemented a CDN and in-memoryLRU caching to significantly reduce cloud costs",
+            "Implemented a CDN and in-memory caching to significantly reduce cloud costs",
             "Integrated email/text notifications for forum posts and shifts",
             "Porting website to a mobile application"
         ],
