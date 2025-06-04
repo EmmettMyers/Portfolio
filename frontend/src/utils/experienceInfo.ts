@@ -50,7 +50,7 @@ export const experienceInfo = [
             "Facilitated duplex communication between multiple user rooms and radio lines at once",
             "Incorporated 10+ legacy features including PTT toggling, volume options, floor control, crosspatch audio, and IP-224 auto-connection",
             "Engineered direct calling functionality with call history and admin settings for users, groups, and radios",
-            "Developed drag-and-drop dispatch modules with room controls, tabs, and user layouts",
+            "Architected audio state management system for concurrent track handling, full lifecycle control, and extensive edge case coverage",
             "Implemented admin settings for users, groups, and radios"
         ],
         skills: ['TypeScript', 'React Native', 'Node.js', 'Expo', 'LiveKit', 'Socket.IO']
@@ -93,8 +93,8 @@ export const experienceInfo = [
             "Led creation of markup feature enabling coaches to annotate on athlete charts with paint tools, tags, notes, sharing, alerts, and more",
             "Developed coach scratchpad to facilitate quick note taking on athletes with pages including text, charts, lists, images, and drawings",
             "Revamped bulletin board, profile, statistics and milestones pages to improve page load times and code quality",
-            "Deployed 12+ UI/UX enhancements to the coach and athlete portals to match new design system",
-            "Addressed and solved 6+ app issues reported by coaches"
+            "Designed data structures to optimize markup and scratchpad, improving storage efficiency and render speeds under heavy UI loads",
+            "Deployed 12+ UI/UX enhancements to coach and athlete portals to match new design system"
         ],
         skills: ['Kotlin', 'Jetpack Compose', 'Swift', 'SwiftUI', 'Java']
     },
