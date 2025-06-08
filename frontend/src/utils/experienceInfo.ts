@@ -30,9 +30,9 @@ export const experienceInfo = [
         links: [
             { title: "Google Chat App", url: "https://play.google.com/store/apps/details?id=com.google.android.apps.dynamite&hl=en_US" },
         ],
-        description: "Engineering cross-platform data infrastructure for Google Chat's <strong>100m+</strong> monthly users on web and mobile.",
+        description: "Engineering cross-platform data infrastructure for Google Chat's web and mobile clients with <strong>100m+</strong> monthly users.",
         contributions: [],
-        skills: ['Java', 'JavaScript', 'WebSockets', 'Protocol Buffers']
+        skills: ['JavaScript', 'Java', 'WebSockets', 'Pub/Sub']
     },
     {
         title: 'Bosch',
