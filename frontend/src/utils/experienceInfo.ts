@@ -32,7 +32,7 @@ export const experienceInfo = [
         ],
         description: "Engineered cross-platform data infrastructure for Google Chat's web and mobile clients with <strong>100m+</strong> monthly users.",
         contributions: [],
-        skills: ['Java', 'JavaScript', 'XPlat', 'WebSockets', 'Pub/Sub', 'Caches']
+        skills: ['Java', 'JavaScript', 'XPlat', 'WebSockets', 'Pub/Sub', 'Caches', 'JUnit']
     },
     {
         title: 'Bosch',
