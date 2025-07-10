@@ -25,14 +25,6 @@ export const skillsInfo = [
         color: '#3878AA'
     },
     {
-        name: 'HTML',
-        color: '#E5532C'
-    },
-    {
-        name: 'CSS',
-        color: '#2465F1'
-    },
-    {
         name: 'Kotlin',
         color: '#E1725C'
     },
@@ -69,6 +61,18 @@ export const skillsInfo = [
         color: '#EB493D'
     },
     {
+        name: 'Go',
+        color: '#1EAED8'
+    },
+    {
+        name: 'HTML',
+        color: '#E5532C'
+    },
+    {
+        name: 'CSS',
+        color: '#2465F1'
+    },
+    {
         name: 'Ruby',
         color: '#AD0C00'
     },
@@ -83,10 +87,6 @@ export const skillsInfo = [
     {
         name: 'Spring Boot',
         color: '#6db33f'
-    },
-    {
-        name: 'Go',
-        color: '#1EAED8'
     },
     {
         name: 'SQL',

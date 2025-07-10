@@ -1,6 +1,6 @@
 <template>
     <div :class="screen == 'phone' ? 'mt-3' : 'wordPadder'" class="flex justify-start">
-        <a href="https://drive.google.com/file/d/1RGJ0TIDiIU-Fgys2chJRpRexov5ZxSjt/view?usp=sharing"
+        <a href="https://drive.google.com/file/d/1lDNvOOdFEK7pW9aBqJB7iF7L73emIsEs/view?usp=sharing"
             class="contactBox flex justify-center items-center" target="_blank" @click="logContactIconClick('resume')">
             <img style="height: 75%;" src="icons/resume.png" />
         </a>

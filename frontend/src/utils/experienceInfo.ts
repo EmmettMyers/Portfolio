@@ -30,8 +30,14 @@ export const experienceInfo = [
         links: [
             { title: "Google Chat App", url: "https://play.google.com/store/apps/details?id=com.google.android.apps.dynamite&hl=en_US" },
         ],
-        description: "Engineered cross-platform data infrastructure for Google Chat's web and mobile clients with <strong>100m+</strong> monthly users.",
-        contributions: [],
+        description: "Developed cross-platform data infrastructure for Google Chat's web and mobile clients with <strong>100m+</strong> monthly users.",
+        contributions: [
+            "Constructed Shared Layer access abstraction to consolidate group capabilities code paths for user actions on the web client",
+            "Created efficient storage controllers to optimize capabilities data retrieval, decreasing query latency and cache sizes",
+            "Built network services for interacting with capabilities WebSockets, Pub/Sub, and syncers to ensure data consistency across clients",
+            "Designed capabilities API endpoints and routers to eliminate inefficient middleware",
+            "Executed rigorous parameterized testing plans on all new services"
+        ],
         skills: ['Java', 'JavaScript', 'XPlat', 'WebSockets', 'Pub/Sub', 'Caches', 'JUnit']
     },
     {
@@ -45,7 +51,7 @@ export const experienceInfo = [
         links: [
             { title: "Old RDC Overview", url: "https://products.telex.com/na/en/remote-dispatch-console/" },
         ],
-        description: 'Developed a new Radio Dispatch Console mobile app to facilitate real-time full/half duplex communication between multiple user rooms and radio lines at once.',
+        description: 'Spearheaded creation of a new Radio Dispatch Console mobile app to facilitate real-time full/half duplex communication between multiple user rooms and radio lines at once.',
         contributions: [
             "Facilitated duplex communication between multiple user rooms and radio lines at once",
             "Incorporated 10+ legacy features including PTT toggling, volume options, floor control, crosspatch audio, and IP-224 auto-connection",
