@@ -38,7 +38,7 @@ export const experienceInfo = [
             "Designed capabilities API endpoints and routers to eliminate inefficient middleware",
             "Executed rigorous parameterized testing plans on all new services"
         ],
-        skills: ['JavaScript', 'Java', 'XPlat', 'Wiz', 'WebSockets', 'Pub/Sub', 'Caches', 'JUnit']
+        skills: ['Java', 'JavaScript', 'XPlat', 'Wiz', 'WebSockets', 'Pub/Sub', 'Caches', 'JUnit']
     },
     {
         title: 'Bosch',
@@ -102,7 +102,7 @@ export const experienceInfo = [
             "Designed data structures to optimize markup and scratchpad, improving storage efficiency and render speeds under heavy UI loads",
             "Deployed 12+ UI/UX enhancements to coach and athlete portals to match new design system"
         ],
-        skills: ['Kotlin', 'Jetpack Compose', 'Swift', 'SwiftUI', 'Java']
+        skills: ['Kotlin', 'Jetpack Compose', 'Java', 'Swift', 'SwiftUI']
     },
     {
         title: 'Principal Financial Group',
@@ -124,7 +124,7 @@ export const experienceInfo = [
             "Resolved 8+ client issues to enhance user experience",
             "Tested events with JUnit to ensure data privacy in various user environments"
         ],
-        skills: ['TypeScript', 'React', 'Java', 'Bootstrap', 'JUnit']
+        skills: ['Java', 'TypeScript', 'React', 'Bootstrap', 'JUnit']
     },
     {
         title: 'Olsson',
