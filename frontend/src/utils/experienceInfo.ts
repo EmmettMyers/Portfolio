@@ -30,7 +30,7 @@ export const experienceInfo = [
         links: [
             { title: "Google Chat App", url: "https://play.google.com/store/apps/details?id=com.google.android.apps.dynamite&hl=en_US" },
         ],
-        description: "Developed cross-platform data infrastructure for Google Chat's web and mobile clients with <strong>100m+</strong> monthly users.",
+        description: "Developed client-side data infrastructure for Google Chat's web and mobile platforms with <strong>100m+</strong> monthly users.",
         contributions: [
             "Constructed Shared Layer access abstraction to consolidate group capabilities code paths for user actions on the web client",
             "Created efficient storage controllers to optimize capabilities data retrieval, decreasing query latency and cache sizes",
@@ -38,7 +38,7 @@ export const experienceInfo = [
             "Designed capabilities API endpoints and routers to eliminate inefficient middleware",
             "Executed rigorous parameterized testing plans on all new services"
         ],
-        skills: ['Java', 'JavaScript', 'XPlat', 'Wiz', 'WebSockets', 'Pub/Sub', 'Caches', 'JUnit']
+        skills: ['JavaScript', 'Java', 'XPlat', 'Wiz', 'WebSockets', 'Pub/Sub', 'Caches', 'JUnit']
     },
     {
         title: 'Bosch',
@@ -102,7 +102,7 @@ export const experienceInfo = [
             "Designed data structures to optimize markup and scratchpad, improving storage efficiency and render speeds under heavy UI loads",
             "Deployed 12+ UI/UX enhancements to coach and athlete portals to match new design system"
         ],
-        skills: ['Kotlin', 'Jetpack Compose', 'Java', 'Swift', 'SwiftUI']
+        skills: ['Kotlin', 'Jetpack Compose', 'Swift', 'SwiftUI', 'Java']
     },
     {
         title: 'Principal Financial Group',
@@ -124,7 +124,7 @@ export const experienceInfo = [
             "Resolved 8+ client issues to enhance user experience",
             "Tested events with JUnit to ensure data privacy in various user environments"
         ],
-        skills: ['Java', 'TypeScript', 'React', 'Bootstrap', 'JUnit']
+        skills: ['TypeScript', 'React', 'Java', 'Bootstrap', 'JUnit']
     },
     {
         title: 'Olsson',
