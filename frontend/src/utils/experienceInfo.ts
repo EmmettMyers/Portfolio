@@ -38,7 +38,7 @@ export const experienceInfo = [
             "Designed capabilities API endpoints and routers to eliminate inefficient middleware",
             "Executed rigorous parameterized testing plans on all new services"
         ],
-        skills: ['JavaScript', 'Java', 'XPlat', 'Wiz', 'WebSockets', 'Pub/Sub', 'Caches', 'JUnit']
+        skills: ['JavaScript', 'Java', 'XPlat', 'Wiz', 'JUnit']
     },
     {
         title: 'Bosch',
