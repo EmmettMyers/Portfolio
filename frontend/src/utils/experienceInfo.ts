@@ -32,13 +32,13 @@ export const experienceInfo = [
         ],
         description: "Developed client-side data infrastructure for Google Chat's web and mobile platforms with <strong>100m+</strong> monthly users.",
         contributions: [
-            "Constructed Shared Layer access abstraction to consolidate group capabilities code paths for user actions on the web client",
+            "Designed centralized capabilities handlers, stores, and routers in Shared Layer to consolidate isolated client capabilities logic",
             "Created efficient storage controllers to optimize capabilities data retrieval, decreasing query latency and cache sizes",
+            "Implemented a batch fetch system leveraging grouping algorithms and request queues to reduce network traffic and improve performance",
             "Built network services for interacting with capabilities WebSockets, Pub/Sub, and syncers to ensure data consistency across clients",
             "Designed capabilities API endpoints and routers to eliminate inefficient middleware",
-            "Executed rigorous parameterized testing plans on all new services"
         ],
-        skills: ['JavaScript', 'Java', 'XPlat', 'Wiz', 'JUnit']
+        skills: ['JavaScript', 'Java', 'XPlat', 'Wiz', 'IndexedDB', 'JUnit']
     },
     {
         title: 'Bosch',
@@ -53,7 +53,8 @@ export const experienceInfo = [
         ],
         description: 'Spearheaded creation of a new Radio Dispatch Console mobile app to facilitate real-time full/half duplex communication between multiple user rooms and radio lines at once.',
         contributions: [
-            "Facilitated duplex communication between multiple user rooms and radio lines at once",
+            "Orchestrated concurrent duplex communication between multiple user rooms and radio lines",
+            "Leveraged finite state machines and priority queues to handle room audio updates, track lifecycles, stream conflicts, and edge cases",
             "Incorporated 10+ legacy features including PTT toggling, volume options, floor control, crosspatch audio, and IP-224 auto-connection",
             "Engineered direct calling functionality with call history and admin settings for users, groups, and radios",
             "Architected audio state management system for concurrent track handling, full lifecycle control, and extensive edge case coverage",
@@ -122,7 +123,6 @@ export const experienceInfo = [
             "Created and presented an AI solution to automate code documentation, placing 3rd in Intern Innovation Projects",
             "Integrated Google Analytics on 10+ pages to log user events and session statistics",
             "Resolved 8+ client issues to enhance user experience",
-            "Tested events with JUnit to ensure data privacy in various user environments"
         ],
         skills: ['TypeScript', 'React', 'Java', 'Bootstrap', 'JUnit']
     },
