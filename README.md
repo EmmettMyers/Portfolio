@@ -1,6 +1,6 @@
 # Portfolio
 
-[Live Demo](https://emmettmyers.me)&nbsp;&nbsp;|&nbsp;&nbsp;<i>Created: Summer 2023 (Incoming College Sophomore)</i>
+[Live Demo](https://emmettmyers.me)&nbsp;&nbsp;|&nbsp;&nbsp;<i>Created: Summer 2023 (Incoming College Sophomore), Updated Throughout College</i>
 
 <br/>
 <img src="frontend/public/siteExamples/port-example1.png" style="width: 600px"/>
